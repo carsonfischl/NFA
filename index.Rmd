@@ -1,0 +1,96 @@
+---
+title: "A Travel Blog for the Intrepid"
+---
+
+Welcome! This is a repository for all sorts of pointers, tips, and useful information I have gathered from my adventures. 
+
+Carpe diem
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+bordeauxCont <- paste("<a href='./bordeaux.html'>Bordeaux, Gironde, France</a>")
+greenDotIcon <- makeIcon(
+  iconUrl = "images/GreenDot.png",
+  iconWidth = 10, iconHeight = 10,
+  iconAnchorX = 10, iconAnchorY = 10
+)
+leaflet() %>% addTiles() %>%
+  setView(-93.65, 42.0285, zoom = 2) %>%
+  # Europe
+  # Belgium
+  addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium
+  addMarkers(3.7303, 51.0500, icon = greenDotIcon) %>% # Ghent, Belgium
+  addMarkers(3.2248, 51.2092, icon = greenDotIcon) %>% # Bruges, Belgium
+  addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
+  addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
+  # France
+  addMarkers(-1.4748, 43.4929, icon= greenDotIcon) %>% # Bayonne, France
+  addMarkers(-1.5586, 43.4832, icon= greenDotIcon) %>% # Biarritz, France
+  addMarkers(-0.5792, 44.8378, popup=bordeauxCont, icon = greenDotIcon) %>% # Bordeaux, France
+  addMarkers(-1.1511, 46.1603, icon= greenDotIcon) %>% # La Rochelle, France
+  addMarkers(0.1079, 49.4944, icon = greenDotIcon) %>% # Le Havre, France
+  addMarkers(3.0573, 50.6292, icon= greenDotIcon) %>% # Lille, France
+  addMarkers(-0.2451, 44.5554, icon= greenDotIcon) %>% # Langon, France
+  addMarkers(-1.5115, 48.6361, icon = greenDotIcon) %>% # Mont-Saint-Michel, France
+  addMarkers(2.3522, 48.8566, icon= greenDotIcon) %>% # Paris, France
+  addMarkers(-0.1557, 44.8944, icon= greenDotIcon) %>% # Saint-Émilion, France
+  addMarkers(-2.0257, 48.6493, icon= greenDotIcon) %>% # Saint-Malo, France
+  addMarkers(1.4442, 43.6047, icon= greenDotIcon) %>% # Toulouse, France
+  # Netherlands
+  addMarkers(4.9041, 52.3676, icon = greenDotIcon) %>% # Amsterdam, Netherlands
+  #Austria
+  addMarkers(16.3738, 48.2082, icon= greenDotIcon) %>% # Vienna, Austria
+  # Asia
+  # Turkiye
+  addMarkers(27.1799, 39.1214, icon = greenDotIcon) %>% # Bergama, Turkiye
+  addMarkers(34.8289, 38.6431, icon = greenDotIcon) %>% # Goreme, Turkiye
+  addMarkers(29.0610, 40.1885, icon = greenDotIcon) %>% # Bursa, Turkiye
+  addMarkers(28.9784, 41.0082, icon = greenDotIcon) %>% # Istanbul, Turkiye
+  # North America
+  # Canada
+  addMarkers(-75.6972, 45.4215, icon = greenDotIcon) %>% # Ottawa, Canada
+  addMarkers(-73.5674, 45.5019, icon = greenDotIcon) %>% # Montreal, Canada
+  addMarkers(-79.3832, 43.6532, icon = greenDotIcon) %>% # Toronto, Canada
+  # Mexico
+  addMarkers(-105.2965, 20.6986, icon = greenDotIcon) %>% # Puerto Vallarta, Mexico
+  addMarkers(-105.4410, 20.8691, icon = greenDotIcon) %>% # Sayulita, Mexico
+  # United States
+  addMarkers(-74.0060, 40.7128, icon = greenDotIcon) %>% # New York, USA
+  addMarkers(16.4435, 43.5147, icon = greenDotIcon) %>% # Split, Croatia
+  addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
+  addMarkers(18.0944, 42.6507, icon = greenDotIcon) %>% # Dubrovnik, Croatia
+  addMarkers(16.2502, 43.5164, icon = greenDotIcon) %>% # Trogir, Croatia
+  addMarkers(17.8078, 43.3438, icon = greenDotIcon) %>% # Mostar, Bosnia & Herzegovina
+  addMarkers(25.4615, 36.3932, icon = greenDotIcon) %>% # Santorini, Greece
+  addMarkers(25.3667, 37.4415, icon = greenDotIcon) %>% # Mykonos, Greece
+  addMarkers(23.7275, 37.9838, icon = greenDotIcon) %>% # Athens, Greece
+  addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
+  # South America
+  # Peru
+  addMarkers(-77.0428, -12.0464, icon = greenDotIcon) %>% # Lima, Peru
+  addMarkers(-71.9675, -13.5320, icon = greenDotIcon) %>% # Cuzco, Peru
+  addMarkers(-72.4973, -13.2263, icon = greenDotIcon) %>% # Machu Picchu, Peru
+  addMarkers(-71.5375, -16.4090, icon = greenDotIcon) %>% # Arequipa, Peru
+  addMarkers(-72.1771, -15.6574, icon = greenDotIcon) %>% # Colca Canyon, Peru
+  addMarkers(-75.7626, -14.0875, icon = greenDotIcon) %>% # Huacachina, Peru
+  addMarkers(-71.9794, -13.5152, icon = greenDotIcon) %>% # Rainbow Mountain, Peru
+  addMarkers(-76.2508, -13.8409, icon = greenDotIcon) # Arequipa, Peru
+```
+
+```{r out.width='100%', echo=FALSE}
+library(htmltools)
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = if (caption) "caption",
+            if (caption) title)
+      )
+  )
+}
+thumbnail("Bordeaux", "images/Bordeaux/bordeaux2.png",
+          "./bordeaux.html")
+thumbnail("Grape", "images/grape.png",
+          "https://en.wikipedia.org/wiki/Grape")
+thumbnail("Peach", "images/peach.png",
+          "https://en.wikipedia.org/wiki/Peach")
+```

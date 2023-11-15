@@ -1,0 +1,96 @@
+name: "NFA"
+navbar:
+  title: "No Fixed Address"
+  left:
+    - text: " Home"
+      icon: fa-house
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: " Asia"
+      icon: fa-earth-asia
+      menu:
+        - text: "Turkïye"
+        - text: "Bordeaux"
+          href: bordeaux.html
+        - text: "La Rochelle"
+          href: la-rochelle.html
+    - text: " Europe"
+      icon: fa-earth-europe
+      menu:
+        - text: "France"
+        - text: "Bayonne"
+          href: la-rochelle.html
+        - text: "Biarritz"
+          href: la-rochelle.html
+        - text: "Bordeaux"
+          href: bordeaux.html
+        - text: "Langon"
+          href: bordeaux.html
+        - text: "La Rochelle"
+          href: la-rochelle.html
+        - text: "Le Havre"
+          href: la-rochelle.html
+        - text: "Lille"
+          href: la-rochelle.html
+        - text: "Mont-Saint-Michel"
+          href: la-rochelle.html
+        - text: "Paris"
+          href: la-rochelle.html
+        - text: "Saint-Émilion"
+          href: la-rochelle.html
+        - text: "Saint-Malo"
+          href: la-rochelle.html
+        - text: "Toulouse"
+          href: la-rochelle.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+    - text: " North America"
+      icon: fa-earth-americas
+      menu:
+        - text: "Canada"
+        - text: "Bordeaux"
+          href: bordeaux.html
+        - text: "La Rochelle"
+          href: la-rochelle.html
+        - text: "---------"
+        - text: "United States"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+        - text: "---------"
+        - text: "Mexico"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+    - text: " South America"
+      icon: fa-earth-americas
+      menu:
+        - text: "Peru"
+        - text: "Arequipa"
+          href: bordeaux.html
+        - text: "Colca Canyon"
+          href: bordeaux.html
+        - text: "Cuzco"
+          href: bordeaux.html
+        - text: "Huacachina"
+          href: bordeaux.html
+        - text: "Lima"
+          href: bordeaux.html
+        - text: "Machu Picchu"
+          href: la-rochelle.html
+        - text: "Rainbow Mountain"
+          href: bordeaux.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css
