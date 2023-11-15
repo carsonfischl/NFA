@@ -20,21 +20,21 @@ navbar:
       menu:
         - text: "France"
         - text: "Bayonne"
-          href: la-rochelle.html
+          href: bayonne.html
         - text: "Biarritz"
-          href: la-rochelle.html
+          href: biarritz.html
         - text: "Bordeaux"
           href: bordeaux.html
         - text: "Langon"
-          href: bordeaux.html
+          href: langon.html
         - text: "La Rochelle"
           href: la-rochelle.html
         - text: "Le Havre"
-          href: la-rochelle.html
+          href: le-havre.html
         - text: "Lille"
-          href: la-rochelle.html
+          href: lille.html
         - text: "Mont-Saint-Michel"
-          href: la-rochelle.html
+          href: mont-saint-michel.html
         - text: "Paris"
           href: la-rochelle.html
         - text: "Saint-Émilion"
