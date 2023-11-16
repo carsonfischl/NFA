@@ -36,9 +36,9 @@ navbar:
         - text: "Mont-Saint-Michel"
           href: mont-saint-michel.html
         - text: "Paris"
-          href: la-rochelle.html
+          href: paris.html
         - text: "Saint-Émilion"
-          href: la-rochelle.html
+          href: saint-emilion.html
         - text: "Saint-Malo"
           href: la-rochelle.html
         - text: "Toulouse"
