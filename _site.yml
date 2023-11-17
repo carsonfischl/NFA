@@ -40,9 +40,9 @@ navbar:
         - text: "Saint-Émilion"
           href: saint-emilion.html
         - text: "Saint-Malo"
-          href: la-rochelle.html
+          href: saint-malo.html
         - text: "Toulouse"
-          href: la-rochelle.html
+          href: toulouse.html
         - text: "---------"
         - text: "Heading 2"
         - text: "Page C"
