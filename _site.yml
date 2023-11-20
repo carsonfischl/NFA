@@ -11,8 +11,8 @@ navbar:
       icon: fa-earth-asia
       menu:
         - text: "Turkïye"
-        - text: "Bordeaux"
-          href: bordeaux.html
+        - text: "Istanbul"
+          href: instanbul.html
         - text: "La Rochelle"
           href: la-rochelle.html
     - text: " Europe"
