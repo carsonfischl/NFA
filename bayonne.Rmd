@@ -1,3 +1,8 @@
 ---
 title: "Bayonne, France"
 ---
+
+```{r echo = FALSE, results = 'asis'}
+library(knitr)
+kable(mtcars[1:5, ], caption = "Bayonne, France")
+```
