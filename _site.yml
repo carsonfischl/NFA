@@ -11,10 +11,10 @@ navbar:
       icon: fa-earth-asia
       menu:
         - text: "Turkïye"
+        - text: "Bergama"
+          href: bergama.html
         - text: "Istanbul"
           href: instanbul.html
-        - text: "La Rochelle"
-          href: la-rochelle.html
     - text: " Europe"
       icon: fa-earth-europe
       menu:
