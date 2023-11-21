@@ -2,7 +2,13 @@
 title: "Bordeaux, France"
 ---
 
-Bordeaux was founded 
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("Two years", "Saint-Andre Cathedral", "Cannelés", "Books & Coffee\n26 Rue Saint-James")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
 
 ![](./images/Bordeaux/bordeaux2.png)
 

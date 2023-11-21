@@ -1,8 +1,19 @@
 ---
 title: "Bayonne, France"
 ---
+A great place to force the abdication of a rival monarch.
 
+![](./images/Bayonne/bayonne3.png)
+
+I passed through this gorgeous town to catch the train on the way back from [Biarritz](./biarritz.html). The city is famous as the location of the "Abdications of Bayonne," where Napoleon forced the claimants to the Spanish throne, 
 ```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("4 Hours", "Bayonne Cathedral", "Basque Cake", "N/A")
+df <- data.frame(titles, values)
 library(knitr)
-kable(mtcars[1:5, ], caption = "Bayonne, France")
+kable(df, col.names = NULL)
 ```
+
+![](./images/Bayonne/bayonne1.png)
+
+![](./images/Bayonne/bayonne2.png)
