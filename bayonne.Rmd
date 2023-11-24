@@ -1,11 +1,18 @@
 ---
 title: "Bayonne, France"
 ---
+
 A great place to force the abdication of a rival monarch.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-1.4748, 43.4929, zoom = 15)
+```
 
 ![](./images/Bayonne/bayonne3.png)
 
-I passed through this gorgeous town to catch the train on the way back from [Biarritz](./biarritz.html). The city is famous as the location of the ["Abdications of Bayonne,"](https://en.wikipedia.org/wiki/Abdications_of_Bayonne) where Napoleon took advantage of Spanish political upheaval. Upset at mismanagement of the government of King Charles IV, supporters of his son Ferdinand VII organized a palace coup. Napoleon "settled" the succession dispute by summoning both monarchs to a French Imperial residence in Bordeaux, the Castle of Marracq, where he forced the abdication of boths monarchs,
+I passed through this gorgeous town to catch the train on the way back from [Biarritz](./biarritz.html). The city is famous as the location of the ["Abdications of Bayonne,"](https://en.wikipedia.org/wiki/Abdications_of_Bayonne) where Napoleon took advantage of Spanish political upheaval. Upset at mismanagement of the government of King Charles IV, supporters of his son Ferdinand VII organized a palace coup. Napoleon "settled" the succession dispute by summoning both monarchs to a French Imperial residence in Bordeaux, the Castle of Marracq, where he forced the abdication of both monarchs, who would remain in French custody until late 1813.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
@@ -18,3 +25,17 @@ kable(df, col.names = NULL)
 ![](./images/Bayonne/bayonne1.png)
 
 ![](./images/Bayonne/bayonne2.png)
+
+Bayonne cathedral is a major attraction and the center of the Bayonne festival in mid-July.
+
+![](./images/Bayonne/bayonne8.png)
+
+![](./images/Bayonne/bayonne4.png)
+
+![](./images/Bayonne/bayonne7.png)
+
+The Bayonne train station ("gare").
+
+![](./images/Bayonne/bayonne6.png)
+
+Pont Saint-Esprit.
