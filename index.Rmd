@@ -89,8 +89,8 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 }
 thumbnail("Bordeaux", "images/Bordeaux/bordeaux2.png",
           "./bordeaux.html")
-thumbnail("Grape", "images/grape.png",
-          "https://en.wikipedia.org/wiki/Grape")
+thumbnail("Bayonne", "images/Bayonne/bayonne3.png",
+          "./bayonne.html")
 thumbnail("Peach", "images/peach.png",
           "https://en.wikipedia.org/wiki/Peach")
 ```
