@@ -2,6 +2,14 @@
 title: "Bordeaux, France"
 ---
 
+Spending some time with the Girondins.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-1.4748, 43.4929, zoom = 15)
+```
+
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Major Sights", "Unique Foods", "Restaurant Recommendations")
 values <- c("Two years", "Saint-Andre Cathedral", "Cannelés", "Books & Coffee\n26 Rue Saint-James")
