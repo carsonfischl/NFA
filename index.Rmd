@@ -7,8 +7,9 @@ Welcome! This is a repository for all sorts of pointers, tips, and useful inform
 Carpe diem
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
-bayonneCont <- paste("<a href='./bayonne.html'>Bayonne, France</a>")
-bordeauxCont <- paste("<a href='./bordeaux.html'>Bordeaux, France</a>")
+bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
+biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
+bordeauxCont <- paste("<b><a href='./bordeaux.html'>Bordeaux, France</a></b>")
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
   iconWidth = 10, iconHeight = 10,
@@ -25,7 +26,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
   # France
   addMarkers(-1.4748, 43.4929, icon= greenDotIcon, popup = bayonneCont) %>% # Bayonne, France
-  addMarkers(-1.5586, 43.4832, icon= greenDotIcon) %>% # Biarritz, France
+  addMarkers(-1.5586, 43.4832, icon= greenDotIcon, popup = biarritzCont) %>% # Biarritz, France
   addMarkers(-0.5792, 44.8378, icon = greenDotIcon, popup = bordeauxCont) %>% # Bordeaux, France
   addMarkers(-1.1511, 46.1603, icon= greenDotIcon) %>% # La Rochelle, France
   addMarkers(0.1079, 49.4944, icon = greenDotIcon) %>% # Le Havre, France
@@ -89,6 +90,6 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
-thumbnail("Biarritz, France", "images/Biarritz/biarritz1.png", "./biarritz.html")
+thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 ```

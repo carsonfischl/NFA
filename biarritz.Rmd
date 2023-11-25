@@ -1,0 +1,21 @@
+---
+title: "Biarritz, France"
+---
+
+A seaside resort, fit for an empress.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-1.5586, 43.4832, zoom = 15)
+```
+
+Biarritz & Bayonne are sister towns in the French Basque country that can be hit on the same day trip. Biarritz was a favorite vacation spot of Empress Eugenie, wife of Napoleon III, for good reason - it's a gorgeous seaside town, known for surfing and tanning on the beach.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("5 Hours", "TER from Bordeaux Saint-Jean", "Biarritz Aquarium, Lighthouse", "Basque Cake", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
