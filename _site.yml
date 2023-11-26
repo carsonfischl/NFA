@@ -55,8 +55,8 @@ navbar:
       icon: fa-earth-americas
       menu:
         - text: "Canada"
-        - text: "Bordeaux"
-          href: bordeaux.html
+        - text: "Montréal"
+          href: montreal.html
         - text: "La Rochelle"
           href: la-rochelle.html
         - text: "---------"
