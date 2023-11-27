@@ -9,6 +9,7 @@ library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(-1.5586, 43.4832, zoom = 15)
 ```
+![](images/Biarritz/biarritz6.png)
 
 Biarritz & Bayonne are sister towns in the French Basque country that can be hit on the same day trip. Biarritz was a favorite vacation spot of Empress Eugenie, wife of Napoleon III, for good reason - it's a gorgeous seaside town, known for surfing and tanning on the beach.
 
@@ -19,3 +20,14 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](images/Biarritz/biarritz3.mov)
+![](images/Biarritz/biarritz1.png)
+
+The lighthouse is a well-known lightmark that periodically opens to be climbed and has great views.
+
+![](images/Biarritz/biarritz7.png)
+
+![](images/Biarritz/biarritz4.png)
+
+Basque cake ("Etxeko bixkotxa," or "cake of the house" in Basque) is a local specialty, a mix between a cake and a cookie. Quality seems to vary a lot but it is definitely worth trying.
