@@ -5,6 +5,17 @@ title: "Bordeaux, France"
 Spending some time with the Girondins.
 
 ```{r out.width='100%', echo=FALSE}
+cathedraleSaintAndre <- paste("<b>Cathédrale Saint-Andre</b>")
+pontDePierre <- paste("<b>Pont de Pierre</b>")
+grosseCloche <- paste("<b>Grosse Cloche</b>")
+placeDeLaBourse <- paste("<b>Place de la Bourse</b>")
+porteCailhau <- paste("<b>Porte Cailhau</b>")
+grandeTheatre <- paste("<b>Grande Théatre</b>")
+palaisGallien <- paste("<b>Palais Gallien</b>")
+subBase <- paste("<b>WWII Sub Base</b>")
+gareSaintJean <- paste("<b>Gare Saint-Jean</b>")
+monumentAuxGirondins <- paste("<b>Monument aux Girondins</b>")
+porteDeBourgogne <- paste("<b>Porte de Bourgogne</b>")
 library(leaflet)
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -13,17 +24,17 @@ greenDotIcon <- makeIcon(
 )
 leaflet() %>% addTiles() %>%
   setView(-0.5792, 44.8378, zoom = 13) %>%
-  addMarkers(-0.577783, 44.837643, icon = greenDotIcon) %>% # Cathédrale Saint-André 
-  addMarkers(-0.562718, 44.838486, icon = greenDotIcon) %>% # Pont de Pierre
-  addMarkers(-0.571353, 44.835441, icon = greenDotIcon) %>% # Grosse Cloche
-  addMarkers(-0.570022, 44.841486, icon = greenDotIcon) %>% # Place de la Bourse
-  addMarkers(-0.568502, 44.838760, icon = greenDotIcon) %>% # Porte Cailhau
-  addMarkers(-0.573656, 44.842591, icon = greenDotIcon) %>% # Grande Théatre
-  addMarkers(-0.582942, 44.847789, icon = greenDotIcon) %>% # Palais Gallien
-  addMarkers(-0.559062, 44.869907, icon = greenDotIcon) %>% # Sub base
-  addMarkers(-0.556076, 44.825665, icon = greenDotIcon) %>% # Gare Saint-Jean
-  addMarkers(-0.574845, 44.845318, icon = greenDotIcon) %>% # Monument aux Girondins
-  addMarkers(-0.566232, 44.836318, icon = greenDotIcon) # Porte de Bourgogne
+  addMarkers(-0.577783, 44.837643, icon = greenDotIcon, popup = cathedraleSaintAndre) %>% # Cathédrale Saint-André 
+  addMarkers(-0.562718, 44.838486, icon = greenDotIcon, popup = pontDePierre) %>% # Pont de Pierre
+  addMarkers(-0.571353, 44.835441, icon = greenDotIcon, popup = grosseCloche) %>% # Grosse Cloche
+  addMarkers(-0.570022, 44.841486, icon = greenDotIcon, popup = placeDeLaBourse) %>% # Place de la Bourse
+  addMarkers(-0.568502, 44.838760, icon = greenDotIcon, popup = porteCailhau) %>% # Porte Cailhau
+  addMarkers(-0.573656, 44.842591, icon = greenDotIcon, popup = grandeTheatre) %>% # Grande Théatre
+  addMarkers(-0.582942, 44.847789, icon = greenDotIcon, popup = palaisGallien) %>% # Palais Gallien
+  addMarkers(-0.559062, 44.869907, icon = greenDotIcon, popup = subBase) %>% # Sub base
+  addMarkers(-0.556076, 44.825665, icon = greenDotIcon, popup = gareSaintJean) %>% # Gare Saint-Jean
+  addMarkers(-0.574845, 44.845318, icon = greenDotIcon, popup = monumentAuxGirondins) %>% # Monument aux Girondins
+  addMarkers(-0.566232, 44.836318, icon = greenDotIcon, popup = porteDeBourgogne) # Porte de Bourgogne
 ```
 
 ```{r echo = FALSE, results = 'asis'}
@@ -64,7 +75,7 @@ Place de la Bourse was the former site of the stock exchange (a "bourse" in Fren
 
 The Bordeaux opera house is a luxurious, Romanesque building, the final stop at the end of Rue Saint-Catherine.
 
-![](images/Bordeaux/bordeaux56.png)
+![](images/Bordeaux/bordeaux80.png)
 
 Cannelés are a Bordelais pastry, reminiscent of carrot cake without the carrots with a crunchy outside and soft inside. Shops can be found all over the city.
 
