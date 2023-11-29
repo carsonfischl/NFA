@@ -5,9 +5,16 @@ title: "Bayonne, France"
 A great place to force the abdication of a rival monarch.
 
 ```{r out.width='100%', echo=FALSE}
+cathedraleSaintMarie <- paste("<b>Cathédrale Saint-Marie</b>")
+gareSaintEsprit <- paste("<b>Gare Saint-Esprit</b>")
+pontSaintEsprit <- paste("<b>Pont Saint-Esprit</b>")
 library(leaflet)
+greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 10, iconAnchorY = 10)
 leaflet() %>% addTiles() %>%
-  setView(-1.4748, 43.4929, zoom = 15)
+  setView(-1.4748, 43.4929, zoom = 15) %>%
+  addMarkers(-1.471736, 43.494345, icon = greenDotIcon) %>%  # Pont Saint-Esprit
+  addMarkers(-1.477291, 43.490524, icon = greenDotIcon) %>%  # Cathédrale Saint-Marie
+  addMarkers(-1.470280, 43.497037, icon = greenDotIcon) # Gare Saint-Esprit
 ```
 
 ![](./images/Bayonne/bayonne3.png)
@@ -26,7 +33,7 @@ kable(df, col.names = NULL)
 
 ![](./images/Bayonne/bayonne2.png)
 
-Bayonne cathedral is a major attraction and the center of the Bayonne festival in mid-July.
+The [Bayonne cathedral (Cathédrale Saint-Marie)](https://en.wikipedia.org/wiki/Bayonne_Cathedral) is a major attraction and the center of the Bayonne festival in mid-July.
 
 ![](./images/Bayonne/bayonne8.png)
 
@@ -38,4 +45,4 @@ The Bayonne train station ("gare").
 
 ![](./images/Bayonne/bayonne6.png)
 
-Pont Saint-Esprit.
+The [Pont Saint-Esprit](https://fr.wikipedia.org/wiki/Pont_Saint-Esprit_(Bayonne\)) was finished in 1849 and connects the train station to the Little Town.
