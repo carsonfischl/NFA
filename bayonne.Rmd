@@ -12,9 +12,9 @@ library(leaflet)
 greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 10, iconAnchorY = 10)
 leaflet() %>% addTiles() %>%
   setView(-1.4748, 43.4929, zoom = 15) %>%
-  addMarkers(-1.471736, 43.494345, icon = greenDotIcon) %>%  # Pont Saint-Esprit
-  addMarkers(-1.477291, 43.490524, icon = greenDotIcon) %>%  # Cathédrale Saint-Marie
-  addMarkers(-1.470280, 43.497037, icon = greenDotIcon) # Gare Saint-Esprit
+  addMarkers(-1.471736, 43.494345, icon = greenDotIcon, popup = pontSaintEsprit) %>%  # Pont Saint-Esprit
+  addMarkers(-1.477291, 43.490524, icon = greenDotIcon, popup = cathedraleSaintMarie) %>%  # Cathédrale Saint-Marie
+  addMarkers(-1.470280, 43.497037, icon = greenDotIcon, popup = gareSaintEsprit) # Gare Saint-Esprit
 ```
 
 ![](./images/Bayonne/bayonne3.png)
@@ -45,4 +45,4 @@ The Bayonne train station ("gare").
 
 ![](./images/Bayonne/bayonne6.png)
 
-The [Pont Saint-Esprit](https://fr.wikipedia.org/wiki/Pont_Saint-Esprit_(Bayonne\)) was finished in 1849 and connects the train station to the Little Town.
+The Pont Saint-Esprit was built from 1846 to 1849 and connects the train station to the Petit Bayonne (Little Bayonne) across the Adour River. Immediately after the bridge, the Adour merges with the Nive River, which separates Grand Bayonne from Petit Bayonne.
