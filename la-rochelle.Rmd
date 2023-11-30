@@ -1,8 +1,8 @@
 ---
-title: "Biarritz, France"
+title: "La Rochelle, France"
 ---
 
-A seaside resort, fit for an empress.
+The city of protestants, seafarers, and Templars.
 
 ```{r out.width='100%', echo=FALSE}
 saintNicholasTower <- paste("<b>Saint-Nicholas Tower</b>")
@@ -11,7 +11,7 @@ tourDeLaLanterne <- paste("<b>Tour de la Lanterne</b>")
 gareDeLaRochelle <- paste("<b>Gare de La Rochelle-Ville</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(-1.155421, 46.153794, zoom = 15) %>%
+  setView(-1.155421, 46.153794, zoom = 13) %>%
   addMarkers(-1.153314, 46.155801, icon = greenDotIcon, popup = saintNicholasTower) %>%  # Saint Nicholas Tower
   addMarkers(-1.154122, 46.155829, icon = greenDotIcon, popup = tourDeLaChaine) %>%  # Tour de la Chaîne
   addMarkers(-1.157150, 46.155785, icon = greenDotIcon, popup = tourDeLaLanterne) %>%  # Tour de la Lanterne
