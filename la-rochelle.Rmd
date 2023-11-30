@@ -2,7 +2,7 @@
 title: "La Rochelle, France"
 ---
 
-The city of protestants, seafarers, and Templars.
+The city of Protestants, seafarers, and Templars.
 
 ```{r out.width='100%', echo=FALSE}
 saintNicholasTower <- paste("<b>Saint-Nicholas Tower</b>")
@@ -17,3 +17,9 @@ leaflet() %>% addTiles() %>%
   addMarkers(-1.157150, 46.155785, icon = greenDotIcon, popup = tourDeLaLanterne) %>%  # Tour de la Lanterne
   addMarkers(-1.145638, 46.152741, icon = greenDotIcon, popup = gareDeLaRochelle) # Gare de La Rochelle-Ville
 ```
+
+La Rochelle is a coastal city that is famous for being a Prostestant stronghold during the [French Wars of Religion](https://en.wikipedia.org/wiki/French_Wars_of_Religion) from 1562 to 1589, when the city was besieged by Catholic forces led by Cardinal Richelieu. The city's walls were demolished, but three of the large towers remain.
+
+![](images/LaRochelle/larochelle1.png)
+
+The pointed tower is Tour de la Lanterne (the "Lantern Tower"), which served as a lighthouse and prison.
