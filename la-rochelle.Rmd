@@ -18,7 +18,17 @@ leaflet() %>% addTiles() %>%
   addMarkers(-1.145638, 46.152741, icon = greenDotIcon, popup = gareDeLaRochelle) # Gare de La Rochelle-Ville
 ```
 
+![](images/LaRochelle/larochelle2.png)
+
 La Rochelle is a coastal city that is famous for being a Prostestant stronghold during the [French Wars of Religion](https://en.wikipedia.org/wiki/French_Wars_of_Religion) from 1562 to 1589, when the city was besieged by Catholic forces led by Cardinal Richelieu. The city's walls were demolished, but three of the large towers remain.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("9 Hours", "TER from Bordeaux Saint-Jean", "Tour de la Lanterne, Tour de la Chaîne, Tour Saint-Nicolas", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
 
 ![](images/LaRochelle/larochelle1.png)
 
