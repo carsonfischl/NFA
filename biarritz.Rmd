@@ -5,9 +5,17 @@ title: "Biarritz, France"
 A seaside resort, fit for an empress.
 
 ```{r out.width='100%', echo=FALSE}
+grandePlage <- paste("<b>Grande Plage</b>")
+gareBiarritz <- paste("<b>Gare de Biarritz</b>")
+rocherDeLaVierge <- paste("<b>Rocher De La Vierge</b>")
+lighthouse <- paste("<b>Lighthouse</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(-1.5586, 43.4832, zoom = 15)
+  setView(-1.5586, 43.4832, zoom = 15) %>%
+  addMarkers(-1.559345, 43.484722, icon = greenDotIcon, popup = grandePlage) %>%  # Grande Plage
+  addMarkers(-1.545904, 43.459350, icon = greenDotIcon, popup = gareBiarritz) %>%  # Gare de Biarritz
+  addMarkers(-1.570916, 43.484320, icon = greenDotIcon, popup = rocherDeLaVierge) %>%  # Rocher de la Vierge
+  addMarkers(-1.553895, 43.493761, icon = greenDotIcon, popup = lighthouse) # Lighthouse
 ```
 ![](images/Biarritz/biarritz6.png)
 
@@ -20,8 +28,6 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
-
-![](images/Biarritz/biarritz3.mov)
 ![](images/Biarritz/biarritz1.png)
 
 The lighthouse is a well-known lightmark that periodically opens to be climbed and has great views.

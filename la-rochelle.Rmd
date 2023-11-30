@@ -1,0 +1,19 @@
+---
+title: "Biarritz, France"
+---
+
+A seaside resort, fit for an empress.
+
+```{r out.width='100%', echo=FALSE}
+saintNicholasTower <- paste("<b>Saint-Nicholas Tower</b>")
+tourDeLaChaine <- paste("<b>Tour de la Chaîne</b>")
+tourDeLaLanterne <- paste("<b>Tour de la Lanterne</b>")
+gareDeLaRochelle <- paste("<b>Gare de La Rochelle-Ville</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-1.155421, 46.153794, zoom = 15) %>%
+  addMarkers(-1.153314, 46.155801, icon = greenDotIcon, popup = saintNicholasTower) %>%  # Saint Nicholas Tower
+  addMarkers(-1.154122, 46.155829, icon = greenDotIcon, popup = tourDeLaChaine) %>%  # Tour de la Chaîne
+  addMarkers(-1.157150, 46.155785, icon = greenDotIcon, popup = tourDeLaLanterne) %>%  # Tour de la Lanterne
+  addMarkers(-1.145638, 46.152741, icon = greenDotIcon, popup = gareDeLaRochelle) # Gare de La Rochelle-Ville
+```
