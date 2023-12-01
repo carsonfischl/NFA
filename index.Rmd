@@ -5,6 +5,7 @@ title: "A Travel Blog for the Intrepid"
 Welcome! This is a repository for all sorts of pointers, tips, and useful information I have gathered from my adventures. 
 
 Carpe diem
+
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
@@ -93,4 +94,5 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
+thumbnail("La Rochelle, France", "images/LaRochelle/larochelle2.png", "./la-rochelle.html")
 ```
