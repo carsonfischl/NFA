@@ -57,8 +57,8 @@ navbar:
         - text: "Canada"
         - text: "Montréal"
           href: montreal.html
-        - text: "La Rochelle"
-          href: la-rochelle.html
+        - text: "Ottawa"
+          href: ottawa.html
         - text: "---------"
         - text: "United States"
         - text: "Page C"
@@ -84,9 +84,9 @@ navbar:
         - text: "Huacachina"
           href: bordeaux.html
         - text: "Lima"
-          href: bordeaux.html
+          href: lima.html
         - text: "Machu Picchu"
-          href: la-rochelle.html
+          href: machu-picchu.html
         - text: "Rainbow Mountain"
           href: bordeaux.html
 output:

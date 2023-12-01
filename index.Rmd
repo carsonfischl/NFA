@@ -82,6 +82,16 @@ leaflet() %>% addTiles() %>%
 
 <h2>Europe</h2>
 <hr class="rounded">
+
+
+<h3>Austria</h3>
+
+
+<hr class="dotted">
+<h3>Belgium</h3>
+
+
+<hr class="dotted">
 <h3>France</h3>
 
 
@@ -101,4 +111,8 @@ thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html"
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle2.png", "./la-rochelle.html")
 ```
+
+
 <hr class="dotted">
+<h3>Netherlands</h3>
+
