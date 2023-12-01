@@ -80,6 +80,11 @@ leaflet() %>% addTiles() %>%
   addMarkers(-76.2508, -13.8409, icon = greenDotIcon) # Arequipa, Peru
 ```
 
+<h2>Europe</h2>
+<hr class="rounded">
+<h3>France</h3>
+
+
 ```{r out.width='100%', echo=FALSE}
 library(htmltools)
 thumbnail <- function(title, img, href, caption = TRUE) {
@@ -96,3 +101,4 @@ thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html"
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle2.png", "./la-rochelle.html")
 ```
+<hr class="dotted">
