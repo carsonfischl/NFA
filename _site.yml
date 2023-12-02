@@ -76,19 +76,19 @@ navbar:
       menu:
         - text: "Peru"
         - text: "Arequipa"
-          href: bordeaux.html
+          href: arequipa.html
         - text: "Colca Canyon"
-          href: bordeaux.html
+          href: colca-canyon.html
         - text: "Cuzco"
-          href: bordeaux.html
+          href: cuzco.html
         - text: "Huacachina"
-          href: bordeaux.html
+          href: huacachina.html
         - text: "Lima"
           href: lima.html
         - text: "Machu Picchu"
           href: machu-picchu.html
         - text: "Rainbow Mountain"
-          href: bordeaux.html
+          href: rainbow-mountain.html
 output:
   html_document:
     theme: cosmo
