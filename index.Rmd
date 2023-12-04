@@ -18,7 +18,7 @@ greenDotIcon <- makeIcon(
   iconAnchorX = 10, iconAnchorY = 10
 )
 leaflet() %>% addTiles() %>%
-  setView(-93.65, 42.0285, zoom = 2) %>%
+  setView(-40.205154, 19.315355, zoom = 2) %>%
   # Europe
   # Belgium
   addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium

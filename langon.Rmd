@@ -1,3 +1,26 @@
 ---
 title: "Langon, France"
 ---
+
+A brief castle stop in the heart of wine country.
+
+```{r out.width='100%', echo=FALSE}
+egliseSaintGervais <- paste("<b>Château Roquetaillade</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-0.247289, 44.555854, zoom = 12) %>%
+  addMarkers(-0.269680, 44.492580, icon = greenDotIcon, popup = chateauRoquetaillade) %>% # Château Roquetaillade
+  addMarkers(-0.248558, 44.556631, icon = greenDotIcon, popup = egliseSaintGervais)  # Église Saint-Gervais-Saint-Protais
+```
+
+![](images/Langon/langon1.png)
+
+My visit to Langon was accidental, thanks to a train delay & mix-up. Nevertheless, it was refreshing to see the town and the gorgeous Château Roquetaillade.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("6 Hours", "TER from Bordeaux Saint-Jean", "Château Roquetaillade", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
