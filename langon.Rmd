@@ -5,7 +5,8 @@ title: "Langon, France"
 A brief castle stop in the heart of wine country.
 
 ```{r out.width='100%', echo=FALSE}
-egliseSaintGervais <- paste("<b>Château Roquetaillade</b>")
+chateauRoquetaillade <- paste("<b>Château Roquetaillade</b>")
+egliseSaintGervais <- paste("<b>Église Saint-Gervais-Saint-Protais</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(-0.247289, 44.555854, zoom = 11) %>%

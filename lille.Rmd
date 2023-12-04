@@ -1,0 +1,48 @@
+---
+title: "Lille, France"
+---
+
+A center of European warfare and Flemish culture.
+
+```{r out.width='100%', echo=FALSE}
+euralille <- paste("<b>Lille Europe</b>")
+lilleFlandres <- paste("<b>Lille Flandres</b>")
+vielleBourse <- paste("<b>Vielle Bourse</b>")
+operaDeLille <- paste("<b>Opéra de Lille</b>")
+beffroiDeLaBourse<- paste("<b>Beffroi de la Bourse</b>")
+lilleZoo <- paste("<b>Lille Zoo</b>")
+porteDeParis <- paste("<b>Porte de Paris</b>")
+beffroiDeLille <- paste("<b>Beffroi de Lille</b>")
+museeDesBeauxArts <- paste("<b>Musée des Beaux-Arts</b>")
+meert <- paste("<b>Méert</b>")
+cathedraleNotreDameDeLaTreille <- paste("<b>Cathédrale Notre-Dame-de-la-Treille</b>")
+maisonDeGaulle <- paste("<b>Maison de Gaulle</b>")
+citadelleDeLille <- paste("<b>Citadelle de Lille</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(3.063517, 50.638639, zoom = 14) %>%
+  addMarkers(3.075177, 50.639119, icon = greenDotIcon, popup = euralille) %>% # Lille Europe
+  addMarkers(3.069541, 50.636586, icon = greenDotIcon, popup = lilleFlandres) %>%  # Lille Flandres
+  addMarkers(3.064279, 50.637060, icon = greenDotIcon, popup = vielleBourse) %>%  # Vielle Bourse
+  addMarkers(3.065222, 50.637578, icon = greenDotIcon, popup = operaDeLille) %>%  # Opéra de Lille
+  addMarkers(3.064518, 50.637684, icon = greenDotIcon, popup = beffroiDeLaBourse) %>%  # Beffroi de la Bourse
+  addMarkers(3.047743, 50.638229, icon = greenDotIcon, popup = lilleZoo) %>%  # Lille Zoo
+  addMarkers(3.068808, 50.629655, icon = greenDotIcon, popup = porteDeParis) %>%  # Porte de Paris
+  addMarkers(3.069815, 50.630623, icon = greenDotIcon, popup = beffroiDeLille) %>%  # Beffroi de Lille
+  addMarkers(3.062825, 50.630454, icon = greenDotIcon, popup = museeDesBeauxArts) %>% # Musée des Beaux-Arts
+  addMarkers(3.061813, 50.637687, icon = greenDotIcon, popup = meert) %>% # Méert
+  addMarkers(3.062761, 50.640221, icon = greenDotIcon, popup = cathedraleNotreDameDeLaTreille) %>% # Cathédrale Notre-Dame-de-la-Treille
+  addMarkers(3.044564, 50.640936, icon = greenDotIcon, popup = citadelleDeLille) %>% # Citadelle de Lille
+  addMarkers(3.058670, 50.645851, icon = greenDotIcon, popup = maisonDeGaulle) # Maison de Gaulle
+
+```
+
+Lille is the center of an expansive metropolitan area on the Belgian border. Previously highly industrialized, northern France is less properous than in the past and was damaged during WWII, but still offers a rich cultural experience with Flemish cuisine that is unique to the area. Beer culture, in "brasseries," is more common than wine culture here. 
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("4 months", "TGV from Paris", "Beffroi de Lille, Vielle Bourse, Opéra de Lille", "Méert")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
