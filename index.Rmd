@@ -11,6 +11,7 @@ library(leaflet)
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
 biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
 bordeauxCont <- paste("<b><a href='./bordeaux.html'>Bordeaux, France</a></b>")
+langonCont <- paste("<b><a href='./langon.html'>Langon, France</a></b>")
 laRochelleCont <- paste("<b><a href='./la-rochelle.html'>La Rochelle, France</a></b>")
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -33,7 +34,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(-1.1511, 46.1603, icon= greenDotIcon, popup = laRochelleCont) %>% # La Rochelle, France
   addMarkers(0.1079, 49.4944, icon = greenDotIcon) %>% # Le Havre, France
   addMarkers(3.0573, 50.6292, icon= greenDotIcon) %>% # Lille, France
-  addMarkers(-0.2451, 44.5554, icon= greenDotIcon) %>% # Langon, France
+  addMarkers(-0.2451, 44.5554, icon= greenDotIcon, popup = langonCont) %>% # Langon, France
   addMarkers(-1.5115, 48.6361, icon = greenDotIcon) %>% # Mont-Saint-Michel, France
   addMarkers(2.3522, 48.8566, icon= greenDotIcon) %>% # Paris, France
   addMarkers(-0.1557, 44.8944, icon= greenDotIcon) %>% # Saint-Émilion, France
@@ -109,6 +110,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
+thumbnail("Langon, France", "images/Langon/langon3.png", "./langon.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle2.png", "./la-rochelle.html")
 ```
 
