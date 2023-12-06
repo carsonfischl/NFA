@@ -11,7 +11,7 @@ rocherDeLaVierge <- paste("<b>Rocher De La Vierge</b>")
 lighthouse <- paste("<b>Lighthouse</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(-1.5586, 43.4832, zoom = 15) %>%
+  setView(-1.5586, 43.4832, zoom = 14) %>%
   addMarkers(-1.559345, 43.484722, icon = greenDotIcon, popup = grandePlage) %>%  # Grande Plage
   addMarkers(-1.545904, 43.459350, icon = greenDotIcon, popup = gareBiarritz) %>%  # Gare de Biarritz
   addMarkers(-1.570916, 43.484320, icon = greenDotIcon, popup = rocherDeLaVierge) %>%  # Rocher de la Vierge
