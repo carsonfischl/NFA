@@ -36,13 +36,21 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.058670, 50.645851, icon = greenDotIcon, popup = maisonDeGaulle) # Maison de Gaulle
 
 ```
+![](images/Lille/lille7.png)
 
 Lille is the center of an expansive metropolitan area on the Belgian border. Previously highly industrialized, northern France is less properous than in the past and was damaged during WWII, but still offers a rich cultural experience with Flemish cuisine that is unique to the area. Beer culture, in "brasseries," is more common than wine culture here. 
 
 ```{r echo = FALSE, results = 'asis'}
-titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("4 months", "TGV from Paris", "Beffroi de Lille, Vielle Bourse, Opéra de Lille", "Méert")
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("4 months", "TGV from Paris", "Beffroi de Lille, Vielle Bourse, Opéra de Lille", "Gaufres fourrées", "Méert")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](images/Lille/lille8.png)
+
+![](images/Lille/lille5.png)
+
+[Méert](https://www.meert.fr/en/) is a famous café in the old town which has served numerous famous guests, including Napoléon & Josephine, Léopold I of Belgium, and Winston Churchill. The pastries are exceptional, including this Mille-Feuille. 
+

@@ -2,19 +2,19 @@
 title: "Le Havre, France"
 ---
 
-A great location to attack the English.
+A great location from which to attack the English.
 
 ```{r out.width='100%', echo=FALSE}
 egliseSaintJoseph <- paste("<b>Église Saint-Joseph</b>")
 honfleur <- paste("<b>Honfleur</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(0.131177, 49.495933, zoom = 14) %>%
+  setView(0.156156, 49.456615, zoom = 12) %>%
   addMarkers(0.101227, 49.490947, icon = greenDotIcon, popup = egliseSaintJoseph) %>% # Église Saint-Joseph
   addMarkers(0.232710, 49.421973, icon = greenDotIcon, popup = honfleur) # Honfleur
 ```
 
-La Havre and the town on the opposite side of the river, Honfleur, sit at the mouth of the Seine and were major ports during the Hundred Years War and the Viking invasions. Normandy is a major artistic centre since the Impressionist movement and the local galleries have works from many famous painters.
+La Havre and the town on the opposite side of the river, Honfleur, sit at the mouth of the Seine and were major ports during the Hundred Years War and the Viking invasions. Normandy is a major artistic center since the Impressionist movement and the local galleries have works from many famous painters.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
