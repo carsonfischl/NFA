@@ -2,9 +2,6 @@ name: "NFA"
 navbar:
   title: "No Fixed Address"
   left:
-    - text: " Home"
-      icon: fa-house
-      href: index.html
     - text: "About"
       href: about.html
     - text: " Asia"

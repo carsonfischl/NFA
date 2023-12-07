@@ -50,6 +50,8 @@ kable(df, col.names = NULL)
 
 ![](images/Lille/lille8.png)
 
+Looking down Rue Faidherbe from the Opéra, one can see the old train station, Lille Flandres. The station is very architecturally similar to Gare du Nord in Paris but smaller and minus some statues.
+
 ![](images/Lille/lille5.png)
 
 [Méert](https://www.meert.fr/en/) is a famous café in the old town which has served numerous famous guests, including Napoléon & Josephine, Léopold I of Belgium, and Winston Churchill. The pastries are exceptional, including this Mille-Feuille. 
