@@ -111,8 +111,9 @@ thumbnail <- function(title, img, href, caption = TRUE) {
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
-thumbnail("Langon, France", "images/Langon/langon3.png", "./langon.html")
-thumbnail("La Rochelle, France", "images/LaRochelle/larochelle2.png", "./la-rochelle.html")
+thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
+thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
+thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
 ```
 
 
