@@ -19,7 +19,7 @@ leaflet() %>% addTiles() %>%
 
 ![](./images/Bayonne/bayonne3.png)
 
-I passed through this gorgeous town to catch the train on the way back from [Biarritz](./biarritz.html). The city is famous as the location of the ["Abdications of Bayonne,"](https://en.wikipedia.org/wiki/Abdications_of_Bayonne) where Napoleon took advantage of Spanish political upheaval. Upset at mismanagement of the government of King Charles IV, supporters of his son Ferdinand VII organized a palace coup. Napoleon "settled" the succession dispute by summoning both monarchs to a French Imperial residence in Bordeaux, the Castle of Marracq, where he forced the abdication of both monarchs, who would remain in French custody until late 1813.
+I passed through this gorgeous town to catch the train on the way back from [Biarritz](./biarritz.html). The city is famous as the location of the ["Abdications of Bayonne,"](https://en.wikipedia.org/wiki/Abdications_of_Bayonne) where Napoleon took advantage of Spanish political upheaval. Upset at mismanagement of the government of King Charles IV, supporters of his son Ferdinand VII organized a palace coup, leading to a dynastic crisis. Napoleon "settled" the succession dispute by summoning both monarchs to a French Imperial residence in Bayonne, the Castle of Marracq, where he forced the abdication of both monarchs, who would remain in French custody until late 1813.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
@@ -45,4 +45,4 @@ The Bayonne train station ("gare").
 
 ![](./images/Bayonne/bayonne6.png)
 
-The Pont Saint-Esprit was built from 1846 to 1849 and connects the train station to the Petit Bayonne (Little Bayonne) across the Adour River. Immediately after the bridge, the Adour merges with the Nive River, which separates Grand Bayonne from Petit Bayonne.
+The Pont Saint-Esprit was built from 1846 to 1849 and connects the train station to the Petit Bayonne (Little Bayonne) across the Adour River. Immediately after the bridge, the Adour merges with the Nive River, which separates Grand Bayonne from Petit Bayonne. 
