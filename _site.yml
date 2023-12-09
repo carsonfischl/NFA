@@ -17,6 +17,10 @@ navbar:
     - text: " Europe"
       icon: fa-earth-europe
       menu:
+        - text: "Croatia"
+        - text: "Dubrovnik"
+          href: dubrovnik.html
+        - text: "---------"
         - text: "France"
         - text: "Bayonne"
           href: bayonne.html
