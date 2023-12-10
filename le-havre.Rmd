@@ -26,7 +26,7 @@ library(knitr)
 kable(df, col.names = NULL)
 ```
 
-Saint Joseph's church was rebuilt following WWII using a reinforced concrete design by [Auguste Perret,](https://en.wikipedia.org/wiki/Auguste_Perret) a mentor to Le Corbusier.
+Saint Joseph's church was rebuilt following WWII using a reinforced concrete design by [Auguste Perret,](https://en.wikipedia.org/wiki/Auguste_Perret) a mentor to Le Corbusier. The Modern Art Museum Andre Malraux is great and features many French masters.
 
 ![](images/LeHavre/lehavre7.png)
 
@@ -39,7 +39,3 @@ The town's church, Saint-Catherine, is the largest wood church in France.
 ![](images/LeHavre/lehavre3.png)
 
 ![](images/LeHavre/lehavre4.png)
-
-![](images/LeHavre/lehavre6.png)
-
-![](images/LeHavre/lehavre8.png)
