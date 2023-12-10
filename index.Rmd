@@ -13,6 +13,7 @@ biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
 bordeauxCont <- paste("<b><a href='./bordeaux.html'>Bordeaux, France</a></b>")
 langonCont <- paste("<b><a href='./langon.html'>Langon, France</a></b>")
 laRochelleCont <- paste("<b><a href='./la-rochelle.html'>La Rochelle, France</a></b>")
+leHavreCont <- paste("<b><a href='./le-havre.html'>Le Havre, France</a></b>")
 lilleCont <- paste("<b><a href='./lille.html'>Lille, France</a></b>")
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -33,7 +34,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(-1.5586, 43.4832, icon= greenDotIcon, popup = biarritzCont) %>% # Biarritz, France
   addMarkers(-0.5792, 44.8378, icon = greenDotIcon, popup = bordeauxCont) %>% # Bordeaux, France
   addMarkers(-1.1511, 46.1603, icon= greenDotIcon, popup = laRochelleCont) %>% # La Rochelle, France
-  addMarkers(0.1079, 49.4944, icon = greenDotIcon) %>% # Le Havre, France
+  addMarkers(0.1079, 49.4944, icon = greenDotIcon, popup = leHavreCont) %>% # Le Havre, France
   addMarkers(3.0573, 50.6292, icon= greenDotIcon, popup = lilleCont) %>% # Lille, France
   addMarkers(-0.2451, 44.5554, icon= greenDotIcon, popup = langonCont) %>% # Langon, France
   addMarkers(-1.5115, 48.6361, icon = greenDotIcon) %>% # Mont-Saint-Michel, France
@@ -113,6 +114,7 @@ thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html"
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
+thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
 thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
 ```
 

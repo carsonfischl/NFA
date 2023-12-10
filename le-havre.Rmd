@@ -2,7 +2,7 @@
 title: "Le Havre, France"
 ---
 
-A great location from which to attack the English.
+A great location from which to defend against the English.
 
 ```{r out.width='100%', echo=FALSE}
 egliseSaintJoseph <- paste("<b>Église Saint-Joseph</b>")
@@ -16,6 +16,8 @@ leaflet() %>% addTiles() %>%
 
 La Havre and the town on the opposite side of the river, Honfleur, sit at the mouth of the Seine and were major ports during the Hundred Years War and the Viking invasions. Normandy is a major artistic center since the Impressionist movement and the local galleries have works from many famous painters.
 
+![](images/LeHavre/lehavre1.png)
+
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
 values <- c("1 day", "Three hour drive from Mont-Saint-Michel", "Saint-Joseph's Church, Museum of Modern Art André Malraux, Êtretat", "N/A")
@@ -23,3 +25,21 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+Saint Joseph's church was rebuilt following WWII using a reinforced concrete design by [Auguste Perret,](https://en.wikipedia.org/wiki/Auguste_Perret) a mentor to Le Corbusier.
+
+![](images/LeHavre/lehavre7.png)
+
+The sister town of Honfleur, on the other side of the mouth of the Seine, was fortified by French King Charles V during the Hundred Years War.
+
+![](images/LeHavre/lehavre2.png)
+
+The town's church, Saint-Catherine, is the largest wood church in France.
+
+![](images/LeHavre/lehavre3.png)
+
+![](images/LeHavre/lehavre4.png)
+
+![](images/LeHavre/lehavre6.png)
+
+![](images/LeHavre/lehavre8.png)
