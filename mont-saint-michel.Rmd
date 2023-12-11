@@ -39,3 +39,5 @@ kable(df, col.names = NULL)
 ![](images/MontSaintMichel/msm6.png)
 
 The island has less than 50 residents nowadays but is nevertheless extremely cute.
+
+![](images/MontSaintMichel/msm1.png)

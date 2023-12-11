@@ -1,0 +1,27 @@
+---
+title: "Saint-Émilion, France"
+---
+
+Becoming a sommelier. 
+
+```{r out.width='100%', echo=FALSE}
+egliseSaintJoseph <- paste("<b>Église Saint-Joseph</b>")
+honfleur <- paste("<b>Honfleur</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(0.156156, 49.456615, zoom = 12) %>%
+  addMarkers(0.101227, 49.490947, icon = greenDotIcon, popup = egliseSaintJoseph) %>% # Église Saint-Joseph
+  addMarkers(0.232710, 49.421973, icon = greenDotIcon, popup = honfleur) # Honfleur
+```
+
+La Havre and the town on the opposite side of the river, Honfleur, sit at the mouth of the Seine and were major ports during the Hundred Years War and the Viking invasions. Normandy is a major artistic center since the Impressionist movement and the local galleries have works from many famous painters. I missed the local cliffs at Êtretat but I'm assured they're worth visiting.
+
+![](images/LeHavre/lehavre1.png)
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("2 days (easy daytrip from Bordeaux)", "Thirty min train ride from Bordeaux Saint-Jean", "Monolithic church, King's Tower", "Le Bistrot du Clocher (good for ice cream at least, reviews are bad otherwise) -  3 Place du Clocher")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
