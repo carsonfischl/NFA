@@ -16,6 +16,7 @@ laRochelleCont <- paste("<b><a href='./la-rochelle.html'>La Rochelle, France</a>
 leHavreCont <- paste("<b><a href='./le-havre.html'>Le Havre, France</a></b>")
 lilleCont <- paste("<b><a href='./lille.html'>Lille, France</a></b>")
 msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, France</a></b>")
+saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
   iconWidth = 10, iconHeight = 10,
@@ -40,7 +41,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(-0.2451, 44.5554, icon= greenDotIcon, popup = langonCont) %>% # Langon, France
   addMarkers(-1.5115, 48.6361, icon = greenDotIcon, popup = msmCont) %>% # Mont-Saint-Michel, France
   addMarkers(2.3522, 48.8566, icon= greenDotIcon) %>% # Paris, France
-  addMarkers(-0.1557, 44.8944, icon= greenDotIcon) %>% # Saint-Émilion, France
+  addMarkers(-0.1557, 44.8944, icon= greenDotIcon, popup = saintEmilionCont) %>% # Saint-Émilion, France
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon) %>% # Saint-Malo, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon) %>% # Toulouse, France
   # Netherlands
@@ -110,15 +111,15 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
+thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
+thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
+thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
 thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
-thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
-thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
-thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 ```
 
 
