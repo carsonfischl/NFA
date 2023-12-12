@@ -20,7 +20,7 @@ leaflet() %>% addTiles() %>%
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("2 days (easy daytrip from Bordeaux)", "Thirty min train ride from Bordeaux Saint-Jean", "Monolithic church, King's Tower", "Le Bistrot du Clocher (good for ice cream at least, reviews are bad otherwise) -  3 Place du Clocher")
+values <- c("2 days (easy daytrip from Bordeaux)", "Thirty min train ride from Bordeaux Saint-Jean or a 1 hour walk from Libourne", "Monolithic church, King's Tower", "Le Bistrot du Clocher (good for ice cream at least, reviews are bad otherwise) -  3 Place du Clocher")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
@@ -30,7 +30,7 @@ kable(df, col.names = NULL)
 
 The Monolithic Church of Saint-Émilion dominates the city and is very impressive. The ice cream shop next door is good.
 
-![](images/SaintEmilion/saintemilion17.png)
+![](images/SaintEmilion/saintemilion14.png)
 
 ![](images/SaintEmilion/saintemilion10.png)
 
@@ -40,3 +40,5 @@ View from the base of the church, looking out over town. You can enter the churc
 La Tour du Roi (the "King's Tower") as seen from the church's tower, likely built on the order of English & Aquitaine monarch [Henry III.](https://en.wikipedia.org/wiki/Henry_III_of_England)
 
 ![](images/SaintEmilion/saintemilion3.png)
+
+Vineyards surrounding the town.
