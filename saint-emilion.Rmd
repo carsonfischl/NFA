@@ -14,9 +14,9 @@ leaflet() %>% addTiles() %>%
   addMarkers(0.232710, 49.421973, icon = greenDotIcon, popup = honfleur) # Honfleur
 ```
 
-La Havre and the town on the opposite side of the river, Honfleur, sit at the mouth of the Seine and were major ports during the Hundred Years War and the Viking invasions. Normandy is a major artistic center since the Impressionist movement and the local galleries have works from many famous painters. I missed the local cliffs at Êtretat but I'm assured they're worth visiting.
+[Saint-Émilion](https://en.wikipedia.org/wiki/Saint-%C3%89milion) is a hamlet not far from Bordeaux. Famous for Saint-Émilion Grand Crus, some of the best wines in the world, as well as the Sémilion white grape cultivar, the area has a rich history of viticulture and is a UNESCO World Heritage Site.
 
-![](images/LeHavre/lehavre1.png)
+![](images/SaintEmilion/saintemilion17.png)
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
@@ -25,3 +25,18 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](images/SaintEmilion/saintemilion9.png)
+
+The Monolithic Church of Saint-Émilion dominates the city and is very impressive. The ice cream shop next door is good.
+
+![](images/SaintEmilion/saintemilion17.png)
+
+![](images/SaintEmilion/saintemilion10.png)
+
+View from the base of the church, looking out over town. You can enter the church's tower for €2, with the key available at the tourist desk across the square.
+
+![](images/SaintEmilion/saintemilion23.png)
+La Tour du Roi (the "King's Tower") as seen from the church's tower, likely built on the order of English & Aquitaine monarch [Henry III.](https://en.wikipedia.org/wiki/Henry_III_of_England)
+
+![](images/SaintEmilion/saintemilion3.png)

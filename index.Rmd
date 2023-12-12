@@ -118,9 +118,7 @@ thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-roch
 thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
 thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
 thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
+thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 ```
 
-
-<hr class="dotted">
-<h3>Netherlands</h3>
 
