@@ -13,3 +13,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(18.104347, 42.640803, icon = greenDotIcon, popup = lovrijenac) %>% # Lovrijenac (Fortress)
   addMarkers(18.108348, 42.639464, icon = greenDotIcon, popup = stariGrad) # Old Walled City
 ```
+
+![](images/Dubrovnik/dubrovnik9.png)
+
+![](images/Dubrovnik/dubrovnik5.png)
