@@ -9,11 +9,42 @@ lovrijenac <- paste("<b>Lovrijenac</b>")
 stariGrad <- paste("<b>Stari Grad</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(18.094016, 42.645727, zoom = 12) %>%
+  setView(18.094016, 42.645727, zoom = 13) %>%
   addMarkers(18.104347, 42.640803, icon = greenDotIcon, popup = lovrijenac) %>% # Lovrijenac (Fortress)
   addMarkers(18.108348, 42.639464, icon = greenDotIcon, popup = stariGrad) # Old Walled City
 ```
 
+![](images/Dubrovnik/dubrovnik14.png)
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("2 day", "FlixBus from Mostar, Bosnia", "Old city walls, Lovrijenac", "Peppino's Gelato Garden")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
 ![](images/Dubrovnik/dubrovnik9.png)
 
-![](images/Dubrovnik/dubrovnik5.png)
+Lovrijenac is a defensive fort built by the citizens of Dubrovnik in the 11th century.
+
+![](images/Dubrovnik/dubrovnik10.png)
+
+![](images/Dubrovnik/dubrovnik12.png)
+
+The old city and its walls are on the opposite side of a small bay and take most of the day to walk, but are well worth the time.
+
+![](images/Dubrovnik/dubrovnik1.png)
+
+![](images/Dubrovnik/dubrovnik2.png)
+
+![](images/Dubrovnik/dubrovnik3.png)
+
+![](images/Dubrovnik/dubrovnik19.png)
+
+The old town has many cute restaurants and shops and is worth taking the time to explore it's many old churches.
+
+![](images/Dubrovnik/dubrovnik8.png)
+
+![](images/Dubrovnik/dubrovnik20.png)
+
+![](images/Dubrovnik/dubrovnik11.png)
