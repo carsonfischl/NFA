@@ -8,6 +8,7 @@ When I'm a retired Emperor, I might decide to grow cabbages here too.
 diocletiansPalace <- paste("<b>Diocletian's Palace</b>")
 archaeologicalMuseum <- paste("<b>Split Archaeological Museum</b>")
 salona <- paste("<b>Salona</b>")
+kastilac <- paste("<b>Kaštilac</b>")
 marjanHill <- paste("<b>Marjan Hill</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
@@ -15,12 +16,19 @@ leaflet() %>% addTiles() %>%
   addMarkers(16.438682, 43.508288, icon = greenDotIcon, popup = diocletiansPalace) %>% # Diocletian's Palace
   addMarkers(16.434599, 43.515919, icon = greenDotIcon, popup = archaeologicalMuseum) %>% # Split Archaeological Museum
   addMarkers(16.483451, 43.539609, icon = greenDotIcon, popup = salona) %>% # Salona
+  addMarkers(16.395480, 43.547405, icon = greenDotIcon, popup = kastilac) %>% # Kaštilac
   addMarkers(16.413018, 43.511177, icon = greenDotIcon, popup = marjanHill) # Marjan Hill
 ```
 
+![](images/Split/split13.png)
+
+Split is famous as the final residence of the Roman Emperor [Diocletian,](https://en.wikipedia.org/wiki/Diocletian) who was born in the nearby town of Solin, now a suburb of Split. The stunning tower of the [Cathedral of Saint Domnius](https://en.wikipedia.org/wiki/Cathedral_of_Saint_Domnius) now towers over the site.
+
 ```{r echo = FALSE, results = 'asis'}
-titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("4 days", "Flight from Lille, France", "Diocletian's Palace, Roman ruins of Solin", "Sladoledarnica Emiliana (possibly the best ice cream I've ever had)")
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("4 days", "Flight from Lille, France", "Diocletian's Palace, Roman ruins of Solin", "Dalmatian Ham", "Sladoledarnica Emiliana (possibly the best ice cream I've ever had)")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
+```
+
