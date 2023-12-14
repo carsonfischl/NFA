@@ -8,6 +8,9 @@ Carpe diem
 
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
+#Croatia
+dubrovnikCont <- paste("<b><a href='./dubrovnik.html'>Dubrovnik, Croatia</a></b>")
+#France
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
 biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
 bordeauxCont <- paste("<b><a href='./bordeaux.html'>Bordeaux, France</a></b>")
@@ -31,6 +34,11 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.2248, 51.2092, icon = greenDotIcon) %>% # Bruges, Belgium
   addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
   addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
+  # Croatia
+  addMarkers(16.4435, 43.5147, icon = greenDotIcon) %>% # Split, Croatia
+  addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
+  addMarkers(18.0944, 42.6507, icon = greenDotIcon, popup = dubrovnikCont) %>% # Dubrovnik, Croatia
+  addMarkers(16.2502, 43.5164, icon = greenDotIcon) %>% # Trogir, Croatia
   # France
   addMarkers(-1.4748, 43.4929, icon= greenDotIcon, popup = bayonneCont) %>% # Bayonne, France
   addMarkers(-1.5586, 43.4832, icon= greenDotIcon, popup = biarritzCont) %>% # Biarritz, France
@@ -64,10 +72,6 @@ leaflet() %>% addTiles() %>%
   addMarkers(-105.4410, 20.8691, icon = greenDotIcon) %>% # Sayulita, Mexico
   # United States
   addMarkers(-74.0060, 40.7128, icon = greenDotIcon) %>% # New York, USA
-  addMarkers(16.4435, 43.5147, icon = greenDotIcon) %>% # Split, Croatia
-  addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
-  addMarkers(18.0944, 42.6507, icon = greenDotIcon) %>% # Dubrovnik, Croatia
-  addMarkers(16.2502, 43.5164, icon = greenDotIcon) %>% # Trogir, Croatia
   addMarkers(17.8078, 43.3438, icon = greenDotIcon) %>% # Mostar, Bosnia & Herzegovina
   addMarkers(25.4615, 36.3932, icon = greenDotIcon) %>% # Santorini, Greece
   addMarkers(25.3667, 37.4415, icon = greenDotIcon) %>% # Mykonos, Greece
@@ -94,6 +98,24 @@ leaflet() %>% addTiles() %>%
 
 <hr class="dotted">
 <h3>Belgium</h3>
+
+
+<hr class="dotted">
+<h3>Croatia</h3>
+
+```{r out.width='100%', echo=FALSE}
+library(htmltools)
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = if (caption) "caption",
+            if (caption) title)
+      )
+  )
+}
+thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
+```
 
 
 <hr class="dotted">
