@@ -20,6 +20,8 @@ navbar:
         - text: "Croatia"
         - text: "Dubrovnik"
           href: dubrovnik.html
+        - text: "Split"
+          href: split.html
         - text: "---------"
         - text: "France"
         - text: "Bayonne"

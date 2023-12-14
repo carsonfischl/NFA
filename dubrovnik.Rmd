@@ -21,7 +21,7 @@ leaflet() %>% addTiles() %>%
 ![](images/Dubrovnik/dubrovnik14.png)
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("2 day", "FlixBus from Mostar, Bosnia", "Old city walls, Lovrijenac", "Peppino's Gelato Garden")
+values <- c("2 days", "FlixBus from Mostar, Bosnia", "Old city walls, Lovrijenac", "Peppino's Gelato Garden")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
