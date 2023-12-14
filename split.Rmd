@@ -20,7 +20,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(16.413018, 43.511177, icon = greenDotIcon, popup = marjanHill) # Marjan Hill
 ```
 
-![](images/Split/split13.png)
+![](images/Split/split3.png)
 
 Split is famous as the final residence of the Roman Emperor [Diocletian,](https://en.wikipedia.org/wiki/Diocletian) who was born in the nearby town of Solin, now a suburb of Split. The stunning tower of the [Cathedral of Saint Domnius](https://en.wikipedia.org/wiki/Cathedral_of_Saint_Domnius) now towers over the site.
 

@@ -10,6 +10,7 @@ Carpe diem
 library(leaflet)
 #Croatia
 dubrovnikCont <- paste("<b><a href='./dubrovnik.html'>Dubrovnik, Croatia</a></b>")
+splitCont <- paste("<b><a href='./split.html'>Split, Croatia</a></b>")
 #France
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
 biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
@@ -35,7 +36,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
   addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
   # Croatia
-  addMarkers(16.4435, 43.5147, icon = greenDotIcon) %>% # Split, Croatia
+  addMarkers(16.4435, 43.5147, icon = greenDotIcon, popup = splitCont) %>% # Split, Croatia
   addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
   addMarkers(18.0944, 42.6507, icon = greenDotIcon, popup = dubrovnikCont) %>% # Dubrovnik, Croatia
   addMarkers(16.2502, 43.5164, icon = greenDotIcon) %>% # Trogir, Croatia
@@ -115,8 +116,9 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
+thumbnail("Split, Croatia", "images/split/split3.png", "./split.html")
 ```
-\
+
 <hr class="dotted">
 <h3>France</h3>
 
