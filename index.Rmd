@@ -116,7 +116,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
-thumbnail("Split, Croatia", "images/split/split3.png", "./split.html")
+thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
 ```
 
 <hr class="dotted">
