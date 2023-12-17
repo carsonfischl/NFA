@@ -8,6 +8,8 @@ Carpe diem
 
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
+#Bosnia & Herzegovina 
+mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
 #Croatia
 dubrovnikCont <- paste("<b><a href='./dubrovnik.html'>Dubrovnik, Croatia</a></b>")
 splitCont <- paste("<b><a href='./split.html'>Split, Croatia</a></b>")
@@ -35,6 +37,8 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.2248, 51.2092, icon = greenDotIcon) %>% # Bruges, Belgium
   addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
   addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
+  # Bosnia & Herzegovina
+  addMarkers(17.8078, 43.3438, icon = greenDotIcon, popup = mostarCont) %>% # Mostar, Bosnia & Herzegovina
   # Croatia
   addMarkers(16.4435, 43.5147, icon = greenDotIcon, popup = splitCont) %>% # Split, Croatia
   addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
@@ -73,7 +77,6 @@ leaflet() %>% addTiles() %>%
   addMarkers(-105.4410, 20.8691, icon = greenDotIcon) %>% # Sayulita, Mexico
   # United States
   addMarkers(-74.0060, 40.7128, icon = greenDotIcon) %>% # New York, USA
-  addMarkers(17.8078, 43.3438, icon = greenDotIcon) %>% # Mostar, Bosnia & Herzegovina
   addMarkers(25.4615, 36.3932, icon = greenDotIcon) %>% # Santorini, Greece
   addMarkers(25.3667, 37.4415, icon = greenDotIcon) %>% # Mykonos, Greece
   addMarkers(23.7275, 37.9838, icon = greenDotIcon) %>% # Athens, Greece
@@ -93,12 +96,21 @@ leaflet() %>% addTiles() %>%
 <h2>Europe</h2>
 <hr class="rounded">
 
+<h3>Bosnia & Herzegovina</h3>
 
-<h3>Austria</h3>
-
-
-<hr class="dotted">
-<h3>Belgium</h3>
+```{r out.width='100%', echo=FALSE}
+library(htmltools)
+thumbnail <- function(title, img, href, caption = TRUE) {
+  div(class = "col-sm-4",
+      a(class = "thumbnail", title = title, href = href,
+        img(src = img),
+        div(class = if (caption) "caption",
+            if (caption) title)
+      )
+  )
+}
+thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar.html")
+```
 
 
 <hr class="dotted">
