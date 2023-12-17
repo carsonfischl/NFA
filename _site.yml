@@ -1,0 +1,105 @@
+name: "NFA"
+navbar:
+  title: "No Fixed Address"
+  left:
+    - text: "About"
+      href: about.html
+    - text: " Asia"
+      icon: fa-earth-asia
+      menu:
+        - text: "Turkïye"
+        - text: "Bergama"
+          href: bergama.html
+        - text: "Istanbul"
+          href: instanbul.html
+        - text: "Izmir"
+          href: izmir.html
+    - text: " Europe"
+      icon: fa-earth-europe
+      menu:
+        - text: "Bosnia & Herzegovina"
+        - text: "Mostar"
+          href: mostar.html
+        - text: "---------"
+        - text: "Croatia"
+        - text: "Dubrovnik"
+          href: dubrovnik.html
+        - text: "Split"
+          href: split.html
+        - text: "---------"
+        - text: "France"
+        - text: "Bayonne"
+          href: bayonne.html
+        - text: "Biarritz"
+          href: biarritz.html
+        - text: "Bordeaux"
+          href: bordeaux.html
+        - text: "Langon"
+          href: langon.html
+        - text: "La Rochelle"
+          href: la-rochelle.html
+        - text: "Le Havre"
+          href: le-havre.html
+        - text: "Lille"
+          href: lille.html
+        - text: "Mont-Saint-Michel"
+          href: mont-saint-michel.html
+        - text: "Paris"
+          href: paris.html
+        - text: "Saint-Émilion"
+          href: saint-emilion.html
+        - text: "Saint-Malo"
+          href: saint-malo.html
+        - text: "Toulouse"
+          href: toulouse.html
+        - text: "---------"
+        - text: "Heading 2"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+    - text: " North America"
+      icon: fa-earth-americas
+      menu:
+        - text: "Canada"
+        - text: "Montréal"
+          href: montreal.html
+        - text: "Ottawa"
+          href: ottawa.html
+        - text: "---------"
+        - text: "United States"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+        - text: "---------"
+        - text: "Mexico"
+        - text: "Page C"
+          href: page-c.html
+        - text: "Page D"
+          href: page-d.html
+    - text: " South America"
+      icon: fa-earth-americas
+      menu:
+        - text: "Peru"
+        - text: "Arequipa"
+          href: arequipa.html
+        - text: "Colca Canyon"
+          href: colca-canyon.html
+        - text: "Cuzco"
+          href: cuzco.html
+        - text: "Huacachina"
+          href: huacachina.html
+        - text: "Lima"
+          href: lima.html
+        - text: "Machu Picchu"
+          href: machu-picchu.html
+        - text: "Rainbow Mountain"
+          href: rainbow-mountain.html
+output:
+  html_document:
+    theme: cosmo
+    highlight: textmate
+    include:
+      after_body: footer.html
+    css: styles.css

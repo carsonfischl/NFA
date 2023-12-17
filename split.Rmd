@@ -1,0 +1,65 @@
+---
+title: "Split, Croatia"
+---
+
+When I'm a retired Emperor, I might decide to grow cabbages here too.
+
+```{r out.width='100%', echo=FALSE}
+diocletiansPalace <- paste("<b>Diocletian's Palace</b>")
+archaeologicalMuseum <- paste("<b>Split Archaeological Museum</b>")
+salona <- paste("<b>Salona</b>")
+kastilac <- paste("<b>Kaštilac</b>")
+marjanHill <- paste("<b>Marjan Hill</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(16.479874, 43.526796, zoom = 12) %>%
+  addMarkers(16.438682, 43.508288, icon = greenDotIcon, popup = diocletiansPalace) %>% # Diocletian's Palace
+  addMarkers(16.434599, 43.515919, icon = greenDotIcon, popup = archaeologicalMuseum) %>% # Split Archaeological Museum
+  addMarkers(16.483451, 43.539609, icon = greenDotIcon, popup = salona) %>% # Salona
+  addMarkers(16.395480, 43.547405, icon = greenDotIcon, popup = kastilac) %>% # Kaštilac
+  addMarkers(16.413018, 43.511177, icon = greenDotIcon, popup = marjanHill) # Marjan Hill
+```
+
+![](images/Split/split4.png)
+
+Split is famous as the final residence of the Roman Emperor [Diocletian,](https://en.wikipedia.org/wiki/Diocletian) who was born in the nearby town of Solin, now a suburb of Split. The stunning tower of the [Cathedral of Saint Domnius](https://en.wikipedia.org/wiki/Cathedral_of_Saint_Domnius) now towers over the site. It's almost always crowded but still one of my favourite places for the historical significance and unique architecture. 
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("4 days", "Flight from Lille, France", "Diocletian's Palace, Roman ruins of Solin", "Pršut (Istrian ham)", "Sladoledarnica Emiliana (possibly the best ice cream I've ever had), Brasserie on 7")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Split/split7.png)
+
+Overall, Split is a great city to visit with a surprising amount of things to do. The boardwalk along the water is gorgeous and filled with young people and relaxing retirees.
+
+![](images/Split/split10.png)
+
+Pršut is Istrian dry-cured ham. It's good, but not particularly unique. I ordered some on pizza to try but it would work best on a charcuterie board.
+
+![](images/Split/split11.png)
+
+Gelateria Emiliana is in the center of town and is likely the best ice cream I've ever had. It's extremely popular with both tourists and locals and there is usually a line, especially in the evenings.
+
+![](images/Split/split2.png)
+
+![](images/Split/split1.png)
+
+A little way down the coast is the fortress of a former Benedictine monastery, [Kaštilac,](https://en.wikipedia.org/wiki/Ka%C5%A1tilac) which became a popular spot to check out after it was featured in the Game of Thrones television series. 
+
+![](images/Split/split9.png)
+
+![](images/Split/split14.png)
+
+![](images/Split/split8.png)
+
+In another suburb of Split can be found the ruins of [Solin,](https://en.wikipedia.org/wiki/Solin) or ancient Salona, the birthplace of Roman Emperor Diocletian. It's usually pretty empty with just a few dogwalkers and is a great place to wander around if you are fascinated by ancient civilizations, giving one a place to daydream without large crowds.
+
+![](images/Split/split6.png)
+
+The Split Archaeological Museum isn't particularly good but has interesting artifacts from the Avars, which was something I hadn't previously seen. You can see an impressive Roman sarcophagus here.
+
+![](images/Split/split5.png)

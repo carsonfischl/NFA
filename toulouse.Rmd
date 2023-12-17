@@ -1,0 +1,26 @@
+---
+title: "Toulouse, France"
+---
+
+The Pink City.
+
+```{r out.width='100%', echo=FALSE}
+basiliqueSaintSernin <- paste("<b>Basilique Saint-Sernin</b>")
+convent <- paste("<b>Convent des Jacobins</b>")
+capitole <- paste("<b>Capitole</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(1.432887, 43.600720, zoom = 14) %>%
+  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = basiliqueSaintSernin) %>% # Basilique Saint-Sernin
+  addMarkers(1.439878, 43.603737, icon = greenDotIcon, popup = convent) %>% # Convent des Jacobins
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = capitole)  # Capitole
+```
+
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("1 day", "TER from Bordeaux Saint-Jean", "Saint-Sernin Basilica, Jacobin Convent", "Café Perle")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
