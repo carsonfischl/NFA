@@ -4,12 +4,20 @@ navbar:
   left:
     - text: "About"
       href: about.html
+    - text: " Africa"
+      icon: fa-earth-africa
+      menu:
+        - text: "Morocco"
+        - text: "Marrakesh"
+          href: bergama.html
     - text: " Asia"
       icon: fa-earth-asia
       menu:
         - text: "Turkïye"
         - text: "Bergama"
           href: bergama.html
+        - text: "Gorëme"
+          href: goreme.html
         - text: "Istanbul"
           href: instanbul.html
         - text: "Izmir"
