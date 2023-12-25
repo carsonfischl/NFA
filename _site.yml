@@ -16,6 +16,8 @@ navbar:
         - text: "Turkïye"
         - text: "Bergama"
           href: bergama.html
+        - text: "Bursa"
+          href: bursa.html
         - text: "Gorëme"
           href: goreme.html
         - text: "Istanbul"
