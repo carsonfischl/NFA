@@ -9,7 +9,7 @@ navbar:
       menu:
         - text: "Morocco"
         - text: "Marrakesh"
-          href: bergama.html
+          href: marrakesh.html
     - text: " Asia"
       icon: fa-earth-asia
       menu:
