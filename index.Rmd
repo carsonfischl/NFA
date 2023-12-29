@@ -30,6 +30,12 @@ greenDotIcon <- makeIcon(
 )
 leaflet() %>% addTiles() %>%
   setView(-40.205154, 19.315355, zoom = 2) %>%
+  # Africa
+  # Morocco
+  addMarkers(-9.765129, 31.508956, icon = greenDotIcon) %>% # Essaouira, Morocco
+  addMarkers(-7.987035, 31.627309, icon = greenDotIcon) %>% # Marrakesh, Morocco
+  addMarkers(-4.014088, 31.099917, icon = greenDotIcon) %>% # Merzouga, Morocco
+  addMarkers(-6.919241, 30.924812, icon = greenDotIcon) %>% # Ouarzazate, Morocco
   # Europe
   # Belgium
   addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium
