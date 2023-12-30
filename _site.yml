@@ -8,8 +8,14 @@ navbar:
       icon: fa-earth-africa
       menu:
         - text: "Morocco"
+        - text: "Essaouira"
+          href: essaouira.html
         - text: "Marrakesh"
           href: marrakesh.html
+        - text: "Merzouga"
+          href: merzouga.html
+        - text: "Ouarzazate"
+          href: ouarzazate.html
     - text: " Asia"
       icon: fa-earth-asia
       menu:
