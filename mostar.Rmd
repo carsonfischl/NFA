@@ -17,8 +17,8 @@ leaflet() %>% addTiles() %>%
 ![](images/Mostar/mostar2.png)
 
 ```{r echo = FALSE, results = 'asis'}
-titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("2 days", "3 hours by bus from Split", "Stari Most (Old Bridge)", "Oscar")
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("2 days", "3 hours by bus from Split", "Stari Most (Old Bridge)", "Bosnian coffee", "Oscar")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
