@@ -119,7 +119,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
-thumbnail("Merzouga", "images/Merzouga/merzouga37.png", "./merzouga.html")
+thumbnail("Merzouga, Morocco", "images/Merzouga/merzouga37.png", "./merzouga.html")
 ``` 
 <br />
 <br />
@@ -147,7 +147,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
-thumbnail("Mostar", "images/Mostar/mostar2.png", "./mostar.html")
+thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar.html")
 ```
 <br />
 <br />
@@ -174,8 +174,8 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
-thumbnail("Dubrovnik", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
-thumbnail("Split", "images/split/split4.png", "./split.html")
+thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
+thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
 ```
 <br />
 <br />
@@ -202,15 +202,15 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
-thumbnail("Bayonne", "images/Bayonne/bayonne1.png", "./bayonne.html")
-thumbnail("Biarritz", "images/Biarritz/biarritz7.png", "./biarritz.html")
-thumbnail("Bordeaux", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
-thumbnail("Langon", "images/Langon/langon8.png", "./langon.html")
-thumbnail("La Rochelle", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
-thumbnail("Le Havre", "images/LeHavre/lehavre8.png", "./le-havre.html")
-thumbnail("Lille", "images/Lille/lille7.png", "./lille.html")
-thumbnail("Mont-Saint-Michel", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
-thumbnail("Saint-Émilion", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
+thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
+thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
+thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
+thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
+thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
+thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
+thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
+thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
+thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 ```
 <br />
 <br />
