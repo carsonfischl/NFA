@@ -1,0 +1,19 @@
+---
+title: "Merzouga, Morocco"
+---
+
+On the edge of the Sahara.
+
+```{r out.width='100%', echo=FALSE}
+ksarSania <- paste("<b>Ksar Sania</b>")
+busStop <- paste("<b>Bus Stop</b>")
+ergChebbi <- paste("<b>Erg Chebbi</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-4.014088, 31.099917, zoom = 13) %>%
+  addMarkers(-4.008162, 31.084677, icon = greenDotIcon, popup = ksarSania) %>% # Ksar Sania
+  addMarkers(-4.017317, 31.098758, icon = greenDotIcon, popup = busStop) %>% # Bus stop
+  addMarkers(-3.986059, 31.083429, icon = greenDotIcon, popup = ergChebbi) # Erg Chebbi
+```
+
+![](images/)
