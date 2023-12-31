@@ -8,6 +8,11 @@ Carpe diem
 
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
+#Africa
+#Morocco
+merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
+
+#Europe
 #Bosnia & Herzegovina 
 mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
 #Croatia
@@ -29,12 +34,12 @@ greenDotIcon <- makeIcon(
   iconAnchorX = 10, iconAnchorY = 10
 )
 leaflet() %>% addTiles() %>%
-  setView(-40.205154, 19.315355, zoom = 2) %>%
+  setView(10.137634, 35.206355, zoom = 2) %>%
   # Africa
   # Morocco
   addMarkers(-9.765129, 31.508956, icon = greenDotIcon) %>% # Essaouira, Morocco
   addMarkers(-7.987035, 31.627309, icon = greenDotIcon) %>% # Marrakesh, Morocco
-  addMarkers(-4.014088, 31.099917, icon = greenDotIcon) %>% # Merzouga, Morocco
+  addMarkers(-4.014088, 31.099917, icon = greenDotIcon, popup = merzougaCont) %>% # Merzouga, Morocco
   addMarkers(-6.919241, 30.924812, icon = greenDotIcon) %>% # Ouarzazate, Morocco
   # Europe
   # Belgium
