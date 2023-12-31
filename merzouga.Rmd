@@ -18,6 +18,8 @@ leaflet() %>% addTiles() %>%
 
 ![](images/Merzouga/merzouga22.png)
 
+Merzouga is a popular town for accessing [Erg Chebbi](https://en.wikipedia.org/wiki/Erg_Chebbi), ergs being large areas of sand dunes that provide the stereotypical landscape of the Sahara (although much of the Sahara is not ergs). Morocco's other large erg, Erg Chigaga, is in the south near Mhamid and is more difficult to access.
+
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
 values <- c("2 days", "8 hours by bus from Ouarzazate", "Erg Chebbi", "Ksar Sania")
@@ -27,8 +29,6 @@ kable(df, col.names = NULL)
 ```
 
 ![](images/Merzouga/merzouga37.png)
-
-Merzouga is a popular town for accessing [Erg Chebbi](https://en.wikipedia.org/wiki/Erg_Chebbi), ergs being large areas of sand dunes that provide the stereotypical landscape of the Sahara (although much of the Sahara is not ergs). Morocco's other large erg, Erg Chigaga, is in the south near Mhamid and is more difficult to access.
 
 ![](images/Merzouga/merzouga19.png)
 
