@@ -1,0 +1,35 @@
+---
+title: "Marrakesh, Morocco"
+---
+
+The souks of Marrakesh beat the Grand Bazaar in Istanbul any day.
+
+```{r out.width='100%', echo=FALSE}
+kutubiyyaMosque <- paste("<b>Kutubiyya Mosque</b>")
+bahiaPalace <- paste("<b>Bahia Palace</b>")
+badiPalace <- paste("<b>Badi Palace</b>")
+bachaCoffee <- paste("<b>Bacha Coffee</b>")
+trainStation <- paste("<b>Train Station</b>")
+jemaaElFenaa <- paste("<b>Jemaa el-Fenaa</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-4.014088, 31.099917, zoom = 13) %>%
+  addMarkers(-4.008162, 31.084677, icon = greenDotIcon, popup = kutubiyyaMosque) %>% # Kutubiyya Mosque
+  addMarkers(-4.017317, 31.098758, icon = greenDotIcon, popup = bahiaPalace) %>% # Bahia Palace
+  addMarkers(-4.008162, 31.084677, icon = greenDotIcon, popup = badiPalace) %>% # Badi Palace
+  addMarkers(-4.017317, 31.098758, icon = greenDotIcon, popup = bachaCoffee) %>% # Bacha Coffee
+  addMarkers(-4.008162, 31.084677, icon = greenDotIcon, popup = trainStation) %>% # Train Station
+  addMarkers(-3.986059, 31.083429, icon = greenDotIcon, popup = jemaaElFenaa) # Jemaa el-Fenaa
+```
+
+![](images/m)
+
+fff
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("2.5 days", "3 hour flight from Bordeaux", "Kutubiyya Mosque, Bahia Palace, Jemaa el-Fenaa, Badi Palace", "Msemmen, Tagines, Bissara", "Bacha Coffee")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
