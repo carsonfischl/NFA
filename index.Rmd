@@ -10,8 +10,10 @@ Carpe diem
 library(leaflet)
 #Africa
 #Morocco
+essaouiraCont <- paste("<b><a href='./merzouga.html'>Essaouira, Morocco</a></b>")
+marrakeshCont <- paste("<b><a href='./marrakesh.html'>Marrakesh, Morocco</a></b>")
 merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
-
+ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a></b>")
 #Europe
 #Bosnia & Herzegovina 
 mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
@@ -37,10 +39,10 @@ leaflet() %>% addTiles() %>%
   setView(10.137634, 35.206355, zoom = 2) %>%
   # Africa
   # Morocco
-  addMarkers(-9.765129, 31.508956, icon = greenDotIcon) %>% # Essaouira, Morocco
-  addMarkers(-7.987035, 31.627309, icon = greenDotIcon) %>% # Marrakesh, Morocco
+  addMarkers(-9.765129, 31.508956, icon = greenDotIcon, popup = essaouiraCont) %>% # Essaouira, Morocco
+  addMarkers(-7.987035, 31.627309, icon = greenDotIcon, popup = marrakeshCont) %>% # Marrakesh, Morocco
   addMarkers(-4.014088, 31.099917, icon = greenDotIcon, popup = merzougaCont) %>% # Merzouga, Morocco
-  addMarkers(-6.919241, 30.924812, icon = greenDotIcon) %>% # Ouarzazate, Morocco
+  addMarkers(-6.919241, 30.924812, icon = greenDotIcon, popup = ouarzazateCont) %>% # Ouarzazate, Morocco
   # Europe
   # Belgium
   addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium
