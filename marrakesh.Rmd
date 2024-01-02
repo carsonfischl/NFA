@@ -23,6 +23,7 @@ leaflet() %>% addTiles() %>%
 ```
 
 ![](images/Marrakesh/marrakesh11.png)
+
 Located in the foothills of the Atlas mountains, Marrakesh is a bussling city of many sights, sounds and smells. Many French, Belgian, and German tourists come to the city for adventurous vacations, with its major international airport, palaces, and tours to Morocco's interior.
 
 ```{r echo = FALSE, results = 'asis'}

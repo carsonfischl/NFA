@@ -29,3 +29,35 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](images/Essaouira/essaouira7.png)
+
+Local fishermen pull a variety of creatures out of the ocean. Seafood is very common in the area, especially fried fish.
+
+![](images/Essaouira/essaouira21.png)
+
+![](images/Essaouira/essaouira9.png)
+
+The city walls were designed and built by Europeans employed by the Sultan of Morocco during the 18th century. [Théodore Cornut,](https://en.wikipedia.org/wiki/Th%C3%A9odore_Cornut) who also designed the fortifications of the town of Roussilon in France, did much of the design. The labour was mostly performed by captured Europeans from the 1765 failed [Larache Expedition.](https://en.wikipedia.org/wiki/Larache_expedition)
+
+![](images/Essaouira/essaouira17.png)
+
+Essaouira is known for its Thuya wood crafts, which are delicately worked by local artisans and have beautiful burl-like patterns.
+
+![](images/Essaouira/essaouira19.png)
+
+![](images/Essaouira/essaouira14.png)
+
+Soccer games, camel and horse rides are popular on the beach. Going far enough down the coast, you can find the sand-covered ruins of the 18th century Dar Sultan Palace near the hamlet of Diabat.
+
+![](images/Essaouira/essaouira23.png)
+
+![](images/Essaouira/essaouira12.png)
+
+![](images/Essaouira/essaouira3.png)
+
+Stray cats can be found sunning themselves all over town.
+
+![](images/Essaouira/essaouira6.png)
+
+![](images/Essaouira/essaouira4.png)
