@@ -1,0 +1,31 @@
+---
+title: "Essaouira, Morocco"
+---
+
+Rock out good music and get yourself some Thuya wood souvenirs.
+
+```{r out.width='100%', echo=FALSE}
+walls <- paste("<b>Walls</b>")
+harbourScala <- paste("<b>Harbour Scala</b>")
+beach <- paste("<b>Beach</b>")
+darSultanPalace <- paste("<b>Dar Sultan Palace</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-9.758116, 31.510947, zoom = 13) %>%
+  addMarkers(-9.772114, 31.515359, icon = greenDotIcon, popup = walls) %>% # Walls
+  addMarkers(-9.773779, 31.509308, icon = greenDotIcon, popup = harbourScala) %>% # Harbour Scala
+  addMarkers(-9.768923, 31.483578, icon = greenDotIcon, popup = darSultanPalace) %>% # Dar Sultan Palace
+  addMarkers(-9.765605, 31.505704, icon = greenDotIcon, popup = beach) # Beach
+```
+
+![](images/Essaouira/essaouira11.png)
+
+Essaouira is a popular beach town with foreigners for good reason - the beaches are nice, the atmosphere is vibrant without being as overwhelming as Marrakesh, and there is good tourist infrastructure, with an airport and regular bus service. In 1969, Jimi Hendrix vacationed in the town, leading to many restaurants and hotels championing him and a connection to the hippie movement.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("3 days", "3 hour bus ride from Marrakesh", "City walls, Dar Sultan Palace", "Msemmen, tagines, local friend fish", "Pasta Baladin (great Italian food), Les Anges")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```

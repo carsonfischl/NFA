@@ -22,7 +22,7 @@ Ouarzazate is an ancient Berber city in the Atlas Mountains, famous for its old 
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
-values <- c("2.5 days", "3 hour drive from Marrakesh", "Aït Benhaddou, Drâa Valley, Kasbah Taourirt", "Msemmen, Tagines", "Café Voyageur")
+values <- c("2.5 days", "3 hour drive from Marrakesh", "Aït Benhaddou, Drâa Valley, Kasbah Taourirt", "Msemmen, tagines", "Café Voyageur")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)

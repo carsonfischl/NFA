@@ -121,10 +121,24 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
+thumbnail("Essaouira, Morocco", "images/Essaouira/essaouira15.png", "./essaouira.html")
 thumbnail("Marrakesh, Morocco", "images/Marrakesh/marrakesh11.png", "./marrakesh.html")
 thumbnail("Merzouga, Morocco", "images/Merzouga/merzouga37.png", "./merzouga.html")
 thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarzazate.html")
 ``` 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
@@ -216,6 +230,44 @@ thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
 thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
 thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 ```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
