@@ -119,6 +119,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
       )
   )
 }
+thumbnail("Marrakesh, Morocco", "images/Marrakesh/marrakesh11.png", "./marrakesh.html")
 thumbnail("Merzouga, Morocco", "images/Merzouga/merzouga37.png", "./merzouga.html")
 ``` 
 <br />
