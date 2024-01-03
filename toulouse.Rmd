@@ -16,11 +16,63 @@ leaflet() %>% addTiles() %>%
   addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = capitole)  # Capitole
 ```
 
+![](images/Toulouse/toulouse49.png)
+Made terracotta roof tiles and unique southern French Gothic architecture, [Toulouse](https://en.wikipedia.org/wiki/Toulouse) is one of France's major cities and a great place to spend a weekend. The major sector in the region is aerospace, with Airbus parts coming together from all over France to be assembled near the airport, west of the city.
 
 ```{r echo = FALSE, results = 'asis'}
-titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
-values <- c("1 day", "TER from Bordeaux Saint-Jean", "Saint-Sernin Basilica, Jacobin Convent", "Café Perle")
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("1 day", "TER from Bordeaux Saint-Jean", "Saint-Sernin Basilica, Jacobin Convent", "Cassoulet, Saucisse de Toulouse", "Café Perle")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](images/Toulouse/toulouse11.png)
+
+![](images/Toulouse/toulouse13.png)
+
+![](images/Toulouse/toulouse47.png)
+
+[Saint-Sernin](https://en.wikipedia.org/wiki/Basilica_of_Saint-Sernin,_Toulouse) is a major basilica in the center of town and one of the nicest religious buildings I've ever seen.
+
+![](images/Toulouse/toulouse19.png)
+
+The [Capitole](https://en.wikipedia.org/wiki/Capitole_de_Toulouse) is the town hall and the site of several famous events in the city's history, such as a 1562 standoff between Protestants and Catholics during the French Wars of Religion.
+
+![](images/Toulouse/toulouse8.png)
+
+The back side of the Capitole.
+
+![](images/Toulouse/toulouse6.png)
+
+I dined at Café Perle, which has an amazing take on Sunday brunch, which includes poké and cake for €25. This was after a couple mediocre experiences at other local cafés, so it's highly recommended.
+
+![](images/Toulouse/toulouse10.png)
+
+![](images/Toulouse/toulouse9.png)
+
+![](images/Toulouse/toulouse7.png)
+
+![](images/Toulouse/toulouse22.png)
+
+The [Dominican convent](https://en.wikipedia.org/wiki/Church_of_the_Jacobins) is another symbol of the city, with it's unmistakable geometric tower. The Dominicans (or Jacobins), were founded in Toulouse in 1215, so some argue this is the mother church of the Order, although this is disputed. The building fell into disrepair following the Revolution, however it underwent major restoration work during the 20th century, and the cloister is now a popular reading and relaxation spot.
+
+![](images/Toulouse/toulouse28.png)
+
+![](images/Toulouse/toulouse24.png)
+
+![](images/Toulouse/toulouse37.png)
+
+The Garonne is quite wide at this point and is crossed by several bridges. Pictured is Pont Neuf (it's not neuf at all).
+
+![](images/Toulouse/toulouse31.png)
+
+The [Canal du Midi](https://en.wikipedia.org/wiki/Canal_du_Midi) was one of the major engineering projects undertaken by the government of Louis XIV and connects the Atlantic to the Mediterranean. 
+
+![](images/Toulouse/toulouse51.png)
+
+![](images/Toulouse/toulouse42.png)
+
+![](images/Toulouse/toulouse3.png)
+
+![](images/Toulouse/toulouse50.png)
