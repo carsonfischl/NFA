@@ -224,13 +224,13 @@ thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
-thumbnail("La Rochelle, France", "images/LaRochelle/larochelle5.png", "./la-rochelle.html")
+thumbnail("La Rochelle, France", "images/LaRochelle/larochelle6.png", "./la-rochelle.html")
 thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
-thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html")
+thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html") 
 thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
 thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
 thumbnail("Saint-Malo, France", "images/SaintMalo/saintmalo1.png", "./saint-malo.html")
-thumbnail("Toulouse, France", "images/Toulouse/toulouse7.png", "./toulouse.html")
+thumbnail("Toulouse, France", "images/Toulouse/toulouse19.png", "./toulouse.html")
 ```
 <br />
 <br />
