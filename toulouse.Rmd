@@ -7,12 +7,14 @@ The Pink City.
 ```{r out.width='100%', echo=FALSE}
 basiliqueSaintSernin <- paste("<b>Basilique Saint-Sernin</b>")
 convent <- paste("<b>Convent des Jacobins</b>")
+citeDeLespace <- paste("<b>Cité de L'Espace</b>")
 capitole <- paste("<b>Capitole</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(1.432887, 43.600720, zoom = 14) %>%
+  setView(1.432887, 43.600720, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = basiliqueSaintSernin) %>% # Basilique Saint-Sernin
   addMarkers(1.439878, 43.603737, icon = greenDotIcon, popup = convent) %>% # Convent des Jacobins
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = citeDeLespace) %>% # Cité de L'Espace
   addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = capitole)  # Capitole
 ```
 
@@ -48,8 +50,6 @@ The back side of the Capitole.
 I dined at Café Perle, which has an amazing take on Sunday brunch, which includes poké and cake for €25. This was after a couple mediocre experiences at other local cafés, so it's highly recommended.
 
 ![](images/Toulouse/toulouse10.png)
-
-![](images/Toulouse/toulouse9.png)
 
 ![](images/Toulouse/toulouse7.png)
 
