@@ -1,0 +1,27 @@
+---
+title: "Saint-Malo, France"
+---
+
+“A master in the art of living draws no sharp distinction between her work and her play; her labor and her leisure; her mind and her body; her education and her recreation. She hardly knows which is which. She simply pursues her vision of excellence through whatever she is doing, and leaves others to determine if she is working or playing. To herself, she always appears to be doing both.”
+
+```{r out.width='100%', echo=FALSE}
+kamerlengoCastle <- paste("<b>Kamerlengo Castle</b>")
+trogirCathedral <- paste("<b>Trogir Cathedral</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(16.250705, 43.517165, zoom = 14) %>%
+  addMarkers(16.247383, 43.515339, icon = greenDotIcon, popup = kamerlengoCastle) %>% # Kamerlengo Castle
+  addMarkers(16.251141, 43.516816, icon = greenDotIcon, popup = trogirCathedral) # Trogir Cathedral
+```
+
+![](./images/SaintMalo/saintmalo17.png)
+
+The last stop on Split's public bus service, [Trogir](https://en.wikipedia.org/wiki/Trogir) is a hamlet of the city and well-worth a day trip for its gorgeous Venetian architecture. The city was founded by Greek colonists as Tragurion in the 3rd century BC and has been inhabited ever since.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "1 hour bus ride on public transit from Split", "Trogir Cathedral, Kamerlengo Castle", "Pašticada", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```

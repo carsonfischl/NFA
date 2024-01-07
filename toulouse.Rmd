@@ -19,6 +19,7 @@ leaflet() %>% addTiles() %>%
 ```
 
 ![](images/Toulouse/toulouse49.png)
+
 Made terracotta roof tiles and unique southern French Gothic architecture, [Toulouse](https://en.wikipedia.org/wiki/Toulouse) is one of France's major cities and a great place to spend a weekend. The major sector in the region is aerospace, with Airbus parts coming together from all over France to be assembled near the airport, west of the city.
 
 ```{r echo = FALSE, results = 'asis'}

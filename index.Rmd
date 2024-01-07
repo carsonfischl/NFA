@@ -20,6 +20,7 @@ mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a>
 #Croatia
 dubrovnikCont <- paste("<b><a href='./dubrovnik.html'>Dubrovnik, Croatia</a></b>")
 splitCont <- paste("<b><a href='./split.html'>Split, Croatia</a></b>")
+trogirCont <- paste("<b><a href='./trogir.html'>Trogir, Croatia</a></b>")
 #France
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
 biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
@@ -30,6 +31,8 @@ leHavreCont <- paste("<b><a href='./le-havre.html'>Le Havre, France</a></b>")
 lilleCont <- paste("<b><a href='./lille.html'>Lille, France</a></b>")
 msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, France</a></b>")
 saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
+toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
+
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
   iconWidth = 10, iconHeight = 10,
@@ -69,7 +72,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(2.3522, 48.8566, icon= greenDotIcon) %>% # Paris, France
   addMarkers(-0.1557, 44.8944, icon= greenDotIcon, popup = saintEmilionCont) %>% # Saint-Émilion, France
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon) %>% # Saint-Malo, France
-  addMarkers(1.4442, 43.6047, icon= greenDotIcon) %>% # Toulouse, France
+  addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
   # Netherlands
   addMarkers(4.9041, 52.3676, icon = greenDotIcon) %>% # Amsterdam, Netherlands
   #Austria
