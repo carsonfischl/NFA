@@ -2,7 +2,7 @@
 title: "Essaouira, Morocco"
 ---
 
-Rock out good music and get yourself some Thuya wood souvenirs.
+Rock out to good music and get yourself some Thuya wood souvenirs.
 
 ```{r out.width='100%', echo=FALSE}
 walls <- paste("<b>Walls</b>")

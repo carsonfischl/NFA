@@ -4,23 +4,31 @@ title: "Saint-Malo, France"
 
 “A master in the art of living draws no sharp distinction between her work and her play; her labor and her leisure; her mind and her body; her education and her recreation. She hardly knows which is which. She simply pursues her vision of excellence through whatever she is doing, and leaves others to determine if she is working or playing. To herself, she always appears to be doing both.”
 
+- François-René de Chateaubriand
+
 ```{r out.width='100%', echo=FALSE}
-kamerlengoCastle <- paste("<b>Kamerlengo Castle</b>")
-trogirCathedral <- paste("<b>Trogir Cathedral</b>")
+grandBe <- paste("<b>Grand Bé</b>")
+petitBe <- paste("<b>Petit Bé</b>")
+tourSolidor <- paste("<b>Tour Solidor</b>")
+aquarium <- paste("<b>Grand Aquarium de Saint-Malo</b>")
+catedralDeSaintMalo <- paste("<b>Catédral de Saint-Malo</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(16.250705, 43.517165, zoom = 14) %>%
-  addMarkers(16.247383, 43.515339, icon = greenDotIcon, popup = kamerlengoCastle) %>% # Kamerlengo Castle
-  addMarkers(16.251141, 43.516816, icon = greenDotIcon, popup = trogirCathedral) # Trogir Cathedral
+  setView(-2.006611, 48.646508, zoom = 14) %>%
+  addMarkers(-2.033264, 48.652338, icon = greenDotIcon, popup = grandBe) %>% # Grand Bé
+  addMarkers(-2.038536, 48.652559, icon = greenDotIcon, popup = petitBe) %>% # Petit Bé
+  addMarkers(-2.026055, 48.634029, icon = greenDotIcon, popup = tourSolidor) %>% # Tour Solidor
+  addMarkers(-1.994400, 48.619403, icon = greenDotIcon, popup = aquarium) %>% # Grand Aquarium de Saint-Malo
+  addMarkers(-2.025518, 48.649479, icon = greenDotIcon, popup = catedralDeSaintMalo) # Saint-Malo Cathedral
 ```
 
 ![](./images/SaintMalo/saintmalo17.png)
 
-The last stop on Split's public bus service, [Trogir](https://en.wikipedia.org/wiki/Trogir) is a hamlet of the city and well-worth a day trip for its gorgeous Venetian architecture. The city was founded by Greek colonists as Tragurion in the 3rd century BC and has been inhabited ever since.
+Rebuilt following extensive bombing during the Second World War, Saint-Malo, alongside Nice and Biarritz, has a reputation as one of France's premier vacation spots. 
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("Two days", "1 hour bus ride on public transit from Split", "Trogir Cathedral, Kamerlengo Castle", "Pašticada", "N/A")
+values <- c("Two days", "5 hour drive from Paris", "City ramparts, Grand aquarium", "Crêpes", "Hôtel Chateaubriand")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
