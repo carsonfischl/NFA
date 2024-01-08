@@ -12,7 +12,7 @@ leaflet() %>% addTiles() %>%
 
 ![](./images/Plitvice/plitvice16.png)
 
-One of the most hydrologically interesting places in the world, Plitvice Lakes National Park comprises an extensive lake system, contained by porous rock barriers.
+One of the most hydrologically interesting places in the world, Plitvice Lakes National Park comprises an extensive lake system, contained by porous rock barriers. The travertine pools cascade into one another, leading to impressive series of waterfalls. This place was definitely a highlight of my Croatia trip. 
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
@@ -21,3 +21,21 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+The park is also a breeding ground for the [common European adder](https://en.wikipedia.org/wiki/Vipera_berus) and [horned viper,](https://en.wikipedia.org/wiki/Vipera_ammodytes) in addition to numerous other species of reptile and the Eurasian lynx. These vipers are ovoviviparous (the eggs hatch inside the mother) and gives birth to live young. Mothers are known to climb into trees to avoid being bitten by their own young.
+
+![](./images/Plitvice/plitvice24.png)
+
+![](./images/Plitvice/plitvice14.png)
+
+View of the lower lakes.
+
+![](./images/Plitvice/plitvice26.png)
+
+The largest falls in the park, near the lower lake system.
+
+![](./images/Plitvice/plitvice28.png)
+
+View of the largest upper lake.
+
+![](./images/Plitvice/plitvice3.png)

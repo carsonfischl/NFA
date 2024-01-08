@@ -197,7 +197,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
-thumbnail("Plitvice Lakes, Croatia", "images/Plitvice/plitvice16.png", "./plitvice.html")
+thumbnail("Plitvice Lakes, Croatia", "images/Plitvice/plitvice24.png", "./plitvice.html")
 thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
 thumbnail("Trogir, Croatia", "images/Trogir/trogir5.png", "./trogir.html")
 ```
