@@ -19,6 +19,7 @@ ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a><
 mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
 #Croatia
 dubrovnikCont <- paste("<b><a href='./dubrovnik.html'>Dubrovnik, Croatia</a></b>")
+plitviceCont <- paste("<b><a href='./plitvice.html'>Plitvice Lakes, Croatia</a></b>")
 splitCont <- paste("<b><a href='./split.html'>Split, Croatia</a></b>")
 trogirCont <- paste("<b><a href='./trogir.html'>Trogir, Croatia</a></b>")
 #France
@@ -57,9 +58,9 @@ leaflet() %>% addTiles() %>%
   addMarkers(17.8078, 43.3438, icon = greenDotIcon, popup = mostarCont) %>% # Mostar, Bosnia & Herzegovina
   # Croatia
   addMarkers(16.4435, 43.5147, icon = greenDotIcon, popup = splitCont) %>% # Split, Croatia
-  addMarkers(15.5820, 44.8654, icon = greenDotIcon) %>% # Plitvice Lakes NP, Croatia
+  addMarkers(15.5820, 44.8654, icon = greenDotIcon, popup = plitviceCont) %>% # Plitvice Lakes NP, Croatia
   addMarkers(18.0944, 42.6507, icon = greenDotIcon, popup = dubrovnikCont) %>% # Dubrovnik, Croatia
-  addMarkers(16.2502, 43.5164, icon = greenDotIcon) %>% # Trogir, Croatia
+  addMarkers(16.2502, 43.5164, icon = greenDotIcon, popup = trogirCont) %>% # Trogir, Croatia
   # France
   addMarkers(-1.4748, 43.4929, icon= greenDotIcon, popup = bayonneCont) %>% # Bayonne, France
   addMarkers(-1.5586, 43.4832, icon= greenDotIcon, popup = biarritzCont) %>% # Biarritz, France
@@ -196,9 +197,23 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
+thumbnail("Plitvice Lakes, Croatia", "images/Plitvice/plitvice16.png", "./plitvice.html")
 thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
 thumbnail("Trogir, Croatia", "images/Trogir/trogir5.png", "./trogir.html")
 ```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />

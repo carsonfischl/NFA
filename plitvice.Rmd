@@ -1,3 +1,23 @@
 ---
 title: "Plitvice Lakes National Park, Croatia"
 ---
+
+Watch out for the tree snakes.
+
+```{r out.width='100%', echo=FALSE}
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(15.604151, 44.878600, zoom = 13)
+```
+
+![](./images/Plitvice/plitvice16.png)
+
+One of the most hydrologically interesting places in the world, Plitvice Lakes National Park comprises an extensive lake system, contained by porous rock barriers.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "5 hour drive from Paris", "City ramparts, Grand aquarium", "Crêpes", "Hôtel Chateaubriand")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
