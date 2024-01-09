@@ -9,7 +9,7 @@ cathedraleSaintMarie <- paste("<b>Cathédrale Saint-Marie</b>")
 gareSaintEsprit <- paste("<b>Gare Saint-Esprit</b>")
 pontSaintEsprit <- paste("<b>Pont Saint-Esprit</b>")
 library(leaflet)
-greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 10, iconAnchorY = 10)
+greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 0, iconAnchorY = 0)
 leaflet() %>% addTiles() %>%
   setView(-1.4748, 43.4929, zoom = 15) %>%
   addMarkers(-1.471736, 43.494345, icon = greenDotIcon, popup = pontSaintEsprit) %>%  # Pont Saint-Esprit

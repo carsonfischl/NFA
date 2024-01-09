@@ -17,7 +17,7 @@ gareSaintJean <- paste("<b>Gare Saint-Jean</b>")
 monumentAuxGirondins <- paste("<b>Monument aux Girondins</b>")
 porteDeBourgogne <- paste("<b>Porte de Bourgogne</b>")
 library(leaflet)
-greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 10, iconAnchorY = 10)
+greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 0, iconAnchorY = 0)
 leaflet() %>% addTiles() %>%
   setView(-0.5792, 44.8378, zoom = 13) %>%
   addMarkers(-0.577783, 44.837643, icon = greenDotIcon, popup = cathedraleSaintAndre) %>% # Cathédrale Saint-André 

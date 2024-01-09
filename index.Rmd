@@ -37,8 +37,8 @@ toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
 
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
-  iconWidth = 10, iconHeight = 10,
-  iconAnchorX = 10, iconAnchorY = 10
+  iconWidth = 7, iconHeight = 7,
+  iconAnchorX = 0, iconAnchorY = 0
 )
 leaflet() %>% addTiles() %>%
   setView(10.137634, 35.206355, zoom = 2) %>%
@@ -160,16 +160,6 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <hr class="rounded">
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
-library(htmltools)
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = if (caption) "caption",
-            if (caption) title)
-      )
-  )
-}
 thumbnail("Oostende, Belgium", "images/Oostende/oostende.png", "./oostende.html")
 ```
 <br />
@@ -187,16 +177,6 @@ thumbnail("Oostende, Belgium", "images/Oostende/oostende.png", "./oostende.html"
 <hr class="rounded">
 <h3>Bosnia & Herzegovina</h3>
 ```{r out.width='100%', echo=FALSE}
-library(htmltools)
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = if (caption) "caption",
-            if (caption) title)
-      )
-  )
-}
 thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar.html")
 ```
 <br />
@@ -214,16 +194,6 @@ thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar
 <hr class="dotted">
 <h3>Croatia</h3>
 ```{r out.width='100%', echo=FALSE}
-library(htmltools)
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = if (caption) "caption",
-            if (caption) title)
-      )
-  )
-}
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
 thumbnail("Plitvice Lakes, Croatia", "images/Plitvice/plitvice24.png", "./plitvice.html")
 thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
@@ -257,16 +227,6 @@ thumbnail("Trogir, Croatia", "images/Trogir/trogir5.png", "./trogir.html")
 <hr class="dotted">
 <h3>France</h3>
 ```{r out.width='100%', echo=FALSE}
-library(htmltools)
-thumbnail <- function(title, img, href, caption = TRUE) {
-  div(class = "col-sm-4",
-      a(class = "thumbnail", title = title, href = href,
-        img(src = img),
-        div(class = if (caption) "caption",
-            if (caption) title)
-      )
-  )
-}
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
