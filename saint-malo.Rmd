@@ -11,7 +11,7 @@ grandBe <- paste("<b>Grand Bé</b>")
 petitBe <- paste("<b>Petit Bé</b>")
 tourSolidor <- paste("<b>Tour Solidor</b>")
 aquarium <- paste("<b>Grand Aquarium de Saint-Malo</b>")
-catedralDeSaintMalo <- paste("<b>Catédral de Saint-Malo</b>")
+cathedralDeSaintMalo <- paste("<b>Cathédral de Saint-Malo</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(-2.006611, 48.646508, zoom = 14) %>%
@@ -19,10 +19,10 @@ leaflet() %>% addTiles() %>%
   addMarkers(-2.038536, 48.652559, icon = greenDotIcon, popup = petitBe) %>% # Petit Bé
   addMarkers(-2.026055, 48.634029, icon = greenDotIcon, popup = tourSolidor) %>% # Tour Solidor
   addMarkers(-1.994400, 48.619403, icon = greenDotIcon, popup = aquarium) %>% # Grand Aquarium de Saint-Malo
-  addMarkers(-2.025518, 48.649479, icon = greenDotIcon, popup = catedralDeSaintMalo) # Saint-Malo Cathedral
+  addMarkers(-2.025518, 48.649479, icon = greenDotIcon, popup = cathedralDeSaintMalo) # Saint-Malo Cathedral
 ```
 
-![](./images/SaintMalo/saintmalo17.png)
+![](./images/SaintMalo/saintmalo18.png)
 
 Rebuilt following extensive bombing during the Second World War, Saint-Malo, alongside Nice and Biarritz, has a reputation as one of France's premier vacation spots. 
 
@@ -33,3 +33,35 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](./images/SaintMalo/saintmalo19.png)
+
+The [Cathédrale Saint-Vincent-de-Saragosse de Saint-Malo,](https://en.wikipedia.org/wiki/Saint-Malo_Cathedral) or Saint-Malo Cathedral, is a 12th century church that simultaneously blends into Saint-Malo's stone walls, yet towers above the city. 
+
+![](./images/SaintMalo/saintmalo42.png)
+
+It is worth taking the time to walk the city walls, which can be done in a couple hours. Mostly reconstructed in the 20th century, they are still extremely impressive and make one want to embark on a seafaring adventure.
+
+![](./images/SaintMalo/saintmalo47.png)
+
+![](./images/SaintMalo/saintmalo50.png)
+
+![](./images/SaintMalo/saintmalo31.png)
+
+![](./images/SaintMalo/saintmalo32.png)
+![](./images/SaintMalo/saintmalo52.png)
+
+In the south of town is [Tour Solidor,](https://en.wikipedia.org/wiki/Solidor_Tower) a 13th century defensive structure built by the Duke of Brittany to control access to the bay, as Saint-Malo, was resisting his authority at the time. It's a popular kayaking spot next to the neighbourhood of Saint-Servan today. There is also camping in the nearby park during most of the year.
+
+![](./images/SaintMalo/saintmalo9.png)
+![](./images/SaintMalo/saintmalo44.png)
+
+![](./images/SaintMalo/saintmalo24.png)
+
+Crêpes are globally known to be French, but are specifically from Brittany. These were from a different restaurant, however I recommend Hôtel Chateaubriand for breakfast.
+
+![](./images/SaintMalo/saintmalo4.png)
+
+![](./images/SaintMalo/saintmalo6.png)
+
+![](./images/SaintMalo/saintmalo7.png)
