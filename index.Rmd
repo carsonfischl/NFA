@@ -161,7 +161,7 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
-thumbnail("Oostende, Belgium", "images/Oostende/oostende.png", "./oostende.html")
+thumbnail("Ostend, Belgium", "images/Oostende/oostende.png", "./ostend.html")
 thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
 ```
 <br />
@@ -234,7 +234,7 @@ thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html"
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
 thumbnail("Langon, France", "images/Langon/langon8.png", "./langon.html")
 thumbnail("La Rochelle, France", "images/LaRochelle/larochelle6.png", "./la-rochelle.html")
-thumbnail("Le Havre, France", "images/LeHavre/lehavre8.png", "./le-havre.html")
+thumbnail("Le Havre, France", "images/LeHavre/lehavre2.png", "./le-havre.html")
 thumbnail("Lille, France", "images/Lille/lille7.png", "./lille.html") 
 thumbnail("Mont-Saint-Michel, France", "images/MontSaintMichel/msm1.png", "./mont-saint-michel.html")
 thumbnail("Saint-Émilion, France", "images/SaintEmilion/saintemilion17.png", "./saint-emilion.html")
