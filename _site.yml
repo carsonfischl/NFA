@@ -33,6 +33,22 @@ navbar:
     - text: " Europe"
       icon: fa-earth-europe
       menu:
+        - text: "Belgium"
+        - text: "Antwerp"
+          href: antwerp.html
+        - text: "Bruges"
+          href: bruges.html
+        - text: "Brussels"
+          href: brussels.html
+        - text: "Courtrai"
+          href: courtrai.html
+        - text: "Ghent"
+          href: ghent.html
+        - text: "Oostende"
+          href: oostende.html
+        - text: "Tournai"
+          href: tournai.html
+        - text: "---------"
         - text: "Bosnia & Herzegovina"
         - text: "Mostar"
           href: mostar.html
@@ -40,8 +56,12 @@ navbar:
         - text: "Croatia"
         - text: "Dubrovnik"
           href: dubrovnik.html
+        - text: "Plitvice Lakes"
+          href: plitvice.html
         - text: "Split"
           href: split.html
+        - text: "Trogir"
+          href: trogir.html
         - text: "---------"
         - text: "France"
         - text: "Bayonne"
@@ -68,12 +88,6 @@ navbar:
           href: saint-malo.html
         - text: "Toulouse"
           href: toulouse.html
-        - text: "---------"
-        - text: "Heading 2"
-        - text: "Page C"
-          href: page-c.html
-        - text: "Page D"
-          href: page-d.html
     - text: " North America"
       icon: fa-earth-americas
       menu:
@@ -84,16 +98,12 @@ navbar:
           href: ottawa.html
         - text: "---------"
         - text: "United States"
-        - text: "Page C"
-          href: page-c.html
-        - text: "Page D"
-          href: page-d.html
+        - text: "New York"
+          href: new-york.html
         - text: "---------"
         - text: "Mexico"
-        - text: "Page C"
-          href: page-c.html
-        - text: "Page D"
-          href: page-d.html
+        - text: "Puerto Vallarta"
+          href: puerto-vallarta.html
     - text: " South America"
       icon: fa-earth-americas
       menu:

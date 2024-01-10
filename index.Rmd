@@ -160,7 +160,9 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <hr class="rounded">
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
+thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
 thumbnail("Oostende, Belgium", "images/Oostende/oostende.png", "./oostende.html")
+thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
 ```
 <br />
 <br />
