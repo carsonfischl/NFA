@@ -15,6 +15,8 @@ marrakeshCont <- paste("<b><a href='./marrakesh.html'>Marrakesh, Morocco</a></b>
 merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
 ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a></b>")
 #Europe
+#Belgium
+tournaiCont <- paste("<b><a href='./tournai.html'>Tournai, Belgium</a></b>")
 #Bosnia & Herzegovina 
 mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
 #Croatia
@@ -54,7 +56,8 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.7303, 51.0500, icon = greenDotIcon) %>% # Ghent, Belgium
   addMarkers(3.2248, 51.2092, icon = greenDotIcon) %>% # Bruges, Belgium
   addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
-  addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium
+  addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium 
+  addMarkers(3.385895, 50.608391, icon = greenDotIcon, popup = tournaiCont) %>% # Tournai, Belgium
   # Bosnia & Herzegovina
   addMarkers(17.8078, 43.3438, icon = greenDotIcon, popup = mostarCont) %>% # Mostar, Bosnia & Herzegovina
   # Croatia
@@ -161,6 +164,7 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
+thumbnail("Bruges, Belgium", "images/Bruges/bruges25.png", "./bruges.html")
 thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
 thumbnail("Ostend, Belgium", "images/Ostend/oostende.png", "./ostend.html")
 thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")

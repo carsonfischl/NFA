@@ -6,7 +6,6 @@ The City of Light is unforgettable.
 
 ```{r out.width='100%', echo=FALSE}
 versailles <- paste("<b>Versailles</b>")
-library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(2.346940, 48.858885, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower

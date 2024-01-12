@@ -9,6 +9,7 @@ gravensteen <- paste("<b>Gravensteen</b>")
 versailles <- paste("<b>Versailles</b>")
 versailles <- paste("<b>Versailles</b>")
 versailles <- paste("<b>Versailles</b>")
+library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(3.716262, 51.050713, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
