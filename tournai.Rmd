@@ -11,7 +11,7 @@ grandPlace <- paste("<b>Grand-Place</b>")
 beffroiDeTournai <- paste("<b>Beffroi de Tournai</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(3.391294, 50.608308, zoom = 13) %>%
+  setView(3.391294, 50.608308, zoom = 15) %>%
   addMarkers(3.389788, 50.607075, icon = greenDotIcon, popup = cathedralOfOurLady) %>% # Cathedral of Our Lady
   addMarkers(3.383739, 50.612927, icon = greenDotIcon, popup = pontDesTrous) %>% # Pont De Trous
   addMarkers(3.388034, 50.605748, icon = greenDotIcon, popup = beffroiDeTournai) %>% # Beffroi de Tournai
