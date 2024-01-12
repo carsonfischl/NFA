@@ -1,0 +1,24 @@
+---
+title: "Ostend, Belgium"
+---
+
+The City of Light is unforgettable.
+
+```{r out.width='100%', echo=FALSE}
+versailles <- paste("<b>Versailles</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(2.346940, 48.858885, zoom = 13) %>%
+  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
+```
+
+Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One week, many long weekends", "7 hour flight from YYZ", "Eiffel Tower, Arc de Triomphe, Sacré Coeur, Versailles... too many things to mention", "Trianon", "Angelina")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```

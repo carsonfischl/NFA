@@ -1,0 +1,29 @@
+---
+title: "Tournai, Belgium"
+---
+
+The Frankish capital is not in France.
+
+```{r out.width='100%', echo=FALSE}
+cathedralOfOurLady <- paste("<b>Cathedral of Our Lady</b>")
+pontDesTrous <- paste("<b>Pont Des Trous</b>")
+grandPlace <- paste("<b>Grand-Place</b>")
+beffroiDeTournai <- paste("<b>Beffroi de Tournai</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(3.391294, 50.608308, zoom = 13) %>%
+  addMarkers(3.389788, 50.607075, icon = greenDotIcon, popup = cathedralOfOurLady) %>% # Cathedral of Our Lady
+  addMarkers(3.383739, 50.612927, icon = greenDotIcon, popup = pontDesTrous) %>% # Pont De Trous
+  addMarkers(3.388034, 50.605748, icon = greenDotIcon, popup = beffroiDeTournai) %>% # Beffroi de Tournai
+  addMarkers(3.386671, 50.606301, icon = greenDotIcon, popup = grandPlace) # Grand-Place
+```
+
+Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One day", "30 drive from Lille", "Cathedral of Our Lady, Beffroi de Tournai", "N/A", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```

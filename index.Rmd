@@ -160,10 +160,24 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <hr class="rounded">
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
+thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
 thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
-thumbnail("Ostend, Belgium", "images/Oostende/oostende.png", "./ostend.html")
+thumbnail("Ostend, Belgium", "images/Ostend/oostende.png", "./ostend.html")
 thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
 ```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />
