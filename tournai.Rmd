@@ -18,7 +18,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.386671, 50.606301, icon = greenDotIcon, popup = grandPlace) # Grand-Place
 ```
 
-Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+Once capital of the Frankish Empire, the famous Frankish ruler Childeric's tomb was found near Tournai in 1693. Despite being in Belgium today, the bejeweled items in the tomb would inspire French Imperial and Royal imagery for centuries afterwards.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")

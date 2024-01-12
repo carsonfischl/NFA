@@ -2,22 +2,25 @@
 title: "Ostend, Belgium"
 ---
 
-The City of Light is unforgettable.
+The European port you've never heard of.
 
 ```{r out.width='100%', echo=FALSE}
-versailles <- paste("<b>Versailles</b>")
+fortNapoleon <- paste("<b>Fort Napoléon</b>")
+cathedral <- paste("<b>Sint-Petrus-en-Pauluskerk</b>")
+railwayStation <- paste("<b>Railway Station</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(2.346940, 48.858885, zoom = 13) %>%
-  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
-  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
+  setView(2.924080, 51.229326, zoom = 13) %>%
+  addMarkers(2.934371, 51.238992, icon = greenDotIcon, popup = fortNapoleon) %>% # Fort Napoléon
+  addMarkers(2.926140, 51.227479, icon = greenDotIcon, popup = railwayStation) %>% # Railway Station
+  addMarkers(2.921210, 51.229588, icon = greenDotIcon, popup = cathedral) # Sint-Petrus-en-Pauluskerk
 ```
 
-Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+One of the largest city on the Belgian coast, Ostend was a major port in the Middle Ages, but has since been eclipsed by larger cities like Antwerp.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One week, many long weekends", "7 hour flight from YYZ", "Eiffel Tower, Arc de Triomphe, Sacré Coeur, Versailles... too many things to mention", "Trianon", "Angelina")
+values <- c("One day", "1 hour drive from Lille", "Fort Napoléon, Sint-Petrus-en-Pauluskerk", "Filet Américain", "Charcuterie Mazère")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
