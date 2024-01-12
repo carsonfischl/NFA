@@ -18,12 +18,38 @@ leaflet() %>% addTiles() %>%
   addMarkers(3.386671, 50.606301, icon = greenDotIcon, popup = grandPlace) # Grand-Place
 ```
 
-Once capital of the Frankish Empire, the famous Frankish ruler Childeric's tomb was found near Tournai in 1693. Despite being in Belgium today, the bejeweled items in the tomb would inspire French Imperial and Royal imagery for centuries afterwards.
+![](./images/Tournai/tournai.png)
+
+Once capital of the Frankish Empire, the famous Frankish ruler Childeric's tomb was found near Tournai in 1693. Despite being in Belgium today, the bejeweled items in the tomb would [inspire French Imperial and Royal imagery](https://www.hhantiquejewelry.com/napoleon-bees-jewelry-tomb-childeric-i-symbols-empire/) for centuries afterwards.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "30 drive from Lille", "Cathedral of Our Lady, Beffroi de Tournai", "N/A", "N/A")
+values <- c("One day", "30 drive from Lille", "Cathedral of Our Lady, Beffroi de Tournai", "Cuberdon", "N/A")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+The Cathedral of Our Lady is a UNESCO World Heritage Site and ornately carved with images of saints and martyrs. 
+
+![](./images/Tournai/tournai9.png)
+
+![](./images/Tournai/tournai10.png)
+
+![](./images/Tournai/tournai11.png)
+
+As with many Belgian and northern French towns, the city skyline is dominated by a beffroi, or belfry.
+
+![](./images/Tournai/tournai2.png)
+
+Tournai's beffroi is at one end of the Grand-Place, the triangular main square. 
+
+![](./images/Tournai/tournai6.png)
+
+Galette des Rois, a French/Belgian New Year's tradition - a bean is hidden in the cake and is found by the king, who is given a paper "crown." 
+
+![](./images/Tournai/tournai13.png)
+
+![](./images/Tournai/tournai14.png)
+
+![](./images/Tournai/tournai5.png)

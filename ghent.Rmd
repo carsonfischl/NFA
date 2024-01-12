@@ -2,22 +2,24 @@
 title: "Ghent, Belgium"
 ---
 
-The City of Light is unforgettable.
+Straight out of a medieval fantasy.
 
 ```{r out.width='100%', echo=FALSE}
+gravensteen <- paste("<b>Gravensteen</b>")
 versailles <- paste("<b>Versailles</b>")
-library(leaflet)
+versailles <- paste("<b>Versailles</b>")
+versailles <- paste("<b>Versailles</b>")
 leaflet() %>% addTiles() %>%
-  setView(2.346940, 48.858885, zoom = 13) %>%
+  setView(3.716262, 51.050713, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
   addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
 ```
 
-Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+One of Belgium's most popular tourist destinations alongside Bruges and Antwerp, Ghent was my favourite destination in Belgium. The city is densely packed with dramatic towers and Gothic architecture.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One week, many long weekends", "7 hour flight from YYZ", "Eiffel Tower, Arc de Triomphe, Sacré Coeur, Versailles... too many things to mention", "Trianon", "Angelina")
+values <- c("One day", "1.5 hour train ride from Lille", "", "Belgian French fries", "Atelier Frites")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)

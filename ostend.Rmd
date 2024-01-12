@@ -16,6 +16,8 @@ leaflet() %>% addTiles() %>%
   addMarkers(2.921210, 51.229588, icon = greenDotIcon, popup = cathedral) # Sint-Petrus-en-Pauluskerk
 ```
 
+![](./images/Ostend/ostend14.png)
+
 One of the largest city on the Belgian coast, Ostend was a major port in the Middle Ages, but has since been eclipsed by larger cities like Antwerp.
 
 ```{r echo = FALSE, results = 'asis'}
