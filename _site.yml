@@ -129,6 +129,7 @@ navbar:
             href: machu-picchu.html
           - text: "Rainbow Mountain"
             href: rainbow-mountain.html
+output_dir: "."
 output:
   html_document:
     theme: cosmo
