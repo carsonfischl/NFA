@@ -2,9 +2,9 @@
 title: "Saint-Malo, France"
 ---
 
-“A master in the art of living draws no sharp distinction between her work and her play; her labor and her leisure; her mind and her body; her education and her recreation. She hardly knows which is which. She simply pursues her vision of excellence through whatever she is doing, and leaves others to determine if she is working or playing. To herself, she always appears to be doing both.”
-
-- François-René de Chateaubriand
+> “A master in the art of living draws no sharp distinction between her work and her play; her labor and her leisure; her mind and her body; her education and her recreation. She hardly knows which is which. She simply pursues her vision of excellence through whatever she is doing, and leaves others to determine if she is working or playing. To herself, she always appears to be doing both.”
+>
+> \- François-René de Chateaubriand
 
 ```{r out.width='100%', echo=FALSE}
 grandBe <- paste("<b>Grand Bé</b>")

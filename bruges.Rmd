@@ -17,7 +17,7 @@ Easily one of my top three cities worldwide, Paris is one of those places with a
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Two hours on the train from Lille", "Beffroi", "Belgian waffles", "Angelina")
+values <- c("One day", "Two hours on the train from Lille", "Belfry", "Belgian waffles", "Angelina")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
