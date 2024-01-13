@@ -8,7 +8,7 @@ The City of Light is unforgettable.
 versailles <- paste("<b>Versailles</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(2.346940, 48.858885, zoom = 13) %>%
+  setView(3.226478, 51.212417, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
   addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
 ```
@@ -17,7 +17,7 @@ Easily one of my top three cities worldwide, Paris is one of those places with a
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Two hours on the train from Lille", "", "Trianon", "Angelina")
+values <- c("One day", "Two hours on the train from Lille", "Beffroi", "Belgian waffles", "Angelina")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
