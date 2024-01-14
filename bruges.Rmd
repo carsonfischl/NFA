@@ -9,7 +9,6 @@ versailles <- paste("<b>Versailles</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(3.226478, 51.212417, zoom = 13) %>%
-  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
   addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
 ```
 

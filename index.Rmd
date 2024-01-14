@@ -16,6 +16,8 @@ merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
 ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a></b>")
 #Europe
 #Belgium
+ghentCont <- paste("<b><a href='./ghent.html'>Ghent, Belgium</a></b>")
+ostendCont <- paste("<b><a href='./ostend.html'>Ostend, Belgium</a></b>")
 tournaiCont <- paste("<b><a href='./tournai.html'>Tournai, Belgium</a></b>")
 #Bosnia & Herzegovina 
 mostarCont <- paste("<b><a href='./mostar.html'>Mostar, Bosnia & Herzegovina</a></b>")
@@ -53,10 +55,11 @@ leaflet() %>% addTiles() %>%
   # Europe
   # Belgium
   addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium
-  addMarkers(3.7303, 51.0500, icon = greenDotIcon) %>% # Ghent, Belgium
+  addMarkers(3.7303, 51.0500, icon = greenDotIcon, popup = ghentCont) %>% # Ghent, Belgium
   addMarkers(3.2248, 51.2092, icon = greenDotIcon) %>% # Bruges, Belgium
+  addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Brussels, Belgium 
   addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
-  addMarkers(4.3572, 50.8476, icon = greenDotIcon) %>% # Bruges, Belgium 
+  addMarkers(2.920971, 51.228159, icon = greenDotIcon, popup = ostendCont) %>% # Ostend, Belgium
   addMarkers(3.385895, 50.608391, icon = greenDotIcon, popup = tournaiCont) %>% # Tournai, Belgium
   # Bosnia & Herzegovina
   addMarkers(17.8078, 43.3438, icon = greenDotIcon, popup = mostarCont) %>% # Mostar, Bosnia & Herzegovina

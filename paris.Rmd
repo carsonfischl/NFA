@@ -5,10 +5,22 @@ title: "Paris, France"
 The City of Light is unforgettable.
 
 ```{r out.width='100%', echo=FALSE}
+eiffelTower <- paste("<b>Eiffel Tower</b>")
+arcDeTriomphe <- paste("<b>Arc de Triomphe</b>")
+louvre <- paste("<b>Louvre</b>")
+sacreCoeur <- paste("<b>Sacré Coeur</b>")
+lesInvalides <- paste("<b>Les Invalides</b>")
+notreDame <- paste("<b>Notre Dame</b>")
 versailles <- paste("<b>Versailles</b>")
+library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(2.346940, 48.858885, zoom = 13) %>%
   addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
+  addMarkers(1.439878, 43.603737, icon = greenDotIcon, popup = arcDeTriomphe) %>% # Arc de Triophe
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = louvre) %>% # Louvre
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = sacreCoeur) %>% # Sacré Coeur
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = lesInvalides) %>% # Les Invalides
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = notreDame) %>% # Notre Dame
   addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
 ```
 
