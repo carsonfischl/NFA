@@ -2,23 +2,27 @@
 title: "Bruges, Belgium"
 ---
 
-The City of Light is unforgettable.
+A great place to get chocolate for your clone.
 
 ```{r out.width='100%', echo=FALSE}
-versailles <- paste("<b>Versailles</b>")
+belfry <- paste("<b>Belfry of Bruges</b>")
+saintSalvatorsCathedral <- paste("<b>Saint Salvator's Cathedral</b>")
+churchOfOurLady <- paste("<b>Church of Our Lady</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(3.226478, 51.212417, zoom = 13) %>%
-  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) %>% # Belfry of Bruges
+  addMarkers(3.226478, 51.212417, icon = greenDotIcon, popup = saintSalvatorsCathedral) %>% # Saint Salvator's Cathedral
+  addMarkers(3.226478, 51.212417, icon = greenDotIcon, popup = churchOfOurLady) # Church of Our Lady
 ```
 
 ![](./images/Bruges/bruges25.png)
 
-Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
+Known as the "Venice of the North", Bruges is densely snaked with canals and waterways. It is a UNESCO World Heritage Site and is known for its medieval architecture. It is also known for its chocolate, beer, and waffles.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Two hours on the train from Lille", "Belfry", "Belgian waffles", "Angelina")
+values <- c("One day", "Two hours on the train from Lille", "Belfry of Bruges", "Belgian waffles", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
