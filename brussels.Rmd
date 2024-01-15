@@ -2,7 +2,7 @@
 title: "Brussels, Belgium"
 ---
 
-The City of Light is unforgettable.
+Eat your sprouts.
 
 ```{r out.width='100%', echo=FALSE}
 versailles <- paste("<b>Versailles</b>")
@@ -15,7 +15,7 @@ Easily one of my top three cities worldwide, Paris is one of those places with a
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One week, many long weekends", "7 hour flight from YYZ", "Eiffel Tower, Arc de Triomphe, Sacré Coeur, Versailles... too many things to mention", "Trianon", "Angelina")
+values <- c("One week, many long weekends", "7 hour flight from YYZ", "Atomium", "Trianon", "Angelina")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
