@@ -5,10 +5,20 @@ title: "Brussels, Belgium"
 Eat your sprouts.
 
 ```{r out.width='100%', echo=FALSE}
-versailles <- paste("<b>Versailles</b>")
+grandPlace <- paste("<b>Grand Place</b>")
+atomium <- paste("<b>Atomium</b>")
+bourse <- paste("<b>Bourse de Bruxelles</b>")
+royalMuseum <- paste("<b>Royal Museum of Fine Arts</b>")
+cathedral <- paste("<b>Cathedral of St. Michael and St. Gudula</b>")
+royalPalace <- paste("<b>Royal Palace</b>")
 leaflet() %>% addTiles() %>%
-  setView(2.346940, 48.858885, zoom = 13) %>%
-  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
+  setView(4.369656, 50.847048, zoom = 13) %>%
+  addMarkers(4.352527, 50.846719, icon = greenDotIcon, popup = grandPlace) %>% # Grand Place
+  addMarkers(4.341522, 50.894917, icon = greenDotIcon, popup = atomium) %>% # Atomium
+  addMarkers(4.350168, 50.848112, icon = greenDotIcon, popup = bourse) %>% # Atomium
+  addMarkers(4.358092, 50.841868, icon = greenDotIcon, popup = royalMuseum) %>% # Royal Museum of Fine Arts
+  addMarkers(4.360082, 50.847838, icon = greenDotIcon, popup = cathedral) %>% # Cathedral of St. Michael and St. Gudula
+  addMarkers(4.362264, 50.841923, icon = greenDotIcon, popup = royalPalace) # Royal Palace
 ```
 
 Easily one of my top three cities worldwide, Paris is one of those places with an infinitude of things to do.
