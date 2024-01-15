@@ -12,7 +12,7 @@ royalMuseum <- paste("<b>Royal Museum of Fine Arts</b>")
 cathedral <- paste("<b>Cathedral of St. Michael and St. Gudula</b>")
 royalPalace <- paste("<b>Royal Palace</b>")
 leaflet() %>% addTiles() %>%
-  setView(4.369656, 50.847048, zoom = 13) %>%
+  setView(4.369656, 50.847048, zoom = 12) %>%
   addMarkers(4.352527, 50.846719, icon = greenDotIcon, popup = grandPlace) %>% # Grand Place
   addMarkers(4.341522, 50.894917, icon = greenDotIcon, popup = atomium) %>% # Atomium
   addMarkers(4.350168, 50.848112, icon = greenDotIcon, popup = bourse) %>% # Atomium

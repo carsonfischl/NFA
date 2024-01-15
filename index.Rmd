@@ -168,6 +168,7 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
 thumbnail("Bruges, Belgium", "images/Bruges/bruges25.png", "./bruges.html")
+thumbnail("Brussels, Belgium", "images/Brussels/brussels9.png", "./brussels.html")
 thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
 thumbnail("Ostend, Belgium", "images/Ostend/oostende.png", "./ostend.html")
 thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
