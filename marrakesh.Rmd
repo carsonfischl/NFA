@@ -22,7 +22,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(-7.988927, 31.625821, icon = greenDotIcon, popup = jemaaElFenaa) # Jemaa el Fenaa
 ```
 
-![](images/Marrakesh/marrakesh11.png)
+![](images/Marrakesh/marrakesh.png)
 
 Located in the foothills of the Atlas mountains, Marrakesh is a bussling city of many sights, sounds and smells. Many French, Belgian, and German tourists come to the city for adventurous vacations, with its major international airport, palaces, and tours to Morocco's interior.
 

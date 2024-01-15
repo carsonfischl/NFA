@@ -135,7 +135,7 @@ thumbnail <- function(title, img, href, caption = TRUE) {
   )
 }
 thumbnail("Essaouira, Morocco", "images/Essaouira/essaouira15.png", "./essaouira.html")
-thumbnail("Marrakesh, Morocco", "images/Marrakesh/marrakesh11.png", "./marrakesh.html")
+thumbnail("Marrakesh, Morocco", "images/Marrakesh/marrakesh.png", "./marrakesh.html")
 thumbnail("Merzouga, Morocco", "images/Merzouga/merzouga37.png", "./merzouga.html")
 thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarzazate.html")
 ``` 
