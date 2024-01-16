@@ -22,7 +22,7 @@ Known as the "Venice of the North", Bruges is densely snaked with canals and wat
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Two hours on the train from Lille", "Belfry of Bruges", "Belgian waffles", "")
+values <- c("One day", "Two hours on the train from Lille", "Belfry of Bruges, Saint Salvator's Cathedral, Church of Our Lady", "Belgian waffles", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
