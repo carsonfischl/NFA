@@ -27,3 +27,7 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+The other main religious building in Bruges is the Church of Our Lady. It is the tallest building in the city and is home to Michelangelo's Madonna and Child.
+
+![](./images/Bruges/bruges2.png)
