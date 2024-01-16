@@ -10,10 +10,10 @@ saintSalvatorsCathedral <- paste("<b>Saint Salvator's Cathedral</b>")
 churchOfOurLady <- paste("<b>Church of Our Lady</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(3.226478, 51.212417, zoom = 13) %>%
-  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) %>% # Belfry of Bruges
-  addMarkers(3.226478, 51.212417, icon = greenDotIcon, popup = saintSalvatorsCathedral) %>% # Saint Salvator's Cathedral
-  addMarkers(3.226478, 51.212417, icon = greenDotIcon, popup = churchOfOurLady) # Church of Our Lady
+  setView(3.228208, 51.211513, zoom = 14) %>%
+  addMarkers(3.224886, 51.207798, icon = greenDotIcon, popup = belfry) %>% # Belfry of Bruges
+  addMarkers(3.221526, 51.205471, icon = greenDotIcon, popup = saintSalvatorsCathedral) %>% # Saint Salvator's Cathedral
+  addMarkers(3.224487, 51.204623, icon = greenDotIcon, popup = churchOfOurLady) # Church of Our Lady
 ```
 
 ![](./images/Bruges/bruges25.png)
@@ -28,6 +28,47 @@ library(knitr)
 kable(df, col.names = NULL)
 ```
 
+Saint Salvator's Cathedral is the main religious building in Bruges. It is the oldest parish church in the city and is home to the tombs of Charles the Bold and Mary of Burgundy.
+
+![](./images/Bruges/bruges27.png)
+
 The other main religious building in Bruges is the Church of Our Lady. It is the tallest building in the city and is home to Michelangelo's Madonna and Child.
 
 ![](./images/Bruges/bruges2.png)
+
+![](./images/Bruges/bruges29.png)
+
+Next to the Church of Our Lady is a famous photo spot, known for boat tours.
+
+![](./images/Bruges/bruges4.png)
+
+The Belfry of Bruges is a medieval bell tower that is one of the city's most prominent symbols. It is 83 meters tall and has 366 steps to the top.
+
+![](./images/Bruges/bruges12.png)
+
+![](./images/Bruges/bruges24.png)
+
+As with much of Belgium, waffles are everywhere and extremely tasty. I recommend the chain Australia, but there are plenty of good options.
+
+![](./images/Bruges/bruges30.png)
+
+Other parts of the city.
+
+
+![](./images/Bruges/bruges19.png)
+
+![](./images/Bruges/bruges16.png)
+
+![](./images/Bruges/bruges15.png)
+
+![](./images/Bruges/bruges13.png)
+
+This row of houses, near the Belfry, was famous as the home of [Fidèle,](https://www.townandcountrymag.com/leisure/arts-and-culture/news/a4989/fidel-celebrity-labrador/) a golden retriever who was known for resting his head in the window.
+
+![](./images/Bruges/bruges22.png)
+
+![](./images/Bruges/bruges21.png)
+
+Antique shopping in Europe is always a good time.
+
+![](./images/Bruges/bruges6.png)
