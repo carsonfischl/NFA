@@ -16,8 +16,10 @@ merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
 ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a></b>")
 #Europe
 #Belgium
+antwerpCont <- paste("<b><a href='./antwerp.html'>Antwerp, Belgium</a></b>")
 brugesCont <- paste("<b><a href='./bruges.html'>Bruges, Belgium</a></b>")
 brusselsCont <- paste("<b><a href='./brussels.html'>Brussels, Belgium</a></b>")
+courtraiCont <- paste("<b><a href='./courtrai.html'>Courtrai, Belgium</a></b>")
 ghentCont <- paste("<b><a href='./ghent.html'>Ghent, Belgium</a></b>")
 ostendCont <- paste("<b><a href='./ostend.html'>Ostend, Belgium</a></b>")
 tournaiCont <- paste("<b><a href='./tournai.html'>Tournai, Belgium</a></b>")
@@ -56,11 +58,11 @@ leaflet() %>% addTiles() %>%
   addMarkers(-6.919241, 30.924812, icon = greenDotIcon, popup = ouarzazateCont) %>% # Ouarzazate, Morocco
   # Europe
   # Belgium
-  addMarkers(4.4051, 51.2213, icon = greenDotIcon) %>% # Antwerp, Belgium
+  addMarkers(4.4051, 51.2213, icon = greenDotIcon, popup = antwerpCont) %>% # Antwerp, Belgium
   addMarkers(3.7303, 51.0500, icon = greenDotIcon, popup = ghentCont) %>% # Ghent, Belgium
   addMarkers(3.2248, 51.2092, icon = greenDotIcon, popup = brugesCont) %>% # Bruges, Belgium
   addMarkers(4.3572, 50.8476, icon = greenDotIcon, popup = brusselsCont) %>% # Brussels, Belgium 
-  addMarkers(3.2544, 50.8268, icon = greenDotIcon) %>% # Courtrai, Belgium
+  addMarkers(3.2544, 50.8268, icon = greenDotIcon, popup = courtraiCont) %>% # Courtrai, Belgium
   addMarkers(2.920971, 51.228159, icon = greenDotIcon, popup = ostendCont) %>% # Ostend, Belgium
   addMarkers(3.385895, 50.608391, icon = greenDotIcon, popup = tournaiCont) %>% # Tournai, Belgium
   # Bosnia & Herzegovina
@@ -171,10 +173,23 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
 thumbnail("Bruges, Belgium", "images/Bruges/bruges25.png", "./bruges.html")
 thumbnail("Brussels, Belgium", "images/Brussels/brussels9.png", "./brussels.html")
+thumbnail("Courtrai, Belgium", "images/Courtrai/courtrai2.png", "./courtrai.html")
 thumbnail("Ghent, Belgium", "images/Ghent/ghent8.png", "./ghent.html")
 thumbnail("Ostend, Belgium", "images/Ostend/oostende.png", "./ostend.html")
 thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
 ```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <br />
 <br />
 <br />

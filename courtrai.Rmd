@@ -1,0 +1,57 @@
+---
+title: "Courtrai, Belgium"
+---
+
+A first taste of Flemish culture.
+
+```{r out.width='100%', echo=FALSE}
+kortrijkCityHall <- paste("<b>Eif</b>")
+saintMartinsChurch <- paste("<b>Saint Martin's Church</b>")
+broelTowers <- paste("<b>Broel Towers</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(3.273021, 50.829911, zoom = 13) %>%
+  addMarkers(3.264759, 50.828110, icon = greenDotIcon, popup = kortrijkCityHall) %>% # Courtrai City Hall
+  addMarkers(3.268355, 50.827582, icon = greenDotIcon, popup = saintMartinsChurch) %>% # Saint Martin's Church
+  addMarkers(3.266936, 50.830441, icon = greenDotIcon, popup = broelTowers) # Broel Towers
+```
+
+![](./images/Courtrai/courtrai2.png)
+
+Courtrai, or Kortrijk in Dutch, is one of the first Dutch speaking towns in the Belgian countryside, as the language and culture shifts from French (Wallonia) to Dutch (Flanders). The change is quite abrupt, and many people in town don't speak French at all. 
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "40 minute bike ride from Mouscron", "Broel Towers, the béguinage", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+The [Broel Towers](https://en.wikipedia.org/wiki/Broeltowers) are the remains of the medieval city walls and control access to the Lys River. Cycling down the paths along the river makes for an enjoyable afternoon. The waterway is full of cute [common moorhens,](https://en.wikipedia.org/wiki/Common_moorhen) known as a "poule d'eau" in French, which translates to "water chicken." 
+
+![](./images/Courtrai/courtrai6.png)
+
+![](./images/Courtrai/courtrai3.png)
+
+![](./images/Courtrai/courtrai7.png)
+
+The town hall is across from the belfry and is a popular hangout spot for locals.
+
+![](./images/Courtrai/courtrai9.png)
+
+![](./images/Courtrai/courtrai1.png)
+
+Saint Martin's Church (Sint-Maartenskerk) is perhaps the nicest building in town and worth visiting if in town.
+
+![](./images/Courtrai/courtrai11.png)
+
+![](./images/Courtrai/courtrai10.png)
+
+![](./images/Courtrai/courtrai8.png)
+
+![](./images/Courtrai/courtrai4.png)
+
+
+
+
