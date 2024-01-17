@@ -1,38 +1,30 @@
 ---
-title: "Vienna, Austria"
+title: "Amsterdam, Netherlands"
 ---
 
-Café-hopping to try all the Sachertorte I can get my hands on.
+For being the inventors of capitalism, its rightfully popular with socialists.
 
 ```{r out.width='100%', echo=FALSE}
-kunsthistorischesMuseum <- paste("<b>Kunsthistorisches Museum</b>")
-saintStephensCathedral <- paste("<b>Saint Stephen's Cathedral</b>")
-hofburgPalace <- paste("<b>Hofburg Palace</b>")
-karlskirche <- paste("<b>Karlskirche</b>")
-schonbrunnPalace <- paste("<b>Schönbrunn Palace</b>")
-burgtheater <- paste("<b>Burgtheater</b>")
-rathaus <- paste("<b>Rathaus</b>")
-operaHouse <- paste("<b>Vienna State Opera</b>")
+rijksmuseum <- paste("<b>Rijksmuseum</b>")
+royalPalaceofAmsterdam <- paste("<b>Royal Palace</b>")
+vanGoghMuseum <- paste("<b>Van Gogh Museum</b>")
+concertgebouw <- paste("<b>Concertgeobouw</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(16.384667, 48.214669, zoom = 13) %>%
-  addMarkers(16.361776, 48.203750, icon = greenDotIcon, popup = kunsthistorischesMuseum) %>% # Kunsthistorisches Museum
-  addMarkers(16.373133, 48.208497, icon = greenDotIcon, popup = saintStephensCathedral) %>% # Saint Stephen's Cathedral
-  addMarkers(16.365638, 48.206327, icon = greenDotIcon, popup = hofburgPalace) %>% # Hofburg Palace
-  addMarkers(16.371896, 48.198283, icon = greenDotIcon, popup = karlskirche) %>% # Karlskirche
-  addMarkers(16.312196, 48.184877, icon = greenDotIcon, popup = schonbrunnPalace) %>% # Schönbrunn Palace
-  addMarkers(16.361475, 48.210333, icon = greenDotIcon, popup = burgtheater) %>% # Burgtheater 
-  addMarkers(16.358251, 48.210716, icon = greenDotIcon, popup = rathaus) %>% # Rathaus
-  addMarkers(16.368979, 48.203017, icon = greenDotIcon, popup = operaHouse) # Vienna State Opera
+  addMarkers(16.361776, 48.203750, icon = greenDotIcon, popup = rijksmuseum) %>% # Rijksmuseum
+  addMarkers(16.373133, 48.208497, icon = greenDotIcon, popup = royalPalaceofAmsterdam) %>% # Royal Palace of Amsterdam
+  addMarkers(16.365638, 48.206327, icon = greenDotIcon, popup = vanGoghMuseum) %>% # Van Gogh Museum
+  addMarkers(16.371896, 48.198283, icon = greenDotIcon, popup = concertgebouw) # Concertgebouw
 ```
 
-![](./images/Vienna/vienna11.png)
+![](./images/Amsterdam/amsterdam6.png)
 
-Densely packed with pastel and cream buildings, Vienna is a city that is both beautiful and elegant. The city is filled with museums, palaces, and churches, and is a great place to visit for those who enjoy history and architecture.
+Snaked with canals, Amsterdam is well-known for its cycling culture and an open-minded approach to living (at least to outsiders).
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("Three days", "3 hour flight from Lille", "Schönbrunn Palace, Saint Stephen's Cathedral, Karlkirche", "Sachertorte", "Hotel Sacher, Café Central, Café Demel")
+values <- c("One day", "3 hour drive from Mouscron", "Rijksmuseum, Van Gogh Museum", "Stroopwaffle, Bitterballen", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
