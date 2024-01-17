@@ -10,6 +10,11 @@ museumAanDeStroom <- paste("<b>Museum aan de Stroom</b>")
 royalMuseum <- paste("<b>Royal Museum of Fine Arts</b>")
 antwerpCentralStation <- paste("<b>Antwerp Central Station</b>")
 hetSteen <- paste("<b>Het Steen</b>")
+greenDotIcon <- makeIcon(
+  iconUrl = "images/GreenDot.png",
+  iconWidth = 7, iconHeight = 7,
+  iconAnchorX = 0, iconAnchorY = 0
+)
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(4.418005, 51.218899, zoom = 12) %>%
