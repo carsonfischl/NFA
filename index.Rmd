@@ -15,6 +15,8 @@ marrakeshCont <- paste("<b><a href='./marrakesh.html'>Marrakesh, Morocco</a></b>
 merzougaCont <- paste("<b><a href='./merzouga.html'>Merzouga, Morocco</a></b>")
 ouarzazateCont <- paste("<b><a href='./ouarzazate.html'>Ouarzazate, Morocco</a></b>")
 #Europe
+#Austria
+viennaCont <- paste("<b><a href='./vienna.html'>Vienna, Austria</a></b>")
 #Belgium
 antwerpCont <- paste("<b><a href='./antwerp.html'>Antwerp, Belgium</a></b>")
 brugesCont <- paste("<b><a href='./bruges.html'>Bruges, Belgium</a></b>")
@@ -57,6 +59,8 @@ leaflet() %>% addTiles() %>%
   addMarkers(-4.014088, 31.099917, icon = greenDotIcon, popup = merzougaCont) %>% # Merzouga, Morocco
   addMarkers(-6.919241, 30.924812, icon = greenDotIcon, popup = ouarzazateCont) %>% # Ouarzazate, Morocco
   # Europe
+  #Austria
+  addMarkers(16.3738, 48.2082, icon = greenDotIcon) %>% # Vienna, Austria
   # Belgium
   addMarkers(4.4051, 51.2213, icon = greenDotIcon, popup = antwerpCont) %>% # Antwerp, Belgium
   addMarkers(3.7303, 51.0500, icon = greenDotIcon, popup = ghentCont) %>% # Ghent, Belgium
@@ -87,8 +91,6 @@ leaflet() %>% addTiles() %>%
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
   # Netherlands
   addMarkers(4.9041, 52.3676, icon = greenDotIcon) %>% # Amsterdam, Netherlands
-  #Austria
-  addMarkers(16.3738, 48.2082, icon= greenDotIcon) %>% # Vienna, Austria
   # Asia
   # Turkiye
   addMarkers(27.1799, 39.1214, icon = greenDotIcon) %>% # Bergama, Turkiye
@@ -168,6 +170,22 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <br />
 <h2>Europe</h2>
 <hr class="rounded">
+<h3>Austria</h3>
+```{r out.width='100%', echo=FALSE}
+thumbnail("Vienna, Austria", "images/Vienna/vienna11.png", "./vienna.html")
+``` 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")

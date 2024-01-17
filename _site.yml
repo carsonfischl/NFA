@@ -35,6 +35,10 @@ navbar:
     - text: " Europe"
       icon: fa-earth-europe
       menu:
+        - text: "Austria"
+          menu:
+          - text: "Vienna"
+            href: vienna.html
         - text: "Belgium"
           menu:
           - text: "Antwerp"
@@ -91,6 +95,10 @@ navbar:
             href: saint-malo.html
           - text: "Toulouse"
             href: toulouse.html
+        - text: "Netherlands"
+          menu:
+          - text: "Amsterdam"
+            href: amsterdam.html
     - text: " North America"
       icon: fa-earth-americas
       menu:
