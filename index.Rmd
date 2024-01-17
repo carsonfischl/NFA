@@ -115,6 +115,7 @@ leaflet() %>% addTiles() %>%
   # Peru
   addMarkers(-77.0428, -12.0464, icon = greenDotIcon) %>% # Lima, Peru
   addMarkers(-71.9675, -13.5320, icon = greenDotIcon) %>% # Cuzco, Peru
+  addMarkers(-71.850243, -13.421403, icon = greenDotIcon) %>% # Pisac, Peru 
   addMarkers(-72.4973, -13.2263, icon = greenDotIcon) %>% # Machu Picchu, Peru
   addMarkers(-71.5375, -16.4090, icon = greenDotIcon) %>% # Arequipa, Peru
   addMarkers(-72.1771, -15.6574, icon = greenDotIcon) %>% # Colca Canyon, Peru
