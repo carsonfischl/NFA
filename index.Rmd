@@ -54,6 +54,7 @@ arequipaCont <- paste("<b><a href='./arequipa.html'>Arequipa, Peru</a></b>")
 colcaCanyonCont <- paste("<b><a href='./colca-canyon.html'>Colca Canyon, Peru</a></b>")
 huacachinaCont <- paste("<b><a href='./huacachina.html'>Huacachina, Peru</a></b>")
 rainbowMountainCont <- paste("<b><a href='./rainbow-mountain.html'>Rainbow Mountain, Peru</a></b>")
+paracasCont <- paste("<b><a href='./paracas.html'>Paracas, Peru</a></b>")
 
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -130,8 +131,8 @@ leaflet() %>% addTiles() %>%
   addMarkers(-71.5375, -16.4090, icon = greenDotIcon, popup = arequipaCont) %>% # Arequipa, Peru
   addMarkers(-72.1771, -15.6574, icon = greenDotIcon, popup = colcaCanyonCont) %>% # Colca Canyon, Peru
   addMarkers(-75.7626, -14.0875, icon = greenDotIcon, popup = huacachinaCont) %>% # Huacachina, Peru
-  addMarkers(-71.9794, -13.5152, icon = greenDotIcon, popup = rainbowMountainCont) %>% # Rainbow Mountain, Peru
-  addMarkers(-76.2508, -13.8409, icon = greenDotIcon, popup = arequipaCont) # Arequipa, Peru
+  addMarkers(-71.357420, -13.865918, icon = greenDotIcon, popup = rainbowMountainCont) %>% # Rainbow Mountain, Peru
+  addMarkers(-76.2508, -13.8409, icon = greenDotIcon, popup = paracasCont) # Paracas, Peru
 ```
 
 
