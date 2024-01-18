@@ -16,6 +16,7 @@ subBase <- paste("<b>WWII Sub Base</b>")
 gareSaintJean <- paste("<b>Gare Saint-Jean</b>")
 monumentAuxGirondins <- paste("<b>Monument aux Girondins</b>")
 porteDeBourgogne <- paste("<b>Porte de Bourgogne</b>")
+saintMarieDeLaBastide <- paste("<b>Église Saint-Marie de la Bastide</b>")
 library(leaflet)
 greenDotIcon <- makeIcon(iconUrl = "images/GreenDot.png", iconWidth = 10, iconHeight = 10, iconAnchorX = 0, iconAnchorY = 0)
 leaflet() %>% addTiles() %>%
@@ -30,12 +31,13 @@ leaflet() %>% addTiles() %>%
   addMarkers(-0.559062, 44.869907, icon = greenDotIcon, popup = subBase) %>% # Sub base
   addMarkers(-0.556076, 44.825665, icon = greenDotIcon, popup = gareSaintJean) %>% # Gare Saint-Jean
   addMarkers(-0.574845, 44.845318, icon = greenDotIcon, popup = monumentAuxGirondins) %>% # Monument aux Girondins
-  addMarkers(-0.566232, 44.836318, icon = greenDotIcon, popup = porteDeBourgogne) # Porte de Bourgogne
+  addMarkers(-0.566232, 44.836318, icon = greenDotIcon, popup = porteDeBourgogne) %>% # Porte de Bourgogne
+  addMarkers(-0.556614, 44.843008, icon = greenDotIcon, popup = saintMarieDeLaBastide) # Église Saint-Marie de la Bastide
 ```
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Major Sights", "Unique Foods", "Restaurant Recommendations")
-values <- c("Two years", "Saint-Andre Cathedral, Monument aux Girondins, Port de la Lune", "Cannelés", "Books & Coffee - 26 Rue Saint-James")
+values <- c("Two years", "Saint-Andre Cathedral, Monument aux Girondins, Port de la Lune", "Cannelés", "Books & Coffee")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
@@ -92,3 +94,9 @@ A WWII German sub base can be seen in the north end of town. It's a popular dest
 ![](images/Bordeaux/bordeaux79.png)
 
 The Monument aux Girondins lies in a large gravel park, the former site of a royal palace. The Girondins, named after the Gironde department where Bordeaux is located, were a moderate political faction during the Revolution, who were executed during the Great Terror. During its brief existence, the faction would host some of the greatest orators of the Revolution, such as [Vergniaud](https://en.wikipedia.org/wiki/Pierre_Victurnien_Vergniaud) and [Brissot.](https://en.wikipedia.org/wiki/Jacques_Pierre_Brissot)
+
+![](images/Bordeaux/bordeaux67.png)
+
+Église Saint-Marie de la Bastide is a church designed by Paul Abadie, the same designer as Sacré-Cœur in Paris. The church is located in the Bastide neighborhood, across the Garonne river from the historic center of Bordeaux. The neighborhood was originally a separate town, but was annexed by the city in 1865. The church was built in the 19th century, and is a popular wedding venue.
+
+![](images/Bordeaux/bordeaux45.png)
