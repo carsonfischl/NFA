@@ -44,6 +44,16 @@ msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, Franc
 saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
 saintMaloCont <- paste("<b><a href='./saint-malo.html'>Saint-Malo, France</a></b>")
 toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
+#South America
+#Peru
+limaCont <- paste("<b><a href='./lima.html'>Lima, Peru</a></b>")
+cuzcoCont <- paste("<b><a href='./cuzco.html'>Cuzco, Peru</a></b>")
+pisacCont <- paste("<b><a href='./pisac.html'>Pisac, Peru</a></b>")
+machuPicchuCont <- paste("<b><a href='./machu-picchu.html'>Machu Picchu, Peru</a></b>")
+arequipaCont <- paste("<b><a href='./arequipa.html'>Arequipa, Peru</a></b>")
+colcaCanyonCont <- paste("<b><a href='./colca-canyon.html'>Colca Canyon, Peru</a></b>")
+huacachinaCont <- paste("<b><a href='./huacachina.html'>Huacachina, Peru</a></b>")
+rainbowMountainCont <- paste("<b><a href='./rainbow-mountain.html'>Rainbow Mountain, Peru</a></b>")
 
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -113,15 +123,15 @@ leaflet() %>% addTiles() %>%
   addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
   # South America
   # Peru
-  addMarkers(-77.0428, -12.0464, icon = greenDotIcon) %>% # Lima, Peru
-  addMarkers(-71.9675, -13.5320, icon = greenDotIcon) %>% # Cuzco, Peru
-  addMarkers(-71.850243, -13.421403, icon = greenDotIcon) %>% # Pisac, Peru 
-  addMarkers(-72.4973, -13.2263, icon = greenDotIcon) %>% # Machu Picchu, Peru
-  addMarkers(-71.5375, -16.4090, icon = greenDotIcon) %>% # Arequipa, Peru
-  addMarkers(-72.1771, -15.6574, icon = greenDotIcon) %>% # Colca Canyon, Peru
-  addMarkers(-75.7626, -14.0875, icon = greenDotIcon) %>% # Huacachina, Peru
-  addMarkers(-71.9794, -13.5152, icon = greenDotIcon) %>% # Rainbow Mountain, Peru
-  addMarkers(-76.2508, -13.8409, icon = greenDotIcon) # Arequipa, Peru
+  addMarkers(-77.0428, -12.0464, icon = greenDotIcon, popup = limaCont) %>% # Lima, Peru
+  addMarkers(-71.9675, -13.5320, icon = greenDotIcon, popup = cuzcoCont) %>% # Cuzco, Peru
+  addMarkers(-71.850243, -13.421403, icon = greenDotIcon, popup = pisacCont) %>% # Pisac, Peru 
+  addMarkers(-72.4973, -13.2263, icon = greenDotIcon, popup = machuPicchuCont) %>% # Machu Picchu, Peru
+  addMarkers(-71.5375, -16.4090, icon = greenDotIcon, popup = arequipaCont) %>% # Arequipa, Peru
+  addMarkers(-72.1771, -15.6574, icon = greenDotIcon, popup = colcaCanyonCont) %>% # Colca Canyon, Peru
+  addMarkers(-75.7626, -14.0875, icon = greenDotIcon, popup = huacachinaCont) %>% # Huacachina, Peru
+  addMarkers(-71.9794, -13.5152, icon = greenDotIcon, popup = rainbowMountainCont) %>% # Rainbow Mountain, Peru
+  addMarkers(-76.2508, -13.8409, icon = greenDotIcon, popup = arequipaCont) # Arequipa, Peru
 ```
 
 
