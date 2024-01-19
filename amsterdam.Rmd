@@ -8,17 +8,25 @@ For being the inventors of capitalism, its rightfully popular with socialists.
 rijksmuseum <- paste("<b>Rijksmuseum</b>")
 royalPalaceofAmsterdam <- paste("<b>Royal Palace</b>")
 vanGoghMuseum <- paste("<b>Van Gogh Museum</b>")
-concertgebouw <- paste("<b>Concertgeobouw</b>")
+concertgebouw <- paste("<b>Concertgebouw</b>")
+singel <- paste("<b>Singel</b>")
+herengracht <- paste("<b>Herengracht</b>")
+keizersgracht <- paste("<b>Keizersgracht</b>")
+prinsengracht <- paste("<b>Prinsengracht</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(16.384667, 48.214669, zoom = 13) %>%
-  addMarkers(16.361776, 48.203750, icon = greenDotIcon, popup = rijksmuseum) %>% # Rijksmuseum
-  addMarkers(16.373133, 48.208497, icon = greenDotIcon, popup = royalPalaceofAmsterdam) %>% # Royal Palace of Amsterdam
-  addMarkers(16.365638, 48.206327, icon = greenDotIcon, popup = vanGoghMuseum) %>% # Van Gogh Museum
-  addMarkers(16.371896, 48.198283, icon = greenDotIcon, popup = concertgebouw) # Concertgebouw
+  setView(4.899239, 52.372985, zoom = 13) %>%
+  addMarkers(4.885055, 52.359876, icon = greenDotIcon, popup = rijksmuseum) %>% # Rijksmuseum
+  addMarkers(4.891314, 52.373143, icon = greenDotIcon, popup = royalPalaceofAmsterdam) %>% # Royal Palace of Amsterdam
+  addMarkers(4.881096, 52.358364, icon = greenDotIcon, popup = vanGoghMuseum) %>% # Van Gogh Museum
+  addMarkers(4.879061, 52.356192, icon = greenDotIcon, popup = concertgebouw) %>% # Concertgebouw
+  addMarkers(4.890715, 52.375670, icon = greenDotIcon, popup = singel) %>% # Singel
+  addMarkers(4.889283, 52.376304, icon = greenDotIcon, popup = herengracht) %>% # Herengracht
+  addMarkers(4.887264, 52.376795, icon = greenDotIcon, popup = keizersgracht) %>% # Keizersgracht
+  addMarkers(4.885470, 52.377302, icon = greenDotIcon, popup = prinsengracht) # Prinsengracht
 ```
 
-![](./images/Amsterdam/amsterdam6.png)
+![](./images/Amsterdam/amsterdam10.png)
 
 Snaked with canals, Amsterdam is well-known for its cycling culture and an open-minded approach to living (at least to outsiders).
 
@@ -38,7 +46,7 @@ The city is famous for its canals, especially the Keizersgracht, Prinsengracht, 
 
 ![](./images/Amsterdam/amsterdam3.png)
 
-Bitterballen are fried balls of meat and are a popular snack in the Netherlands. 
+Bitterballen are fried balls of meat and are a popular snack in the Netherlands. They're usually dipped in mustard but other condiments may be offered.
 
 ![](./images/Amsterdam/amsterdam1.png)
 
@@ -55,5 +63,3 @@ The beautiful homes around town are reminiscent of the Dutch Golden Age.
 ![](./images/Amsterdam/amsterdam15.png)
 
 ![](./images/Amsterdam/amsterdam5.png)
-
-![](./images/Amsterdam/amsterdam10.png)
