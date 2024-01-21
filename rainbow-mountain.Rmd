@@ -1,0 +1,27 @@
+---
+title: "Rainbow Mountain, Peru"
+---
+
+A reason to renew your Adobe Creative Cloud subscription.
+
+```{r out.width='100%', echo=FALSE}
+site <- paste("<b>Archaeological Site</b>")
+market <- paste("<b>Artisanal Market</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-71.850065, -13.422876, zoom = 14) %>%
+  addMarkers(-71.844041, -13.414236, icon = greenDotIcon, popup = site) %>% # Archaeological site
+  addMarkers(-72.545600, -13.161828, icon = greenDotIcon, popup = market) # Artisanal market
+```
+
+![](./images/Pisac/pisac.png)
+
+Pisac is another popular site to visit in the Sacred Valley and worth the trip. It offers stellar views of the surrounding valley and shows off the Inca's terraced agriculure. The site is also a great place to see the Inca's advanced stonework. The site is a short drive from Cusco and can be combined with a trip to Ollantaytambo.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One day", "Forty minutes from Cusco on a pesero", "Archaeological site", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
