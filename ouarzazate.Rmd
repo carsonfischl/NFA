@@ -1,0 +1,57 @@
+---
+title: "Ouarzazate, Morocco"
+---
+
+Cosplaying as Lawrence of Arabia.
+
+```{r out.width='100%', echo=FALSE}
+kasbahTaourirt <- paste("<b>Kasbah Taourirt</b>")
+aitBenhaddou <- paste("<b>Aït Benhaddou</b>")
+cinemaMuseum <- paste("<b>Cinema Museum</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-6.930225, 30.932397, zoom = 11) %>%
+  addMarkers(-6.899396, 30.920066, icon = greenDotIcon, popup = kasbahTaourirt) %>% # Kasbah Taourirt
+  addMarkers(-7.131033, 31.045112, icon = greenDotIcon, popup = aitBenhaddou) %>% # Aït Benhaddou
+  addMarkers(-6.899991, 30.921582, icon = greenDotIcon, popup = cinemaMuseum) # Cinema Museum
+```
+
+![](images/Ouarzazate/ouarzazate28.png)
+
+Ouarzazate is an ancient Berber city in the Atlas Mountains, famous for its old [kasbah](https://en.wikipedia.org/wiki/Kasbah_Taourirt) and the nearby ksar of [Aït Benhaddou,](https://whc.unesco.org/en/list/444/) a fortified city along the ancient caravan route between the Sahara and Marrakesh, which is now a UNESCO World Heritage Site. It was also the filming location for many notable films, including the aforementioned Lawrence of Arabia, The Mummy, and some Game of Thrones episodes.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("2.5 days", "3 hour drive from Marrakesh", "Aït Benhaddou, Drâa Valley, Kasbah Taourirt", "Msemmen, tagines", "Café Voyageur")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Ouarzazate/ouarzazate30.png)
+
+![](images/Ouarzazate/ouarzazate19.png)
+
+![](images/Ouarzazate/ouarzazate17.png)
+
+![](images/Ouarzazate/ouarzazate12.png)
+
+![](images/Ouarzazate/ouarzazate31.png)
+
+My AirBnB was on the outskirts of town, but well-decorated in a Berber style. 
+
+![](images/Ouarzazate/ouarzazate6.png)
+
+![](images/Ouarzazate/ouarzazate5.png)
+
+![](images/Ouarzazate/ouarzazate42.png)
+
+I enjoyed this great msemmen with mint tea while waiting for the bus to Merzouga. They are sweet, crunchy semolina pancakes that are fried of a griddle and rolled with some sort of filling, usually honey and creamy cheese like La Vache Qui Rit, Nutella, or sometimes jam.
+
+![](images/Ouarzazate/ouarzazate48.png)
+
+[Kasbah Taourirt](https://en.wikipedia.org/wiki/Kasbah_Taourirt) is an old fortified settlement in the center of Ouarzazate. Built over 300 years ago by a powerful local family, it's surrounded by souks and cafés and is definitely worth spending a day to tour, although parts were closed for renovation when I went (December 2023).
+
+![](images/Ouarzazate/ouarzazate46.png)
+
+![](images/Ouarzazate/ouarzazate44.png)

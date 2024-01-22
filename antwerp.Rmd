@@ -1,0 +1,86 @@
+---
+title: "Antwerp, Belgium"
+---
+
+The former economic center of the Low Countries.
+
+```{r out.width='100%', echo=FALSE}
+cathedral <- paste("<b>Cathedral of Our Lady</b>")
+museumAanDeStroom <- paste("<b>Museum aan de Stroom</b>")
+royalMuseum <- paste("<b>Royal Museum of Fine Arts</b>")
+antwerpCentralStation <- paste("<b>Antwerp Central Station</b>")
+hetSteen <- paste("<b>Het Steen</b>")
+greenDotIcon <- makeIcon(
+  iconUrl = "images/GreenDot.png",
+  iconWidth = 7, iconHeight = 7,
+  iconAnchorX = 0, iconAnchorY = 0
+)
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(4.418005, 51.218899, zoom = 12) %>%
+  addMarkers(4.401309, 51.220324, icon = greenDotIcon, popup = cathedral) %>% # Cathedral of Our Lady
+  addMarkers(4.404737, 51.228937, icon = greenDotIcon, popup = museumAanDeStroom) %>% # Museum aan de Stroom
+  addMarkers(4.394675, 51.208646, icon = greenDotIcon, popup = royalMuseum) %>% # Royal Museum of Fine Arts
+  addMarkers(4.421097, 51.215990, icon = greenDotIcon, popup = antwerpCentralStation) %>% # Antwerp Central Station
+  addMarkers(4.396863, 51.221631, icon = greenDotIcon, popup = hetSteen) # Antwerp Central Station
+```
+
+![](./images/Antwerp/antwerp25.png)
+
+At one point one of the largest economic centres of Europe, the city declined following looting by Spanish troops in 1576 and the closing of the river Scheldt to navigation in 1648 - a move that cut off the city's access to the sea. With the opening of the Scheldt in 1863, Antwerp regained some of its former glory, and the city now houses the second largest port in Europe.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One day", "2.5 hour train ride from Lille", "Royal Art Museum, Cathedral of Our Lady", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+Antwerp was one of my favorite stops in Belgium, a nice cross between modern and traditional architecture. The city has a variety of museums, monuments, and things to see and do. The Cathedral of Our Lady was definitely a highlight.
+
+![](./images/Antwerp/antwerp13.png)
+
+![](./images/Antwerp/antwerp15.png)
+
+![](./images/Antwerp/antwerp7.png)
+
+[Het Steen](https://en.wikipedia.org/wiki/Het_Steen) is the remains of a 13th century castle, built by the Dukes of Brabant. It is located on the banks of the river Scheldt and is a popular tourist attraction for good reason, being the epitome of European castles. 
+
+![](./images/Antwerp/antwerp23.png)
+
+The [Museum aan de Stroom](https://en.wikipedia.org/wiki/Museum_Aan_de_Stroom) is a museum dedicated to the history of Antwerp.
+
+![](./images/Antwerp/antwerp24.png)
+
+The [Royal Museum of Fine Arts](https://en.wikipedia.org/wiki/Royal_Museum_of_Fine_Arts_Antwerp) is one of the finest collections of art I've seen outside of the Met and Louvre. It is well curated and large but not overwhelmingly so. 
+
+![](./images/Antwerp/antwerp20.png)
+
+![](./images/Antwerp/antwerp18.png)
+
+![](./images/Antwerp/antwerp16.png)
+
+![](./images/Antwerp/antwerp17.png)
+
+The [Antwerp Central Station](https://en.wikipedia.org/wiki/Antwerp_Central_Station) is one of the most beautiful train stations I've ever seen. It is a cathedral of glass and steel, and is a must see for anyone visiting Antwerp.
+
+![](./images/Antwerp/antwerp1.png)
+
+![](./images/Antwerp/antwerp26.png)
+
+![](./images/Antwerp/antwerp2.png)
+
+![](./images/Antwerp/antwerp3.png)
+
+In general, the city has gorgeous architecture.
+
+![](./images/Antwerp/antwerp9.png)
+
+![](./images/Antwerp/antwerp4.png)
+
+![](./images/Antwerp/antwerp12.png)
+
+The city hall.
+
+![](./images/Antwerp/antwerp11.png)

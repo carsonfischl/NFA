@@ -1,0 +1,90 @@
+---
+title: "Lille, France"
+---
+
+A center of European warfare and Flemish culture.
+
+```{r out.width='100%', echo=FALSE}
+euralille <- paste("<b>Lille Europe</b>")
+lilleFlandres <- paste("<b>Lille Flandres</b>")
+vielleBourse <- paste("<b>Vielle Bourse</b>")
+operaDeLille <- paste("<b>Opéra de Lille</b>")
+beffroiDeLaBourse<- paste("<b>Beffroi de la Bourse</b>")
+lilleZoo <- paste("<b>Lille Zoo</b>")
+porteDeParis <- paste("<b>Porte de Paris</b>")
+beffroiDeLille <- paste("<b>Beffroi de Lille</b>")
+museeDesBeauxArts <- paste("<b>Musée des Beaux-Arts</b>")
+meert <- paste("<b>Méert</b>")
+cathedraleNotreDameDeLaTreille <- paste("<b>Cathédrale Notre-Dame-de-la-Treille</b>")
+maisonDeGaulle <- paste("<b>Maison de Gaulle</b>")
+citadelleDeLille <- paste("<b>Citadelle de Lille</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(3.063517, 50.638639, zoom = 14) %>%
+  addMarkers(3.075177, 50.639119, icon = greenDotIcon, popup = euralille) %>% # Lille Europe
+  addMarkers(3.069541, 50.636586, icon = greenDotIcon, popup = lilleFlandres) %>%  # Lille Flandres
+  addMarkers(3.064279, 50.637060, icon = greenDotIcon, popup = vielleBourse) %>%  # Vielle Bourse
+  addMarkers(3.065222, 50.637578, icon = greenDotIcon, popup = operaDeLille) %>%  # Opéra de Lille
+  addMarkers(3.064518, 50.637684, icon = greenDotIcon, popup = beffroiDeLaBourse) %>%  # Beffroi de la Bourse
+  addMarkers(3.047743, 50.638229, icon = greenDotIcon, popup = lilleZoo) %>%  # Lille Zoo
+  addMarkers(3.068808, 50.629655, icon = greenDotIcon, popup = porteDeParis) %>%  # Porte de Paris
+  addMarkers(3.069815, 50.630623, icon = greenDotIcon, popup = beffroiDeLille) %>%  # Beffroi de Lille
+  addMarkers(3.062825, 50.630454, icon = greenDotIcon, popup = museeDesBeauxArts) %>% # Musée des Beaux-Arts
+  addMarkers(3.061813, 50.637687, icon = greenDotIcon, popup = meert) %>% # Méert
+  addMarkers(3.062761, 50.640221, icon = greenDotIcon, popup = cathedraleNotreDameDeLaTreille) %>% # Cathédrale Notre-Dame-de-la-Treille
+  addMarkers(3.044564, 50.640936, icon = greenDotIcon, popup = citadelleDeLille) %>% # Citadelle de Lille
+  addMarkers(3.058670, 50.645851, icon = greenDotIcon, popup = maisonDeGaulle) # Maison de Gaulle
+
+```
+![](images/Lille/lille7.png)
+
+Lille is the center of an expansive metropolitan area on the Belgian border. Previously highly industrialized, northern France is less properous than in the past and was damaged during WWII, but still offers a rich cultural experience with Flemish cuisine that is unique to the area. Beer culture, in "brasseries," is more common than wine culture here. 
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("4 months", "TGV from Paris", "Beffroi de Lille, Vielle Bourse, Opéra de Lille", "Gaufres fourrées", "Méert")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Lille/lille19.png)
+
+The Vielle Bourse is a festive-looking building that housed the city's old stock exchange. Today, the courtyard is open most days as a flea market, with sellers of old books, maps, and toys. Across the street is the Opéra, one of the nicest in France, and the Beffroi de la Bourse.
+
+![](images/Lille/lille12.png)
+
+The Beffroi (left) and the Opéra.
+
+![](images/Lille/lille10.png)
+
+![](images/Lille/lille20.png)
+
+The reception room of the Opéra house.
+
+![](images/Lille/lille8.png)
+
+Looking down Rue Faidherbe from the Opéra, one can see the old train station, Lille Flandres. The station is very architecturally similar to Gare du Nord in Paris but smaller and minus some statues. Just down the street from Lille Flandres is the gigantic EuraLille shopping center and the adjoining, new Lille Europe train station.
+
+![](images/Lille/lille6.png)
+
+![](images/Lille/lille21.png)
+
+![](images/Lille/lille5.png)
+
+[Méert](https://www.meert.fr/en/) is a famous café in the old town which has served numerous famous guests, including Napoléon & Josephine, Léopold I of Belgium, and Winston Churchill. The pastries are exceptional, including this millefeuille. 
+
+
+![](images/Lille/lille13.png)
+
+A little outside to main, historic center is the [Beffroi de Lille, ](https://fr.wikipedia.org/wiki/Beffroi_de_l%27H%C3%B4tel_de_ville_de_Lille) which was built in 1932. It is attached to the city hall after it was rebuilt following WWI and is the highest belfry in Europe. 
+
+![](images/Lille/lille16.png)
+
+![](images/Lille/lille14.png)
+
+Right next to it is the Porte de Paris, a triumphal arch built in 1675 to celebrate the victories of Louis XIV. Louis XIV was hungry for military glory and campaigned extensively in the area during the [Franco-Dutch War,](https://en.wikipedia.org/wiki/Franco-Dutch_War) adding territory to his realm and, more importantly for him, adding to his legacy.
+
+![](images/Lille/lille18.png)
+
+Parc de la Citadelle is an extensive public area surrounding [Lille's old fortifications.](https://en.wikipedia.org/wiki/Citadel_of_Lille) The star-shaped fortress was designed by [Vauban,](https://en.wikipedia.org/wiki/S%C3%A9bastien_Le_Prestre_de_Vauban) widely regarded as one of the greatest military engineers ever, and houses the French Army's [Rapid Reaction Force](https://en.wikipedia.org/wiki/Rapid_Reaction_Corps_%E2%80%93_France).

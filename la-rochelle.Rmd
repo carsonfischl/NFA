@@ -1,0 +1,59 @@
+---
+title: "La Rochelle, France"
+---
+
+The city of Protestants, seafarers, and Templars.
+
+```{r out.width='100%', echo=FALSE}
+saintNicholasTower <- paste("<b>Saint-Nicholas Tower</b>")
+tourDeLaChaine <- paste("<b>Tour de la Chaîne</b>")
+tourDeLaLanterne <- paste("<b>Tour de la Lanterne</b>")
+gareDeLaRochelle <- paste("<b>Gare de La Rochelle-Ville</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-1.155421, 46.153794, zoom = 13) %>%
+  addMarkers(-1.153314, 46.155801, icon = greenDotIcon, popup = saintNicholasTower) %>%  # Saint Nicholas Tower
+  addMarkers(-1.154122, 46.155829, icon = greenDotIcon, popup = tourDeLaChaine) %>%  # Tour de la Chaîne
+  addMarkers(-1.157150, 46.155785, icon = greenDotIcon, popup = tourDeLaLanterne) %>%  # Tour de la Lanterne
+  addMarkers(-1.145638, 46.152741, icon = greenDotIcon, popup = gareDeLaRochelle) # Gare de La Rochelle-Ville
+```
+
+![](images/LaRochelle/larochelle2.png)
+
+La Rochelle is a coastal city that is famous for being a Prostestant stronghold during the [French Wars of Religion](https://en.wikipedia.org/wiki/French_Wars_of_Religion) from 1562 to 1589, when the city was besieged by Catholic forces led by Cardinal Richelieu. The city's walls were demolished, but three of the large towers remain.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("9 Hours", "TER from Bordeaux Saint-Jean", "Tour de la Lanterne, Tour de la Chaîne, Tour Saint-Nicolas", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/LaRochelle/larochelle1.png)
+
+The pointed tower is Tour de la Lanterne (the "Lantern Tower"), which served as a lighthouse and prison.
+
+![](images/LaRochelle/larochelle4.png)
+
+![](images/LaRochelle/larochelle5.png)
+
+Carvings from prisoners cover the inner walls of Tour de la Lanterne. Some of the most famous prisoners of the tower were [the four sergeants](https://fr.wikipedia.org/wiki/Quatre_sergents_de_La_Rochelle) - in 1822, four Bonapartiste NCOs, accused of plotting to overthrow the restored Bourbon monarchy, were held in the tower prior to their execution in Paris in front of the Hôtel de Ville.
+
+![](images/LaRochelle/larochelle6.png)
+
+![](images/LaRochelle/larochelle7.png)
+
+![](images/LaRochelle/larochelle9.png)
+
+The Saint-Nicholas Tower was completed in 1376 and serves, along with Tour de La Chaîne, as a guard tower for La Rochelle's harbour. Each tower would hold a Captain, along with a company of soldiers and possibly prisoners in the center cells. The towers would string a chain across the mouth of the harbour to close off the port in the event of an attack.
+
+![](images/LaRochelle/larochelle13.png)
+
+Tour de la Chaîne is the smaller, partner tower to Saint-Nicholas. The Tower held the winch that operated the chain to close the harbour, hence the name. However, in 1651, during the Fronde, a noble rebellion against the young Louis XIV, the tower was set on fire and abandoned. On the occasion of my visit, it was flying the South African flag as a sign of respect for South Africa, who was playing France in the Rugby World Cup. The French have mastered the art of both self-aggrandizement, as well as the line between flattery and respect of other cultures - it is common to see monuments and streets named after foreign artists and leaders across France.
+
+![](images/LaRochelle/larochelle10.png)
+
+The beautiful boardwalk extends all the way down the coast to Île de Ré.
+
+![](images/LaRochelle/larochelle11.png)
