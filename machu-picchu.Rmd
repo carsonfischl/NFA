@@ -1,0 +1,23 @@
+---
+title: "Machu Picchu, Peru"
+---
+
+A mountain fortress fit for a Sapa Inca.
+
+```{r out.width='100%', echo=FALSE}
+mountain <- paste("<b>Rainbow Mountain</b>")
+leaflet() %>% addTiles() %>%
+  setView(-71.357420, -13.865918, zoom = 14) %>%
+  addMarkers(-71.357420, -13.865918, icon = greenDotIcon, popup = mountain) 
+```
+
+![](./images/RainbowMountain/rainbowmountain.png)
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One day", "Two hour drive from Cusco", "Rainbow Mountain, Red Valley", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+

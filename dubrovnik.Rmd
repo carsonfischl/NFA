@@ -1,0 +1,58 @@
+---
+title: "Dubrovnik, Croatia"
+---
+
+Chilling in the Republic of Ragusa.
+
+```{r out.width='100%', echo=FALSE}
+lovrijenac <- paste("<b>Lovrijenac</b>")
+stariGrad <- paste("<b>Stari Grad</b>")
+rectorsPalace <- paste("<b>Rector's Palace</b>")
+sunsetBeach <- paste("<b>Sunset Beach</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(18.094016, 42.645727, zoom = 13) %>%
+  addMarkers(18.104347, 42.640803, icon = greenDotIcon, popup = lovrijenac) %>% # Lovrijenac (Fortress)
+  addMarkers(18.108348, 42.639464, icon = greenDotIcon, popup = stariGrad) %>% # Old Walled City
+  addMarkers(18.110682, 42.641143, icon = greenDotIcon, popup = rectorsPalace) %>% # Rector's Palace
+  addMarkers(18.070296, 42.655406, icon = greenDotIcon, popup = sunsetBeach) # Sunset Beach
+```
+
+![](images/Dubrovnik/dubrovnik14.png)
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("2 days", "FlixBus from Mostar, Bosnia", "Old city walls, Lovrijenac", "Peppino's Gelato Garden")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Dubrovnik/dubrovnik9.png)
+
+Lovrijenac is a defensive fort built by the citizens of Dubrovnik in the 11th century.
+
+![](images/Dubrovnik/dubrovnik10.png)
+
+![](images/Dubrovnik/dubrovnik12.png)
+
+The old city and its walls are on the opposite side of a small bay and take most of the day to walk, but are well worth the time.
+
+![](images/Dubrovnik/dubrovnik1.png)
+
+![](images/Dubrovnik/dubrovnik2.png)
+
+![](images/Dubrovnik/dubrovnik3.png)
+
+![](images/Dubrovnik/dubrovnik19.png)
+
+The old town has many cute restaurants and shops and is worth taking the time to explore it's many old churches.
+
+![](images/Dubrovnik/dubrovnik8.png)
+
+![](images/Dubrovnik/dubrovnik20.png)
+
+On the other side of town, Sunset Beach is a popular hangout on a small cove.
+
+![](images/Dubrovnik/dubrovnik24.png)
+
+![](images/Dubrovnik/dubrovnik11.png)

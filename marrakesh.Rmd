@@ -1,0 +1,69 @@
+---
+title: "Marrakesh, Morocco"
+---
+
+The souks of Marrakesh beat the Grand Bazaar in Istanbul any day.
+
+```{r out.width='100%', echo=FALSE}
+kutubiyyaMosque <- paste("<b>Kutubiyya Mosque</b>")
+bahiaPalace <- paste("<b>Bahia Palace</b>")
+elBadiPalace <- paste("<b>El Badi Palace</b>")
+bachaCoffee <- paste("<b>Bacha Coffee</b>")
+trainStation <- paste("<b>Train Station</b>")
+jemaaElFenaa <- paste("<b>Jemaa el-Fenaa</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-7.987035, 31.627309, zoom = 13) %>%
+  addMarkers(-7.993362, 31.623745, icon = greenDotIcon, popup = kutubiyyaMosque) %>% # Kutubiyya Mosque
+  addMarkers(-7.982707, 31.621400, icon = greenDotIcon, popup = bahiaPalace) %>% # Bahia Palace
+  addMarkers(-7.985084, 31.618177, icon = greenDotIcon, popup = elBadiPalace) %>% # El Badi Palace
+  addMarkers(-7.992543, 31.631485, icon = greenDotIcon, popup = bachaCoffee) %>% # Bacha Coffee
+  addMarkers(-8.018088, 31.630636, icon = greenDotIcon, popup = trainStation) %>% # Train Station
+  addMarkers(-7.988927, 31.625821, icon = greenDotIcon, popup = jemaaElFenaa) # Jemaa el Fenaa
+```
+
+![](images/Marrakesh/marrakesh.png)
+
+Located in the foothills of the Atlas mountains, Marrakesh is a bussling city of many sights, sounds and smells. Many French, Belgian, and German tourists come to the city for adventurous vacations, with its major international airport, palaces, and tours to Morocco's interior.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("2.5 days", "3 hour flight from Bordeaux", "Kutubiyya Mosque, Bahia Palace, Jemaa el-Fenaa, Badi Palace", "Msemmen, Tagines, Bissara", "Bacha Coffee")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Marrakesh/marrakesh24.png)
+
+Marrakesh has the largest [souks](https://en.wikipedia.org/wiki/Bazaar) (bazaars) in Africa. Monstrous and labyrinth-like, there are many interesting souvenirs to be had, just be wary of fake fossils and jewelry and high-pressure sales tactics. Be sure to haggle. I was offered a swatch of leopard pelt, which I did not buy.
+
+![](images/Marrakesh/marrakesh33.png)
+
+![](images/Marrakesh/marrakesh23.png)
+
+![](images/Marrakesh/marrakesh22.png)
+
+Fake fossils, made with concrete and resin.
+
+The Koutoubia or [Kutubiyya](https://en.wikipedia.org/wiki/Kutubiyya_Mosque) is an imposing mosque dominating a large public space near the Jemaa el-Fenaa, the largest souk, which dates to the 12th century.
+
+![](images/Marrakesh/marrakesh30.png)
+
+![](images/Marrakesh/marrakesh9.png)
+
+Tagine is a local specialty and refers to the earthenware cooking vessel. You can find rice, couscous, and a variety of meats. Personally, they're not to my liking, but they're a must-try while in Morocco and can be found everywhere.
+
+![](images/Marrakesh/marrakesh27.png)
+
+Marrakesh has beautiful [red walls.](https://en.wikipedia.org/wiki/Walls_of_Marrakesh)
+
+![](images/Marrakesh/marrakesh29.png)
+
+The [El Badi Palace](https://en.wikipedia.org/wiki/El_Badi_Palace) isn't nearly as old as the deterioration suggests, dating to the 16th century. A vast complex built with materials from across Europe and Africa, it was a powerful statement of the Sultanate's power at the time.
+
+![](images/Marrakesh/marrakesh19.png)
+
+Nearby is the newer [Bahia Palace,](https://en.wikipedia.org/wiki/Bahia_Palace) as well as the current royal palace, the [Kasbah.](https://en.wikipedia.org/wiki/Kasbah_of_Marrakesh)
+
+![](images/Marrakesh/marrakesh17.png)
