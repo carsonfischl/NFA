@@ -16,7 +16,7 @@ Arequipa is one of Peru's largest cities. It is located in the southern part of 
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("Three days", "11 hour bus ride from Ica", "Rio Chili", "Cuy", "13 Monjas")
+values <- c("Three days", "11 hour bus ride from Ica", "Rio Chili, Misti volcano, Santa Catalina de Siena monastery", "Cuy", "13 Monjas")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
