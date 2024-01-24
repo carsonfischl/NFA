@@ -1,0 +1,23 @@
+---
+title: "Arequipa, Peru"
+---
+
+White water rafting, hiking, and a visit to the Colca Canyon. Arequipa is a great place to visit for the adventurous.
+
+```{r out.width='100%', echo=FALSE}
+
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(2.346940, 48.858885, zoom = 13) %>%
+  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower)
+```
+
+Arequipa is one of Peru's largest cities. It is located in the southern part of the country and is surrounded by three volcanoes. The city is known for its colonial-era buildings made of sillar, a white volcanic stone. The city is also known as the "White City" because of the sillar used to build the city. The city is also known for its Andean cuisine, which includes guinea pigs, or "cuy".
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Three days", "11 hour bus ride from Ica", "Rio Chili, Misti volcano, Santa Catalina de Siena monastery", "Cuy", "13 Monjas")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
