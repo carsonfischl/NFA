@@ -1,0 +1,41 @@
+---
+title: "Langon, France"
+---
+
+A brief castle stop in the heart of wine country.
+
+```{r out.width='100%', echo=FALSE}
+chateauRoquetaillade <- paste("<b>Château Roquetaillade</b>")
+egliseSaintGervais <- paste("<b>Église Saint-Gervais-Saint-Protais</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-0.247289, 44.555854, zoom = 11) %>%
+  addMarkers(-0.269680, 44.492580, icon = greenDotIcon, popup = chateauRoquetaillade) %>% # Château Roquetaillade
+  addMarkers(-0.248558, 44.556631, icon = greenDotIcon, popup = egliseSaintGervais)  # Église Saint-Gervais-Saint-Protais
+```
+
+![](images/Langon/langon1.png)
+
+My visit to Langon was accidental, thanks to a train delay. Nevertheless, it was refreshing to see the town and the gorgeous Château de Roquetaillade. The surrounding landscape is full of picturesque vineyards.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("6 Hours", "TER from Bordeaux Saint-Jean", "Château de Roquetaillade, Château de Respide", "N/A")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Langon/langon8.png)
+
+Château de Roquetaillade is near the hamlet of Mazères and quite impressive. According to legend, the first castle on the site was built by Charlemagne and made of wood. The current castle was built in 1306 by [Cardinal de la Motte](https://en.wikipedia.org/wiki/Gaillard_de_la_Mothe) with permission from English King Edward I, who ruled Gascony at the time. It remains privately owned but open for tours. Pictures of the interior weren't allowed, however it was restored in the 19th century by famous French architect [Eugène Viollet-le-Duc](https://en.wikipedia.org/wiki/Eug%C3%A8ne_Viollet-le-Duc), who also restored Carcassonne and Pierrefonds.
+
+![](images/Langon/langon3.png)
+
+![](images/Langon/langon4.png)
+
+[Église Saint-Gervais-Saint-Protais-de-Langon](https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Gervais-Saint-Protais_de_Langon) was first built in the 13th century and rebuilt in the 19th century after destruction by Huguenots in 1576 and later during the Fronde. 
+
+![](images/Langon/langon6.png)
+
+A church in the cozy hamlet of Mazères. The town is one of the last stops on the bus from Bordeaux Stalingrad.

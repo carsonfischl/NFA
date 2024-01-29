@@ -1,0 +1,57 @@
+---
+title: "Merzouga, Morocco"
+---
+
+On the edge of the Sahara.
+
+```{r out.width='100%', echo=FALSE}
+ksarSania <- paste("<b>Ksar Sania</b>")
+busStop <- paste("<b>Bus Stop</b>")
+ergChebbi <- paste("<b>Erg Chebbi</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-4.014088, 31.099917, zoom = 13) %>%
+  addMarkers(-4.008162, 31.084677, icon = greenDotIcon, popup = ksarSania) %>% # Ksar Sania
+  addMarkers(-4.017317, 31.098758, icon = greenDotIcon, popup = busStop) %>% # Bus stop
+  addMarkers(-3.986059, 31.083429, icon = greenDotIcon, popup = ergChebbi) # Erg Chebbi
+```
+
+![](images/Merzouga/merzouga22.png)
+
+Merzouga is a popular town for accessing [Erg Chebbi](https://en.wikipedia.org/wiki/Erg_Chebbi), ergs being large areas of sand dunes that provide the stereotypical landscape of the Sahara (although much of the Sahara is not ergs). Morocco's other large erg, Erg Chigaga, is in the south near Mhamid and is more difficult to access.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Restaurant Recommendations")
+values <- c("2 days", "8 hours by bus from Ouarzazate", "Erg Chebbi", "Ksar Sania")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](images/Merzouga/merzouga37.png)
+
+![](images/Merzouga/merzouga19.png)
+
+![](images/Merzouga/merzouga7.png)
+
+There is a Supratours bus once per day to Merzouga, arriving in the evening and departing in the morning. While I improvised my trip and booked the bus from Ouarzazate, for others, I highly recommend booking a tour from Marrakesh. The majority of tour companies start from Marrakesh and will stop in Ouarzazate and Aït Benhaddou, as well as other destinations, along the route, and including camping in the desert and camel rides. When I tried to book a tour from Ouarzazate, I was the only tourist the agencies had interested, so I was quoted prices in excess of 400 USD for the tour. Another option is driving, which is not bad in Morocco if you are prepared to deal with police checkpoints, which are common.
+
+![](images/Merzouga/merzouga2.png)
+
+Pictured is a kefta shakshouka, which was great.
+
+![](images/Merzouga/merzouga3.png)
+
+I stayed with Françoise and Lassen at the lovely Ksar Sania. While there are many eco-camps and lodges near the Erg, this particular one offered great hospitality and value (less than 20 CAD/15 USD per day for the room, and 442 MAD/44 USD for four meals and a camel ride).
+
+![](images/Merzouga/merzouga39.png)
+
+![](images/Merzouga/merzouga40.png)
+
+Camel rides where 110 MAD (roughly 11 euros at time of writing). I didn't have time to investigate dune buggying or ATVing but they are also popular activities on the erg.
+
+![](images/Merzouga/merzouga29.png)
+
+![](images/Merzouga/merzouga6.png)
+
+![](images/Merzouga/merzouga33.png)
