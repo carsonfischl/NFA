@@ -9,7 +9,7 @@ White water rafting, hiking, and a visit to the Colca Canyon. Arequipa is a grea
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(2.346940, 48.858885, zoom = 13) %>%
-  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower)
+  addMarkers(1.441974, 43.608382, icon = greenDotIcon)
 ```
 
 Arequipa is one of Peru's largest cities. It is located in the southern part of the country and is surrounded by three volcanoes. The city is known for its colonial-era buildings made of sillar, a white volcanic stone. The city is also known as the "White City" because of the sillar used to build the city. The city is also known for its Andean cuisine, which includes guinea pigs, or "cuy".

@@ -13,6 +13,11 @@ singel <- paste("<b>Singel</b>")
 herengracht <- paste("<b>Herengracht</b>")
 keizersgracht <- paste("<b>Keizersgracht</b>")
 prinsengracht <- paste("<b>Prinsengracht</b>")
+greenDotIcon <- makeIcon(
+  iconUrl = "images/GreenDot.png",
+  iconWidth = 7, iconHeight = 7,
+  iconAnchorX = 0, iconAnchorY = 0
+)
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(4.899239, 52.372985, zoom = 13) %>%

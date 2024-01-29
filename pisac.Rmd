@@ -14,7 +14,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(-72.545600, -13.161828, icon = greenDotIcon, popup = market) # Artisanal market
 ```
 
-![](./images/Pisac/pisac.png)
+![](./images/Pisac/pisac43.png)
 
 Pisac is another popular site to visit in the Sacred Valley and worth the trip. It offers stellar views of the surrounding valley and shows off the Inca's terraced agriculure. The site is also a great place to see the Inca's advanced stonework. The site is a short drive from Cusco and can be combined with a trip to Ollantaytambo.
 
@@ -25,3 +25,17 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](./images/Pisac/pisac15.png)
+
+![](./images/Pisac/pisac17.png)
+
+The view of the Valley is impressive.
+
+![](./images/Pisac/pisac13.png)
+
+The terraces are a great example of Inca agriculture.
+
+![](./images/Pisac/pisac35.png)
+
+![](./images/Pisac/pisac8.png)
