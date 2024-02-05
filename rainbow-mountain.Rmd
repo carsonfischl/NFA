@@ -14,14 +14,36 @@ leaflet() %>% addTiles() %>%
   addMarkers(-71.307600, -13.874414, icon = greenDotIcon, popup = redValley) # Red Valley
 ```
 
-![](./images/Pisac/pisac.png)
+![](./images/RainbowMountain/rainbow1.png)
 
 Pisac is another popular site to visit in the Sacred Valley and worth the trip. It offers stellar views of the surrounding valley and shows off the Inca's terraced agriculure. The site is also a great place to see the Inca's advanced stonework. The site is a short drive from Cusco and can be combined with a trip to Ollantaytambo.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Forty minutes from Cusco on a pesero", "Archaeological site", "", "")
+values <- c("One day", "Four hours from Cusco", "Red Valley, Rainbow Mountain", "", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](./images/RainbowMountain/rainbow10.png)
+
+Some friendly even-toed ungulates at the summit.
+
+![](./images/RainbowMountain/rainbow20.png)
+
+The Red Valley is right around the corner. The locals want a small additional fee to visit, but it's worth it.
+
+![](./images/RainbowMountain/rainbow21.png)
+
+Rainbow Mountain itself is not as colorful as the pictures suggest. The colors are more muted and the mountain is not as large as it appears in the photos. However, the surrounding area is beautiful and worth the trip.
+
+![](./images/RainbowMountain/rainbow8.png)
+
+![](./images/RainbowMountain/rainbow7.png)
+
+The view from the summit.
+
+![](./images/RainbowMountain/rainbow17.png)
+
+![](./images/RainbowMountain/rainbow6.png)
