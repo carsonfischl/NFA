@@ -380,3 +380,38 @@ thumbnail("Amsterdam, Netherlands", "images/Amsterdam/amsterdam3.png", "./amster
 <br />
 <br />
 <br />
+<h2>South America</h2>
+<hr class="rounded">
+<h3>Peru</h3>
+```{r out.width='100%', echo=FALSE}
+thumbnail("Pisac, Peru", "images/Pisac/pisac10.png", "./pisac.html")
+thumbnail("Machu Picchu, Peru", "images/MachuPicchu/mp1.png", "./machu-picchu.html")
+thumbnail("Arequipa, Peru", "images/Arequipa/arequipa15.png", "./arequipa.html")
+thumbnail("Rainbow Mountain, Peru", "images/RainbowMountain/rainbow20.png", "./rainbow-mountain.html")
+```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
