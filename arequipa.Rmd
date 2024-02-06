@@ -5,19 +5,50 @@ title: "Arequipa, Peru"
 White water rafting, hiking, and a visit to the Colca Canyon. Arequipa is a great place to visit for the adventurous.
 
 ```{r out.width='100%', echo=FALSE}
-
-library(leaflet)
+rioChili <- paste("<b>Rio Chili</b>")
+misti <- paste("<b>Volcan Misti</b>")
+santaCatalina <- paste("<b>Santa Catalina de Siena</b>")
+arequipaCathedral <- paste("<b>Cathedral</b>")
 leaflet() %>% addTiles() %>%
-  setView(2.346940, 48.858885, zoom = 13) %>%
-  addMarkers(1.441974, 43.608382, icon = greenDotIcon)
+  setView(-71.536712, -16.392708, zoom = 14) %>%
+  addMarkers(-71.539456, -16.394769, icon = greenDotIcon, popup = rioChili) %>%
+  addMarkers(-71.390594, -16.300712, icon = greenDotIcon, popup = misti) %>%
+  addMarkers(-71.536646, -16.395922, icon = greenDotIcon, popup = santaCatalina) %>%
+  addMarkers(-71.536646, -16.398106, icon = greenDotIcon, popup = arequipaCathedral)
 ```
 
 Arequipa is one of Peru's largest cities. It is located in the southern part of the country and is surrounded by three volcanoes. The city is known for its colonial-era buildings made of sillar, a white volcanic stone. The city is also known as the "White City" because of the sillar used to build the city. The city is also known for its Andean cuisine, which includes guinea pigs, or "cuy".
 
+![](./images/Arequipa/arequipa15.png)
+
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("Three days", "11 hour bus ride from Ica", "Rio Chili, Misti volcano, Santa Catalina de Siena monastery", "Cuy", "13 Monjas")
+values <- c("Three days", "11 hour bus ride from Ica", "Rio Chili, Volcan Misti, Santa Catalina de Siena monastery", "Cuy", "13 Monjas")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+The current cathedral was finished in 1656. While small in comparison to the cathedrals of Europe, it was the nicest religious building I saw in Peru. The cathedral is located in the Plaza de Armas, which is the main square of the city. The plaza is surrounded by restaurants and shops, and is a great place to people watch and relax.
+
+![](./images/Arequipa/arequipa11.png)
+
+![](./images/Arequipa/arequipa12.png)
+
+The Santa Catalina de Siena monastery is a large complex that was built in 1579. The monastery is a city within a city, and is a great place to explore. The monastery is still active, and there are still nuns living in the complex. The monastery is a great place to explore, and is a great place to take pictures.
+
+![](./images/Arequipa/arequipa7.png)
+
+![](./images/Arequipa/arequipa6.png)
+
+![](./images/Arequipa/arequipa9.png)
+
+13 Monjas is a great restaurant near the monastery.
+
+![](./images/Arequipa/arequipa1.png)
+
+![](./images/Arequipa/arequipa10.png)
+
+The nearby volcan, Misti, can be seen from town.
+
+![](./images/Arequipa/arequipa14.png)
