@@ -5,19 +5,42 @@ title: "Machu Picchu, Peru"
 A mountain fortress fit for a Sapa Inca.
 
 ```{r out.width='100%', echo=FALSE}
-mountain <- paste("<b>Rainbow Mountain</b>")
+citadel <- paste("<b>Citadel</b>")
+aguasCalientes <- paste("<b>Aguas Calientes</b>")
+huaynaPicchu <- paste("<b>Huayna Picchu</b>")
 leaflet() %>% addTiles() %>%
-  setView(-71.357420, -13.865918, zoom = 14) %>%
-  addMarkers(-71.357420, -13.865918, icon = greenDotIcon, popup = mountain) 
+  setView(-72.533749, -13.157171, zoom = 14) %>%
+  addMarkers(-72.544787, -13.162647, icon = greenDotIcon, popup = citadel) %>%
+  addMarkers(-72.524937, -13.155062, icon = greenDotIcon, popup = aguasCalientes) %>%
+  addMarkers(-72.546029, -13.156733, icon = greenDotIcon, popup = huaynaPicchu)
 ```
 
-![](./images/RainbowMountain/rainbowmountain.png)
+![](./images/MachuPicchu/mp1.png)
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("One day", "Two hour drive from Cusco", "Rainbow Mountain, Red Valley", "", "")
+values <- c("One day", "One hour train ride from Cusco", "Templo del Condor, Huayna Picchu", "", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
 
+![](./images/MachuPicchu/mp10.png)
+
+There are several routes whose tickets can be purchased in advance. Tickets to the "upper city" offer this view, but there is no guide to prevent you from going up, even if you have lower city tickets.
+
+![](./images/MachuPicchu/mp3.png)
+
+![](./images/MachuPicchu/mp6.png)
+
+The private train into Aguas Calientes is a luxurious way to travel to Machu Picchu. The train is equipped with a dining car and a bar car.
+
+![](./images/MachuPicchu/mp46.png)
+
+The tickets that allow you to climb Huayna Picchu are limited to 400 per day. Unlike other routes, this one is strictly controlled, so buy early.
+
+![](./images/MachuPicchu/mp30.png)
+
+![](./images/MachuPicchu/mp18.png)
+
+![](./images/MachuPicchu/mp8.png)
