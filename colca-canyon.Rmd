@@ -1,0 +1,48 @@
+---
+title: "Colca Canyon, Peru"
+---
+
+White water rafting, hiking, and a visit to the Colca Canyon. Arequipa is a great place to visit for the adventurous.
+
+```{r out.width='100%', echo=FALSE}
+mirador <- paste("<b>Achachiua Mirador</b>")
+yanque <- paste("<b>Yanque</b>")
+chivay <- paste("<b>Chivay</b>")
+leaflet() %>% addTiles() %>%
+  setView(-71.814229, -15.623326, zoom = 10) %>%
+  addMarkers(-71.991730, -15.616460, icon = greenDotIcon, popup = mirador) %>%
+  addMarkers(-71.658715, -15.649705, icon = greenDotIcon, popup = yanque) %>%
+  addMarkers(-71.601574, -15.637536, icon = greenDotIcon, popup = chivay) 
+```
+
+With depths from 1000 to 2000 meters, Colca Canyon is one of the deepest canyons in the world. The canyon is a great place to visit for hiking, white water rafting, thermal spas, and to see the endangered Andean Condor.
+
+![](./images/ColcaCanyon/colca4.png)
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One", "7 hour bus ride from Arequipa", "Achachiua Mirador, Yanque, Chivay", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](./images/ColcaCanyon/colca13.png)
+
+![](./images/ColcaCanyon/colca6.png)
+
+The town of Yanque has locals selling alpaca wool products and a beautiful church.
+
+![](./images/ColcaCanyon/colca8.png)
+
+The Achachiua Mirador is a great place to see the canyon and the Andean Condor.
+
+![](./images/ColcaCanyon/colca15.png)
+
+![](./images/ColcaCanyon/colca14.png)
+
+The Andes on the return trip to Arequipa. Watch out for some awful altitude sickness.
+
+![](./images/ColcaCanyon/colca20.png)
+
+![](./images/ColcaCanyon/colca21.png)
