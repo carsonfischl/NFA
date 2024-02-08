@@ -1,0 +1,56 @@
+---
+title: "Huacachina, Peru"
+---
+
+An Instagrammable desert oasis.
+
+```{r out.width='100%', echo=FALSE}
+huacachinaOasis <- paste("<b>Huacachina Oasis</b>")
+ica <- paste("<b>Ica</b>")
+leaflet() %>% addTiles() %>%
+  setView(-71.814229, -15.623326, zoom = 10) %>%
+  addMarkers(-71.991730, -15.616460, icon = greenDotIcon, popup = huacachinaOasis) %>%
+  addMarkers(-71.658715, -15.649705, icon = greenDotIcon, popup = ica) 
+```
+
+![](./images/Huacachina/huacachina15.png)
+
+Meaning "hidden lagoon" in the indigenous Quecha language, Huacachina is a desert oasis adjacent to the city of Ica. The lagoon is surrounded by palm trees and sand dunes, and is a popular spot for sandboarding and dune buggy rides. The town is small and can be walked in about 10 minutes. There are a few restaurants and hostels, and the town is a popular spot for backpackers. The Wild Rover and Kokopelli hostels are highly recommended for your stays around Peru, but the Wild Rover in Huacachina was particularly welcoming.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "1 hour bus ride from Paracas", "Huacachina oasis", "Pisco", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](./images/Huacachina/huacachina11.png)
+
+![](./images/Huacachina/huacachina27.png)
+
+The oasis proper is small, but the surrounding sand dunes are vast and beautiful. The town has a permanent population of around 100 people, but the population swells with tourists.
+
+![](./images/Huacachina/huacachina37.png)
+
+![](./images/Huacachina/huacachina39.png)
+
+The major city of Ica is nearby and surrounds the dunes on two sides. It is well-known for its pisco breweries. 
+
+![](./images/Huacachina/huacachina38.png)
+
+![](./images/Huacachina/huacachina42.png)
+
+I stayed at the Wild Rover hostel and had one of my best stays in all my travels. The hostel is a party hostel, but the staff are friendly and the food is good. The hostel has a pool and a bar, and the staff hold karaoke nights and other events. The hostel is a great place to meet other travelers.
+
+![](./images/Huacachina/huacachina47.png)
+
+View from the top of the dunes.
+
+![](./images/Huacachina/huacachina46.png)
+
+Sandboarding and dune buggy rides are popular and cheap, the best way to see the dunes.
+
+![](./images/Huacachina/huacachina12.png)
+
+![](./images/Huacachina/huacachina48.png)
