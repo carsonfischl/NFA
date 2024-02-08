@@ -8,9 +8,9 @@ An Instagrammable desert oasis.
 huacachinaOasis <- paste("<b>Huacachina Oasis</b>")
 ica <- paste("<b>Ica</b>")
 leaflet() %>% addTiles() %>%
-  setView(-71.814229, -15.623326, zoom = 10) %>%
-  addMarkers(-71.991730, -15.616460, icon = greenDotIcon, popup = huacachinaOasis) %>%
-  addMarkers(-71.658715, -15.649705, icon = greenDotIcon, popup = ica) 
+  setView(-75.754045, -14.084519, zoom = 10) %>%
+  addMarkers(-75.763049, -14.087617, icon = greenDotIcon, popup = huacachinaOasis) %>%
+  addMarkers(-75.740620, -14.067010, icon = greenDotIcon, popup = ica) 
 ```
 
 ![](./images/Huacachina/huacachina15.png)
