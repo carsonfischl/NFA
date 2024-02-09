@@ -1,0 +1,31 @@
+---
+title: "Paracas, Peru"
+---
+
+A lunar landscape on the edge of the world.
+
+```{r out.width='100%', echo=FALSE}
+paracasProper <- paste("<b>Paracas</b>")
+candelabra <- paste("<b>Candelabra</b>")
+supay <- paste("<b>Supay Beach</b>")
+redBeach <- paste("<b>Red Beach</b>")
+leaflet() %>% addTiles() %>%
+  setView(-76.290548, -13.860081, zoom = 10) %>%
+  addMarkers(-76.253034, -13.835873, icon = greenDotIcon, popup = paracasProper) %>%
+  addMarkers(-76.308857, -13.793234, icon = greenDotIcon, popup = candelabra) %>%
+  addMarkers(-76.296623, -13.899214, icon = greenDotIcon, popup = supay) %>%
+  addMarkers(-76.302809, -13.892328, icon = greenDotIcon, popup = redBeach)
+```
+
+![](./images/Paracas/paracas7.png)
+
+Paracas is a small town in the Pisco region, which gives its name to the national alcohol. It is a popular destination for tourists because of its proximity to the Paracas National Reserve and the Ballestas Islands.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "3.5 hour bus ride from Arequipa", "Red Beach, Candeladra", "Pisco", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
