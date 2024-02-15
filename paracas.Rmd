@@ -9,11 +9,13 @@ paracasProper <- paste("<b>Paracas</b>")
 candelabra <- paste("<b>Candelabra</b>")
 supay <- paste("<b>Supay Beach</b>")
 redBeach <- paste("<b>Red Beach</b>")
+ballestasIslands <- paste("<b>Ballestas Islands</b>")
 leaflet() %>% addTiles() %>%
   setView(-76.290548, -13.860081, zoom = 10) %>%
   addMarkers(-76.253034, -13.835873, icon = greenDotIcon, popup = paracasProper) %>%
   addMarkers(-76.308857, -13.793234, icon = greenDotIcon, popup = candelabra) %>%
   addMarkers(-76.296623, -13.899214, icon = greenDotIcon, popup = supay) %>%
+  addMarkers(-76.397552, -13.736939, icon = greenDotIcon, popup = ballestasIslands) %>%
   addMarkers(-76.302809, -13.892328, icon = greenDotIcon, popup = redBeach)
 ```
 
@@ -23,9 +25,34 @@ Paracas is a small town in the Pisco region, which gives its name to the nationa
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
-values <- c("Two days", "3.5 hour bus ride from Arequipa", "Red Beach, Candeladra", "Pisco", "")
+values <- c("Two days", "3.5 hour bus ride from Arequipa", "Red Beach, Candeladra", "Pisco, Ceviche", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
 
+![](./images/Paracas/paracas25.png)
+
+![](./images/Paracas/paracas11.png)
+
+The Red Beach is famous for its rugged appearance. It's not as sheer as pictures make it appear but is nonetheless very impressive.
+
+![](./images/Paracas/paracas12.png)
+
+![](./images/Paracas/paracas28.png)
+
+I toured the park by ATV, which I recommend, but Peru Hop offers a bus tour that hits the same sights.
+
+![](./images/Paracas/paracas5.png)
+
+![](./images/Paracas/paracas6.png)
+
+The city of Paracas is small and has a few restaurants and bars. Fishing is a common profession and the local ceviche is excellent.
+
+![](./images/Paracas/paracas3.png)
+
+![](./images/Paracas/paracas16.png)
+
+![](./images/Paracas/paracas17.png)
+
+The Ballestas Islands and the Candelabra petroglyph are a short boat ride from Paracas. The Islands are home to a variety of birds and sea lions.
