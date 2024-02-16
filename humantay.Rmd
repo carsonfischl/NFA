@@ -5,11 +5,14 @@ title: "Laguna Humantay, Peru"
 An Instagrammable mountain oasis.
 
 ```{r out.width='100%', echo=FALSE}
+laguna <- paste("<b>Laguna Humantay</b>")
+salkantay <- paste("<b>Salkantay Mountain</b>")
 leaflet() %>% addTiles() %>%
-  setView(-72.569038, -13.342497, zoom = 10) 
+  setView(-72.569038, -13.342497, zoom = 14) %>%
+  addMarkers(-72.569038, -13.342497, icon = greenDotIcon, popup = laguna) 
 ```
 
-![](./images/ColcaCanyon/colca4.png)
+![](./images/Humantay/humantay11.png)
 
 Laguna Humantay is a beautiful turquoise lake at the base of a glacier. It is a 2 hour hike from the trailhead and part of the legendary Salkantay trek to Machu Picchu. Definitely one of the more challenging hikes I've done, but the view is worth it.
 
