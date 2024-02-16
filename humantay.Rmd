@@ -1,0 +1,23 @@
+---
+title: "Laguna Humantay, Peru"
+---
+
+An Instagrammable mountain oasis.
+
+```{r out.width='100%', echo=FALSE}
+leaflet() %>% addTiles() %>%
+  setView(-72.569038, -13.342497, zoom = 10) 
+```
+
+![](./images/ColcaCanyon/colca4.png)
+
+Laguna Humantay is a beautiful turquoise lake at the base of a glacier. It is a 2 hour hike from the trailhead and part of the legendary Salkantay trek to Machu Picchu. Definitely one of the more challenging hikes I've done, but the view is worth it.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two hours", "2 hour hike after 1 hour drive from Cusco", "The lake", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
