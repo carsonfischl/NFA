@@ -24,3 +24,27 @@ library(knitr)
 kable(df, col.names = NULL)
 ```
 
+![](./images/Humantay/humantay5.png)
+
+![](./images/Humantay/humantay9.png)
+
+The mountain itself.
+
+![](./images/Humantay/humantay2.png)
+
+![](./images/Humantay/humantay20.png)
+
+On the hike up.
+
+![](./images/Humantay/humantay23.png)
+
+![](./images/Humantay/humantay24.png)
+
+![](./images/Humantay/humantay25.png)
+
+![](./images/Humantay/humantay28.png)
+
+![](./images/Humantay/humantay36.png)
+
+
+
