@@ -1,0 +1,60 @@
+---
+title: "Salineras de Maras, Peru"
+---
+
+For when you're not feeling salty enough.
+
+```{r out.width='100%', echo=FALSE}
+salineras <- paste("<b>Salineras</b>")
+maras <- paste("<b>Maras</b>")
+moray <- paste("<b>Moray Archaeological Site</b>")
+leaflet() %>% addTiles() %>%
+  setView(-72.154009, -13.303852, zoom = 13) %>%
+  addMarkers(-72.154089, -13.304249, icon = greenDotIcon, popup = salineras) %>%
+  addMarkers(-72.156615, -13.334900, icon = greenDotIcon, popup = maras) %>%
+  addMarkers(-72.195856, -13.329885, icon = greenDotIcon, popup = moray)
+```
+
+![](./images/Maras/maras1.png)
+
+Maras is a popular destination for Instagram photos for its nearby salt mines. Locals harvest the salt by hand from stepped terraces. 
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two hours", "30 minute car ride from Cusco", "Salt mines", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](./images/Maras/maras2.png)
+
+![](./images/Maras/maras3.png)
+
+![](./images/Maras/maras5.png)
+
+![](./images/Maras/maras7.png)
+
+![](./images/Maras/maras9.png)
+
+![](./images/Maras/maras10.png)
+
+![](./images/Maras/maras11.png)
+
+The archaeological site of Moray is also nearby. It is a series of terraced circular depressions that were used for agricultural experiments by the Incas. The temperature difference between the top and bottom terraces can be as much as 15 degrees Celsius.
+
+![](./images/Maray/maray7.png)
+
+![](./images/Maray/maray8.png)
+
+![](./images/Maray/maray11.png)
+
+![](./images/Maray/maray13.png)
+
+![](./images/Maray/maray17.png)
+
+The view on the way up.
+
+![](./images/Maray/maray2.png)
+
+![](./images/Maray/maray3.png)
