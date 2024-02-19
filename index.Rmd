@@ -48,15 +48,16 @@ toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
 amsterdamCont <- paste("<b><a href='./amsterdam.html'>Amsterdam, Netherlands</a></b>")
 #South America
 #Peru
-limaCont <- paste("<b><a href='./lima.html'>Lima, Peru</a></b>")
-cuzcoCont <- paste("<b><a href='./cuzco.html'>Cuzco, Peru</a></b>")
-pisacCont <- paste("<b><a href='./pisac.html'>Pisac, Peru</a></b>")
-machuPicchuCont <- paste("<b><a href='./machu-picchu.html'>Machu Picchu, Peru</a></b>")
 arequipaCont <- paste("<b><a href='./arequipa.html'>Arequipa, Peru</a></b>")
 colcaCanyonCont <- paste("<b><a href='./colca-canyon.html'>Colca Canyon, Peru</a></b>")
 huacachinaCont <- paste("<b><a href='./huacachina.html'>Huacachina, Peru</a></b>")
-rainbowMountainCont <- paste("<b><a href='./rainbow-mountain.html'>Rainbow Mountain, Peru</a></b>")
+humantayCont <- paste("<b><a href='./humantay.html'>Laguna Humantay, Peru</a></b>")
+limaCont <- paste("<b><a href='./lima.html'>Lima, Peru</a></b>")
+machuPicchuCont <- paste("<b><a href='./machu-picchu.html'>Machu Picchu, Peru</a></b>")
+marasCont <- paste("<b><a href='./maras.html'>Salineras de Maras, Peru</a></b>")
 paracasCont <- paste("<b><a href='./paracas.html'>Paracas, Peru</a></b>")
+pisacCont <- paste("<b><a href='./pisac.html'>Pisac, Peru</a></b>")
+rainbowMountainCont <- paste("<b><a href='./rainbow-mountain.html'>Rainbow Mountain, Peru</a></b>")
 
 greenDotIcon <- makeIcon(
   iconUrl = "images/GreenDot.png",
@@ -126,15 +127,16 @@ leaflet() %>% addTiles() %>%
   addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
   # South America
   # Peru
-  addMarkers(-77.0428, -12.0464, icon = greenDotIcon, popup = limaCont) %>% # Lima, Peru
-  addMarkers(-71.9675, -13.5320, icon = greenDotIcon, popup = cuzcoCont) %>% # Cuzco, Peru
-  addMarkers(-71.850243, -13.421403, icon = greenDotIcon, popup = pisacCont) %>% # Pisac, Peru 
-  addMarkers(-72.4973, -13.2263, icon = greenDotIcon, popup = machuPicchuCont) %>% # Machu Picchu, Peru
   addMarkers(-71.5375, -16.4090, icon = greenDotIcon, popup = arequipaCont) %>% # Arequipa, Peru
   addMarkers(-72.1771, -15.6574, icon = greenDotIcon, popup = colcaCanyonCont) %>% # Colca Canyon, Peru
   addMarkers(-75.7626, -14.0875, icon = greenDotIcon, popup = huacachinaCont) %>% # Huacachina, Peru
-  addMarkers(-71.302818, -13.870390, icon = greenDotIcon, popup = rainbowMountainCont) %>% # Rainbow Mountain, Peru
-  addMarkers(-76.2508, -13.8409, icon = greenDotIcon, popup = paracasCont) # Paracas, Peru
+  addMarkers(-72.569038, -13.342497, icon = greenDotIcon, popup = humantayCont) %>% # Laguna Humantay, Peru
+  addMarkers(-77.0428, -12.0464, icon = greenDotIcon, popup = limaCont) %>% # Lima, Peru
+  addMarkers(-72.4973, -13.2263, icon = greenDotIcon, popup = machuPicchuCont) %>% # Machu Picchu, Peru
+  addMarkers(-72.156615, -13.334900, icon = greenDotIcon, popup = marasCont) %>% # Salineras de Maras, Peru
+  addMarkers(-76.2508, -13.8409, icon = greenDotIcon, popup = paracasCont) %>% # Paracas, Peru
+  addMarkers(-71.850243, -13.421403, icon = greenDotIcon, popup = pisacCont) %>% # Pisac, Peru 
+  addMarkers(-71.302818, -13.870390, icon = greenDotIcon, popup = rainbowMountainCont) # Rainbow Mountain, Peru
 ```
 
 
@@ -387,8 +389,10 @@ thumbnail("Amsterdam, Netherlands", "images/Amsterdam/amsterdam3.png", "./amster
 thumbnail("Arequipa, Peru", "images/Arequipa/arequipa15.png", "./arequipa.html")
 thumbnail("Colca Canyon, Peru", "images/ColcaCanyon/colca6.png", "./colca-canyon.html")
 thumbnail("Huacachina, Peru", "images/Huacachina/huacachina44.png", "./huacachina.html")
+thumbnail("Laguna Humantay, Peru", "images/Humantay/humantay16.png", "./humantay.html")
 thumbnail("Lima, Peru", "images/Lima/lima11.png", "./lima.html")
 thumbnail("Machu Picchu, Peru", "images/MachuPicchu/mp1.png", "./machu-picchu.html")
+thumbnail("Salineras de Maras, Peru", "images/Maras/maras1.png", "./maras.html")
 thumbnail("Paracas, Peru", "images/Paracas/paracas11.png", "./paracas.html")
 thumbnail("Pisac, Peru", "images/Pisac/pisac10.png", "./pisac.html")
 thumbnail("Rainbow Mountain, Peru", "images/RainbowMountain/rainbow20.png", "./rainbow-mountain.html")
