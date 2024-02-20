@@ -1,0 +1,42 @@
+---
+title: "Istanbul, Türkiye"
+---
+
+The Second Rome.
+
+```{r out.width='100%', echo=FALSE}
+hagiaSophia <- paste("<b>Hagia Sophia</b>")
+topkapiPalace <- paste("<b>Topkapi Palace</b>")
+istanbulArchaeologicalMuseum <- paste("<b>Istanbul Archaeological Museum</b>")
+suleymaniye <- paste("<b>Süleymaniye Mosque</b>")
+camlica <- paste("<b>Çamlıca Mosque</b>")
+columnOfConstantine <- paste("<b>Column of Constantine</b>")
+galataTower <- paste("<b>Galata Tower</b>")
+grandBazaar <- paste("<b>Grand Bazaar</b>")
+theodosianWalls <- paste("<b>Theodosian Walls</b>")
+blueMosque <- paste("<b>Blue Mosque</b>")
+basilicaCistern <- paste("<b>Basilica Cistern</b>")
+maidensTower <- paste("<b>Maiden's Tower</b>")
+princesIslands <- paste("<b>Princes' Islands</b>")
+```
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(2.346940, 48.858885, zoom = 13) %>%
+  addMarkers(1.441974, 43.608382, icon = greenDotIcon, popup = eiffelTower) %>% # Eiffel Tower
+  addMarkers(1.439878, 43.603737, icon = greenDotIcon, popup = arcDeTriomphe) %>% # Arc de Triophe
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = louvre) %>% # Louvre
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = sacreCoeur) %>% # Sacré Coeur
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = lesInvalides) %>% # Les Invalides
+  addMarkers(1.443809, 43.604417, icon = greenDotIcon, popup = notreDame) %>% # Notre Dame
+  addMarkers(1.490920, 43.586797, icon = greenDotIcon, popup = versailles) # Versailles
+```
+
+
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two months", "3 hour flight from Frankfurt", "Hagia Sophia, Topkapi Palace, Istanbul Archaeological Museum, Süleymaniye, Çamlıca", "Iskender kebab", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
