@@ -29,7 +29,7 @@ navbar:
           - text: "Gorëme"
             href: goreme.html
           - text: "Istanbul"
-            href: instanbul.html
+            href: istanbul.html
           - text: "Izmir"
             href: izmir.html
     - text: " Europe"
@@ -127,25 +127,28 @@ navbar:
             href: arequipa.html
           - text: "Colca Canyon"
             href: colca-canyon.html
-          - text: "Cuzco"
-            href: cuzco.html
           - text: "Huacachina"
             href: huacachina.html
+          - text: "Laguna Humantay"
+            href: humantay.html
           - text: "Lima"
             href: lima.html
           - text: "Machu Picchu"
             href: machu-picchu.html
-          - text: "Rainbow Mountain"
-            href: rainbow-mountain.html
-          - text: "Ollantaytambo"
-            href: ollantaytambo.html
+          - text: "Paracas"
+            href: paracas.html
           - text: "Pisac"
             href: pisac.html
+          - text: "Salineras de Maras"
+            href: maras.html
+          - text: "Rainbow Mountain"
+            href: rainbow-mountain.html
 output_dir: "."
 output:
   html_document:
     theme: cosmo
     highlight: textmate
     include:
+      in_header: header.html
       after_body: footer.html
     css: styles.css
