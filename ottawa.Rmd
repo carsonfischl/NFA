@@ -1,0 +1,24 @@
+---
+title: "Ottawa, Canada"
+---
+
+The Second Rome.
+
+```{r out.width='100%', echo=FALSE}
+parliament <- paste("<b>Parliament</b>")
+
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(28.990744, 41.019153, zoom = 12) %>%
+  addMarkers(28.980021, 41.008484, icon = greenDotIcon, popup = hagiaSophia) 
+```
+
+
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Hometown", "", "Parliament of Canada, Natural History Museum, Museum of Civilization", "Poutine", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
