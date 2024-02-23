@@ -6,11 +6,16 @@ The Second Rome.
 
 ```{r out.width='100%', echo=FALSE}
 parliament <- paste("<b>Parliament</b>")
-
+byward <- paste("<b>Byward Market</b>")
+museumOfCivilization <- paste("<b>Museum of Civilization</b>")
+naturalHistory <- paste("<b>Natural History Museum</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
   setView(28.990744, 41.019153, zoom = 12) %>%
-  addMarkers(28.980021, 41.008484, icon = greenDotIcon, popup = hagiaSophia) 
+  addMarkers(28.980021, 41.008484, icon = greenDotIcon, popup = parliament) %>%
+  addMarkers(28.981021, 41.008484, icon = greenDotIcon, popup = byward) %>%
+  addMarkers(28.982021, 41.008484, icon = greenDotIcon, popup = museumOfCivilization) %>%
+  addMarkers(28.983021, 41.008484, icon = greenDotIcon, popup = naturalHistory)
 ```
 
 
