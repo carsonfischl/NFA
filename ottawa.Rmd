@@ -7,15 +7,17 @@ The Second Rome.
 ```{r out.width='100%', echo=FALSE}
 parliament <- paste("<b>Parliament</b>")
 byward <- paste("<b>Byward Market</b>")
-museumOfCivilization <- paste("<b>Museum of Civilization</b>")
-naturalHistory <- paste("<b>Natural History Museum</b>")
+museumOfCivilization <- paste("<b>Canadian History Museum</b>")
+naturalHistory <- paste("<b>Canadian Museum of Nature</b>")
+nationalGallery <- paste("<b>National Gallery of Canada</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(28.990744, 41.019153, zoom = 12) %>%
-  addMarkers(28.980021, 41.008484, icon = greenDotIcon, popup = parliament) %>%
-  addMarkers(28.981021, 41.008484, icon = greenDotIcon, popup = byward) %>%
-  addMarkers(28.982021, 41.008484, icon = greenDotIcon, popup = museumOfCivilization) %>%
-  addMarkers(28.983021, 41.008484, icon = greenDotIcon, popup = naturalHistory)
+  setView(-75.698421, 45.424721, zoom = 12) %>%
+  addMarkers(-75.699890, 45.425044, icon = greenDotIcon, popup = parliament) %>%
+  addMarkers(-75.692872, 45.428025, icon = greenDotIcon, popup = byward) %>%
+  addMarkers(-75.709019, 45.429137, icon = greenDotIcon, popup = museumOfCivilization) %>%
+  addMarkers(-75.698758, 45.429501, icon = greenDotIcon, popup = nationalGallery) %>%
+  addMarkers(-75.688750, 45.412716, icon = greenDotIcon, popup = naturalHistory)
 ```
 
 
