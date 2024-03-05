@@ -1,0 +1,27 @@
+---
+title: "Pamukkale, Turkiye"
+---
+
+Join Antonius & Cleopatra at their honeymoon destination.
+
+```{r out.width='100%', echo=FALSE}
+hierapolis <- paste("<b>Hierapolis</b>")
+cottonCastle <- paste("<b>Cotton Castle</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(-6.930225, 30.932397, zoom = 11) %>%
+  addMarkers(-6.899396, 30.920066, icon = greenDotIcon, popup = hierapolis) %>% # Hierapolis
+  addMarkers(-7.131033, 31.045112, icon = greenDotIcon, popup = cottonCastle) # Cotton Castle
+```
+
+![](images/Ouarzazate/ouarzazate28.png)
+
+Ouarzazate is an ancient Berber city in the Atlas Mountains, famous for its old [kasbah](https://en.wikipedia.org/wiki/Kasbah_Taourirt) and the nearby ksar of [Aït Benhaddou,](https://whc.unesco.org/en/list/444/) a fortified city along the ancient caravan route between the Sahara and Marrakesh, which is now a UNESCO World Heritage Site. It was also the filming location for many notable films, including the aforementioned Lawrence of Arabia, The Mummy, and some Game of Thrones episodes.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
+values <- c("2.5 days", "3 hour drive from Marrakesh", "Aït Benhaddou, Drâa Valley, Kasbah Taourirt", "Msemmen, tagines", "Café Voyageur")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
