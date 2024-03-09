@@ -7,21 +7,45 @@ Join Antonius & Cleopatra at their honeymoon destination.
 ```{r out.width='100%', echo=FALSE}
 hierapolis <- paste("<b>Hierapolis</b>")
 cottonCastle <- paste("<b>Cotton Castle</b>")
+town <- paste("<b>Pamukkale</b>")
 library(leaflet)
 leaflet() %>% addTiles() %>%
-  setView(-6.930225, 30.932397, zoom = 11) %>%
-  addMarkers(-6.899396, 30.920066, icon = greenDotIcon, popup = hierapolis) %>% # Hierapolis
-  addMarkers(-7.131033, 31.045112, icon = greenDotIcon, popup = cottonCastle) # Cotton Castle
+  setView(29.122095, 37.921610, zoom = 11) %>%
+  addMarkers(29.126824, 37.926810, icon = greenDotIcon, popup = hierapolis) %>% # Hierapolis
+  addMarkers(29.118944, 37.916539, icon = greenDotIcon, popup = town) %>% # Pamukkale
+  addMarkers(29.123721, 37.924469, icon = greenDotIcon, popup = cottonCastle) # Cotton Castle
 ```
 
-![](images/Ouarzazate/ouarzazate28.png)
+![](images/Pamukkale/pamukkale19.png)
 
-Ouarzazate is an ancient Berber city in the Atlas Mountains, famous for its old [kasbah](https://en.wikipedia.org/wiki/Kasbah_Taourirt) and the nearby ksar of [Aït Benhaddou,](https://whc.unesco.org/en/list/444/) a fortified city along the ancient caravan route between the Sahara and Marrakesh, which is now a UNESCO World Heritage Site. It was also the filming location for many notable films, including the aforementioned Lawrence of Arabia, The Mummy, and some Game of Thrones episodes.
+Pamukkale is a natural wonder in Turkey. The town is famous for its hot springs and terraces of carbonate minerals left by the flowing water. The ancient city of Hierapolis was built on top of the white "castle" which is in total about 2,700 meters (8,860 ft) long, 600 m (1,970 ft) wide and 160 m (525 ft) high. It can be seen from the hills on the opposite side of the valley in the town of Denizli, 20 km away.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
-values <- c("2.5 days", "3 hour drive from Marrakesh", "Aït Benhaddou, Drâa Valley, Kasbah Taourirt", "Msemmen, tagines", "Café Voyageur")
+values <- c("1 day", "3 hour drive from Izmir", "Cotton Castle, Hierapolis ruins", "", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+The real carbonate pools have controlled flooding and are now protected to prevent degradation from tourism. However, some replica pools are open to tourists and blend right in with the natural pools.
+
+![](images/Pamukkale/pamukkale15.png)
+
+![](images/Pamukkale/pamukkale14.png)
+
+The natural pools.
+
+![](images/Pamukkale/pamukkale16.png)
+
+![](images/Pamukkale/pamukkale17.png)
+
+![](images/Pamukkale/pamukkale18.png)
+
+The ancient city of Hierapolis is quite impressive and a highly underrated part Pamukkale that is largely ignored by tourists. The travertine terraces where quite crowded when I was there, while the ruins were almost empty.
+
+![](images/Pamukkale/pamukkale23.png)
+
+![](images/Pamukkale/pamukkale21.png)
+
+![](images/Pamukkale/pamukkale20.png)
