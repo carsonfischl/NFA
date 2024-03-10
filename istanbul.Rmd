@@ -46,7 +46,7 @@ Istanbul is a city of history, culture, and beauty. Having been the capital of g
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
-values <- c("Two months", "3 hour flight from Frankfurt", "Hagia Sophia, Topkapi Palace, Istanbul Archaeological Museum, Süleymaniye, Grand Çamlıca", "Iskender kebab", "")
+values <- c("Two months", "3 hour flight from Frankfurt", "Hagia Sophia, Topkapi Palace, Istanbul Archaeological Museum, Süleymaniye, Grand Çamlıca", "Raki", "")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
@@ -60,8 +60,160 @@ Hagia Sophia is a landmark of the city. Built in 537 AD, it was the world's larg
 
 ![](./images/Istanbul/istanbul144.png)
 
-Above the door, Constantine the Great and Justinian I are depicted holding a model of the church.
+Above the door, Constantine the Great and Justinian I are depicted making offerings to the Virgin Mary.
 
 ![](./images/Istanbul/istanbul139.png)
 
 ![](./images/Istanbul/istanbul147.png)
+
+Across from Hagia Sophia is Sultan Ahmet Camii, also known as the Blue Mosque. It was built in 1616 and is known for its blue tiles. It was undergoing renovations when I visited but has since reopened.
+
+![](./images/Istanbul/istanbul24.png)
+
+Nearby is the former site of the Hippodrome of Constantinople. The Obelisk of Theodosius, the Serpent Column, and the Walled Obelisk are still standing.
+
+![](./images/Istanbul/istanbul89.png)
+
+![](./images/Istanbul/istanbul90.png)
+
+Nearby is also the former site of the Great Palace of Constantinople, the residence of the Byzantine emperors. A museum is now located on the site to show the ornate mosaics that once adorned the palace.
+
+![](./images/Istanbul/istanbul27.png)
+
+![](./images/Istanbul/istanbul26.png)
+
+Süleymaniye Mosque was built in 1557 and is the second largest mosque in the city. It was built by the famous architect Mimar Sinan for the Ottoman sultan Suleiman the Magnificent.
+
+![](./images/Istanbul/istanbul32.png)
+
+![](./images/Istanbul/istanbul34.png)
+
+![](./images/Istanbul/istanbul225.png)
+
+The walls of Constantinople, called the Theodosian Walls, were built in the 5th century and are still standing today. The Palace of the Porphyrogenitus was a Byzantine palace built into the walls themselves and was recently restored.
+
+![](./images/Istanbul/istanbul49.png)
+
+![](./images/Istanbul/istanbul46.png)
+
+![](./images/Istanbul/istanbul47.png)
+
+![](./images/Istanbul/istanbul48.png)
+
+![](./images/Istanbul/istanbul220.png)
+
+Hagia Irene was a sister church to Hagia Sophia, one of a trinity intended to be built. It was used as an armory by the Ottomans, and is now a museum.
+
+![](./images/Istanbul/istanbul188.png)
+
+![](./images/Istanbul/istanbul189.png)
+
+Across from Hagia Irene is Topkapi Palace, the residence of the Ottoman sultans for 400 years. It is now a museum and is a must-see for anyone visiting the city.
+
+![](./images/Istanbul/istanbul192.png)
+
+![](./images/Istanbul/istanbul196.png)
+
+![](./images/Istanbul/istanbul197.png)
+
+![](./images/Istanbul/istanbul199.png)
+
+Also across from Hagia Irene is the Istanbul Archaeological Museum, which houses a large collection of artifacts from the country's history. The Ottoman sultan Abdulaziz was inspired to build the museum following a tour of the great museums of Europe in 1867.
+
+![](./images/Istanbul/istanbul213.png)
+
+![](./images/Istanbul/istanbul215.png)
+
+![](./images/Istanbul/istanbul216.png)
+
+The Theodosius Cistern was built in the 5th century and is still standing today. It was used to store water for the city.
+
+![](./images/Istanbul/istanbul68.png)
+
+Looking across the water, the Golden Horn separates the old city and it's Fatih district from the rest of the city.
+
+![](./images/Istanbul/istanbul76.png)
+
+![](./images/Istanbul/istanbul79.png)
+
+Galata Tower offers a panoramic view of the city. It was built in 1348 and was the tallest building in Istanbul at the time.
+
+![](./images/Istanbul/istanbul3.png)
+
+![](./images/Istanbul/istanbul104.png)
+
+![](./images/Istanbul/istanbul167.png)
+
+![](./images/Istanbul/istanbul170.png)
+
+Galata Tower lies near the end of the Istiklal Caddesi, a pedestrian street lined with shops, restaurants, and cafes, in the upscale Beyoğlu district.
+
+![](./images/Istanbul/istanbul127.png)
+
+![](./images/Istanbul/istanbul128.png)
+
+![](./images/Istanbul/istanbul36.png)
+
+At the other end of the street is Taksim Square, a major transportation hub and the site of many protests and celebrations.
+
+![](./images/Istanbul/istanbul37.png)
+
+Dolma Bahçe Palace was built in 1856 and was the main administrative center of the Ottoman Empire. It is now a museum and is great impressive, equal to the great palaces built by other European monarchs.
+
+![](./images/Istanbul/istanbul39.png)
+
+![](./images/Istanbul/istanbul40.png)
+
+![](./images/Istanbul/istanbul42.png)
+
+![](./images/Istanbul/istanbul44.png)
+
+On the Asian side, the largest mosque in the city is the Grand Çamlıca Mosque, which was completed in 2019, at the behest of President Erdogan. It is located on the highest hill in the city, on the Asian side of the Bosphorus, and offers a panoramic view of the city.
+
+![](./images/Istanbul/istanbul55.png)
+
+![](./images/Istanbul/istanbul56.png)
+
+![](./images/Istanbul/istanbul58.png)
+
+![](./images/Istanbul/istanbul62.png)
+
+![](./images/Istanbul/istanbul63.png)
+
+![](./images/Istanbul/istanbul65.png)
+
+Raki is a Turkish liquor that was popularized by Mustafa Kemal Ataturk, the first President of Turkey. It is an anise-flavored spirit that is often mixed with water and ice. It's an acquired taste, not unlike ouzo, but it's worth trying.
+
+![](./images/Istanbul/istanbul103.png)
+
+The Princes' Islands are a group of nine islands in the Sea of Marmara. They are a popular destination for day trips from the city. The islands are car-free and are known for their horse-drawn carriages. I visited Buyukada for a concert and enjoyed it. They are, by far, the least populated district of Istanbul.
+
+![](./images/Istanbul/istanbul106.png)
+
+![](./images/Istanbul/istanbul107.png)
+
+Recep Tayyip Erdoğan stadium is the home of the Turkish football club Fenerbahçe. The President sometimes makes appearances at games.
+
+![](./images/Istanbul/istanbul120.png)
+
+Ortakoey Mosque is a mosque located on the Bosphorus. Built in 1856, it is a popular spot for tourists and locals alike for its view of the Bosphorus Bridge.
+
+![](./images/Istanbul/istanbul121.png)
+
+Outside the city centre is the Rumeli Fortress, built in 1452 by Mehmed the Conqueror to prepare for the siege of Constantinople. 
+
+![](./images/Istanbul/istanbul122.png)
+
+![](./images/Istanbul/istanbul219.png)
+
+Smoking shisha was one of my favorite pastimes in Istanbul. It's a great way to relax and enjoy the city.
+
+![](./images/Istanbul/istanbul146.png)
+
+Turkish tea is a staple of Turkish culture. It is served in small glasses, often drunk with sugar, and served after meals for free as a palate cleanser.
+
+![](./images/Istanbul/istanbul212.png)
+
+![](./images/Istanbul/istanbul165.png)
+
+![](./images/Istanbul/istanbul218.png)
