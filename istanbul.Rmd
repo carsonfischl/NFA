@@ -40,7 +40,9 @@ leaflet() %>% addTiles() %>%
     addMarkers(29.091624, 40.875363, icon = greenDotIcon, popup = princesIslands)
 ```
 
+![](./images/Istanbul/istanbul140.png)
 
+Istanbul is a city of history, culture, and beauty. Having been the capital of great empires, it offers an enchanting blend of Greek, Roman, Ottoman, Byzantine, and modern Turkish influences. The city is home to many historical sites, including the Hagia Sophia, Topkapi Palace, Istanbul Archaeological Museum, Süleymaniye Mosque, Grand Çamlıca Mosque, Column of Constantine, Galata Tower, Grand Bazaar, Theodosian Walls, Blue Mosque, Basilica Cistern, Theodosius Cistern, Palace of the Porphyrogenitus, and Princes' Islands. The city is hilly, but your time hiking around the Golden Horn and the Bosphorus will be well worth it. 
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
@@ -49,3 +51,17 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+
+![](./images/Istanbul/istanbul142.png)
+
+Hagia Sophia is a landmark of the city. Built in 537 AD, it was the world's largest cathedral for nearly a thousand years. It was later converted into a mosque. 
+
+![](./images/Istanbul/istanbul141.png)
+
+![](./images/Istanbul/istanbul144.png)
+
+Above the door, Constantine the Great and Justinian I are depicted holding a model of the church.
+
+![](./images/Istanbul/istanbul139.png)
+
+![](./images/Istanbul/istanbul147.png)
