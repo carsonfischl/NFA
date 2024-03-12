@@ -1,0 +1,35 @@
+---
+title: "Santorini, Greece"
+---
+
+Standing on the edge of a volcano.
+
+```{r out.width='100%', echo=FALSE}
+skarosRock <- paste("<b>Skaros Rock</b>")
+oia <- paste("<b>Oia</b>")
+thira <- paste("<b>Thira</b>")
+akrotiri <- paste("<b>Akrotiri</b>")
+redBeach <- paste("<b>Red Beach</b>")
+whiteBeach <- paste("<b>White Beach</b>")
+blackBeach <- paste("<b>Black Beach</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(25.412546, 36.404867, zoom = 11) %>%
+  addMarkers(25.413880, 36.429762, icon = greenDotIcon, popup = skarosRock) %>%
+  addMarkers(25.375414, 36.462410, icon = greenDotIcon, popup = oia) %>%
+    addMarkers(25.432233, 36.417944, icon = greenDotIcon, popup = thira) %>%
+    addMarkers(25.475113, 36.366788, icon = greenDotIcon, popup = akrotiri) %>%
+    addMarkers(25.394120, 36.348868, icon = greenDotIcon, popup = redBeach) %>%
+    addMarkers(25.382407, 36.350429, icon = greenDotIcon, popup = whiteBeach) %>%
+    addMarkers(25.375940, 36.354429, icon = greenDotIcon, popup = blackBeach)
+```
+
+Santorini is a volcanic island in the Cyclades group of the Greek islands. It is located between Ios and Anafi islands. It is famous for dramatic views, stunning sunsets from Oia town, and its beaches.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Four days", "2 hour ferry from Naxos", "Oia, Thira, Akrotiri", "Gyro", "Volkan Pizza")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
