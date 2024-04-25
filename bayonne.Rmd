@@ -23,7 +23,7 @@ I passed through this gorgeous town to catch the train on the way back from [Bia
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights", "Unique Foods", "Restaurant Recommendations")
-values <- c("4 Hours", "TER from Bordeaux Saint-Jean", "Bayonne Cathedral", "Basque Cake", "N/A")
+values <- c("Two days", "TER from Bordeaux Saint-Jean", "Bayonne Cathedral", "Basque Cake", "N/A")
 df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
