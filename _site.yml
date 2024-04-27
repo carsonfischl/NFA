@@ -143,6 +143,13 @@ navbar:
             href: maras.html
           - text: "Rainbow Mountain"
             href: rainbow-mountain.html
+    - text: " Adventures"
+      icon: fa-signs-post
+      menu:
+        - text: "Camino del Norte 2024"
+          href: camino-del-norte.html
+        - text: "Camino Primitivo 2024"
+          href: camino-primitivo.html
 output_dir: "."
 output:
   html_document:
