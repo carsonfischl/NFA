@@ -1,0 +1,39 @@
+---
+title: "Mykonos, Greece"
+---
+
+Some other famous twins were here.
+
+```{r out.width='100%', echo=FALSE}
+windmills <- paste("<b>Windmills</b>")
+paradiseBeach <- paste("<b>Paradise Beach</b>")
+delos <- paste("<b>Delos</b>")
+port <- paste("<b>Port</b>")
+littleVenice <- paste("<b>Little Venice</b>")
+airport <- paste("<b>Mykonos Airport</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(25.295520, 37.444066, zoom = 11) %>%
+  addMarkers(25.325659, 37.444566, icon = greenDotIcon, popup = windmills) %>%
+  addMarkers(25.356752, 37.410210, icon = greenDotIcon, popup = paradiseBeach) %>%
+    addMarkers(25.272422, 37.395490, icon = greenDotIcon, popup = delos) %>%
+    addMarkers(25.324427, 37.464225, icon = greenDotIcon, popup = port) %>%
+    addMarkers(25.325715, 37.446802, icon = greenDotIcon, popup = littleVenice) %>%
+    addMarkers(25.348847, 37.433977, icon = greenDotIcon, popup = airport)
+```
+
+![](./images/Mykonos/mykonos20.png)
+
+Mykonos lies in Greece's Cyclades group in the Aegean Sea. It's popularly known for its summer party atmosphere. Beaches such as Paradise and Super Paradise have bars that blare thumping music. Massive dance clubs attract world-renowned DJs and typically stay open well past dawn. Iconic landmarks include a row of 16th-century windmills, which sit on a hill above Mykonos town. It's a great place to get away if you're looking for a party.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Two days", "4 hour ferry from Piraeus", "Little Venice, Paradise Beach", "Gyro", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](./images/Mykonos/mykonos18.png)
+
+Little Venice is a charming neighborhood with colorful houses and balconies built right on the sea. It's a great place to watch the sunset. Paradise Beach is a popular beach with a party atmosphere. It's a great place to relax and enjoy the sun. The gyro is a popular Greek dish that consists of meat, onions, tomatoes, and tzatziki sauce wrapped in pita bread. It's a great dish to try while in Mykonos.
