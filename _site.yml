@@ -95,6 +95,16 @@ navbar:
             href: saint-malo.html
           - text: "Toulouse"
             href: toulouse.html
+        - text: "Greece"
+          menu:
+          - text: "Athens"
+            href: athens.html
+          - text: "Meteora"
+            href: meteora.html
+          - text: "Mykonos"
+            href: mykonos.html
+          - text: "Santorini"
+            href: santorini.html
         - text: "Netherlands"
           menu:
           - text: "Amsterdam"
