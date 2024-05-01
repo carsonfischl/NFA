@@ -22,7 +22,7 @@ leaflet() %>% addTiles() %>%
     addMarkers(25.348847, 37.433977, icon = greenDotIcon, popup = airport)
 ```
 
-![](./images/Mykonos/mykonos20.png)
+![](./images/Mykonos/mykonos18.png)
 
 Mykonos lies in Greece's Cyclades group in the Aegean Sea. It's popularly known for its summer party atmosphere. Beaches such as Paradise and Super Paradise have bars that blare thumping music. Massive dance clubs attract world-renowned DJs and typically stay open well past dawn. Iconic landmarks include a row of 16th-century windmills, which sit on a hill above Mykonos town. It's a great place to get away if you're looking for a party.
 
@@ -34,6 +34,48 @@ library(knitr)
 kable(df, col.names = NULL)
 ```
 
-![](./images/Mykonos/mykonos18.png)
+![](./images/Mykonos/mykonos20.png)
 
-Little Venice is a charming neighborhood with colorful houses and balconies built right on the sea. It's a great place to watch the sunset. Paradise Beach is a popular beach with a party atmosphere. It's a great place to relax and enjoy the sun. The gyro is a popular Greek dish that consists of meat, onions, tomatoes, and tzatziki sauce wrapped in pita bread. It's a great dish to try while in Mykonos.
+Little Venice is a charming neighborhood with colorful houses and balconies built right on the sea. It's a great place to watch the sunset. The area is full of restaurants and bars.
+
+![](./images/Mykonos/mykonos6.png)
+
+Paradise and Super Paradise are two of the most popular beaches in Mykonos. If you like to party, this is the spot for you. They are outside the center of town however, so you'll need to take a bus or taxi to get there. Mykonos is slightly too large to walk around, so renting an ATV or scooter is a good idea.
+
+![](./images/Mykonos/mykonos7.png)
+
+![](./images/Mykonos/mykonos8.png)
+
+![](./images/Mykonos/mykonos9.png)
+
+The town itself is on the west side of the island. It's a great place to explore and get lost in the narrow streets. However, there are cuter towns in Greece - most are here to party.
+
+![](./images/Mykonos/mykonos4.png)
+
+![](./images/Mykonos/mykonos5.png)
+
+As with the rest of Greece, gyros are a must-try. They're cheap and delicious.
+
+![](./images/Mykonos/mykonos10.png)
+
+![](./images/Mykonos/mykonos15.png)
+
+The windmills are a popular spot to watch the sunset. They're a short walk from the town center and are perhaps the most iconic spot in Mykonos.
+
+![](./images/Mykonos/mykonos19.png)
+
+![](./images/Mykonos/mykonos30.png)
+
+The neighbouring island of Delos is a UNESCO World Heritage site. Formerly home to one of the most important sanctuaries of antiquity and thousands of people, today it is uninhabited. Nevertheless, it has some interesting ruins. It's not a must-visit, as you need to take a ferry there and pay an admission fee, but it's a nice day trip if you have the time.
+
+![](./images/Mykonos/mykonos33.png)
+
+![](./images/Mykonos/mykonos35.png)
+
+![](./images/Mykonos/mykonos23.png)
+
+Overall, Mykonos is a great place to visit if you're looking for a party. One can see why it's a popular destination for celebrities and the rich and famous.
+
+![](./images/Mykonos/mykonos41.png)
+
+![](./images/Mykonos/mykonos2.png)
