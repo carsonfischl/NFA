@@ -24,7 +24,9 @@ leaflet() %>% addTiles() %>%
     addMarkers(25.375940, 36.354429, icon = greenDotIcon, popup = blackBeach)
 ```
 
-Santorini is a volcanic island in the Cyclades group of the Greek islands. It is located between Ios and Anafi islands. It is famous for dramatic views, stunning sunsets from Oia town, and its beaches.
+![](./images/Santorini/santorini11.png)
+
+Santorini is a volcanic island in the Cyclades group of the Greek islands. Famous for its dramatic views and stunning sunsets from Oia town, the island also offers ancient ruins and beautiful beaches.
 
 ```{r echo = FALSE, results = 'asis'}
 titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
@@ -33,3 +35,4 @@ df <- data.frame(titles, values)
 library(knitr)
 kable(df, col.names = NULL)
 ```
+

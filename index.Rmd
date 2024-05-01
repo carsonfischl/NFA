@@ -383,6 +383,25 @@ thumbnail("Toulouse, France", "images/Toulouse/toulouse19.png", "./toulouse.html
 <br />
 <br />
 <hr class="dotted">
+<h3>Greece</h3>
+```{r out.width='100%', echo=FALSE}
+thumbnail("Mykonos, Greece", "images/Mykonos/mykonos20.png", "./mykonos.html")
+thumbnail("Santorini, Greece", "images/Santorini/santorini11.png", "./santorini.html")
+```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<hr class="dotted">
 <h3>Netherlands</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Amsterdam, Netherlands", "images/Amsterdam/amsterdam3.png", "./amsterdam.html")

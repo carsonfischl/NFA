@@ -109,6 +109,22 @@ navbar:
           menu:
           - text: "Amsterdam"
             href: amsterdam.html
+        - text: "Spain"
+          menu:
+          - text: "Bilbao"
+            href: bilbao.html
+          - text: "Llanes"
+            href: llanes.html
+          - text: "Lugo"
+            href: lugo.html
+          - text: "Oviedo"
+            href: oviedo.html
+          - text: "San Sebastian"
+            href: san-sebastian.html
+          - text: "Santander"
+            href: santander.html
+          - text: Santiago de Compostela
+            href: santiago.html
     - text: " North America"
       icon: fa-earth-americas
       menu:
