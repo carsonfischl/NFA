@@ -36,3 +36,52 @@ library(knitr)
 kable(df, col.names = NULL)
 ```
 
+![](./images/Santorini/santorini5.png)
+
+![](./images/Santorini/santorini55.png)
+
+Thira (or Fira) is the main town on the island and sits at the center of the crescent-shaped caldera. The town is perched on the edge of the cliff and offers stunning views of the volcano and the sea. The caldera is the result of a massive volcanic eruption that occurred around 3,600 years ago and is the remains of the crater, which is now flooded.
+
+![](./images/Santorini/santorini14.png)
+
+![](./images/Santorini/santorini79.png)
+
+![](./images/Santorini/santorini83.png)
+
+Skaros Rock is a hikeable rock formation that extends into the caldera near town. It's worth a hike if you have the time and offers a good photo opportunity.
+
+![](./images/Santorini/santorini15.png)
+
+![](./images/Santorini/santorini82.png)
+
+![](./images/Santorini/santorini95.png)
+
+Oia is probably the most famous of all villages on Santorini. Photos of the town's blue domes and white buildings and the stunning sunsets are what most people associate with the island. The town is also home to a number of art galleries, souvenir shops, and cafes.
+
+![](./images/Santorini/santorini6.png)
+
+![](./images/Santorini/santorini35.png)
+
+![](./images/Santorini/santorini27.png)
+
+![](./images/Santorini/santorini38.png)
+
+The Red Beach is well known but is weedy and doesn't offer the best swimming. 
+
+![](./images/Santorini/santorini41.png)
+
+Akrotiri is the site of a Minoan Bronze Age settlement that was destroyed in a volcanic eruption around 1627 BC. The site is well preserved and offers a glimpse into the life of the ancient Minoans. The Minoans were a surprisingly advanced civilization, with two storey homes and rudimentary sewer systems and running water. The mural of the boxers is one of the most famous finds from the site and is now located in Athens. 
+
+![](./images/Santorini/santorini45.png)
+
+![](./images/Santorini/santorini47.png)
+
+Volkan Pizza is a great pizza place on the island if you're looking for a cheap eat.
+
+![](./images/Santorini/santorini57.png)
+
+
+
+![](./images/Santorini/santorini62.png)
+
+![](./images/Santorini/santorini63.png)

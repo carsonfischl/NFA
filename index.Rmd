@@ -44,6 +44,9 @@ msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, Franc
 saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
 saintMaloCont <- paste("<b><a href='./saint-malo.html'>Saint-Malo, France</a></b>")
 toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
+#Greece
+mykonosCont <- paste("<b><a href='./mykonos.html'>Mykonos, Greece</a></b>")
+santoriniCont <- paste("<b><a href='./santorini.html'>Santorini, Greece</a></b>")
 #Netherlands
 amsterdamCont <- paste("<b><a href='./amsterdam.html'>Amsterdam, Netherlands</a></b>")
 # Spain
@@ -112,6 +115,9 @@ leaflet() %>% addTiles() %>%
   addMarkers(-0.1557, 44.8944, icon= greenDotIcon, popup = saintEmilionCont) %>% # Saint-Émilion, France
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon, popup = saintMaloCont) %>% # Saint-Malo, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
+  # Greece
+  addMarkers(25.2711, 36.7286, icon = greenDotIcon, popup = mykonosCont) %>% # Mykonos, Greece
+  addMarkers(25.4283, 36.3932, icon = greenDotIcon, popup = santoriniCont) %>% # Santorini, Greece
   # Netherlands
   addMarkers(4.9041, 52.3676, icon = greenDotIcon, popup = amsterdamCont) %>% # Amsterdam, Netherlands
   # Spain
@@ -386,7 +392,7 @@ thumbnail("Toulouse, France", "images/Toulouse/toulouse19.png", "./toulouse.html
 <h3>Greece</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Mykonos, Greece", "images/Mykonos/mykonos20.png", "./mykonos.html")
-thumbnail("Santorini, Greece", "images/Santorini/santorini11.png", "./santorini.html")
+thumbnail("Santorini, Greece", "images/Santorini/santorini71.png", "./santorini.html")
 ```
 <br />
 <br />
