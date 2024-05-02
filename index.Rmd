@@ -116,8 +116,10 @@ leaflet() %>% addTiles() %>%
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon, popup = saintMaloCont) %>% # Saint-Malo, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
   # Greece
-  addMarkers(25.2711, 36.7286, icon = greenDotIcon, popup = mykonosCont) %>% # Mykonos, Greece
-  addMarkers(25.4283, 36.3932, icon = greenDotIcon, popup = santoriniCont) %>% # Santorini, Greece
+  addMarkers(25.295520, 37.444066, icon = greenDotIcon, popup = mykonosCont) %>% # Mykonos, Greece
+  addMarkers(25.412546, 36.404867, icon = greenDotIcon, popup = santoriniCont) %>% # Santorini, Greece
+  addMarkers(23.7275, 37.9838, icon = greenDotIcon) %>% # Athens, Greece
+  addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
   # Netherlands
   addMarkers(4.9041, 52.3676, icon = greenDotIcon, popup = amsterdamCont) %>% # Amsterdam, Netherlands
   # Spain
@@ -145,10 +147,6 @@ leaflet() %>% addTiles() %>%
   addMarkers(-105.4410, 20.8691, icon = greenDotIcon) %>% # Sayulita, Mexico
   # United States
   addMarkers(-74.0060, 40.7128, icon = greenDotIcon) %>% # New York, USA
-  addMarkers(25.4615, 36.3932, icon = greenDotIcon) %>% # Santorini, Greece
-  addMarkers(25.3667, 37.4415, icon = greenDotIcon) %>% # Mykonos, Greece
-  addMarkers(23.7275, 37.9838, icon = greenDotIcon) %>% # Athens, Greece
-  addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
   # South America
   # Peru
   addMarkers(-71.5375, -16.4090, icon = greenDotIcon, popup = arequipaCont) %>% # Arequipa, Peru
