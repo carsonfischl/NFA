@@ -1,0 +1,67 @@
+---
+title: "Meteora, Greece"
+---
+
+In the end... 🎶🎵
+
+```{r out.width='100%', echo=FALSE}
+holyTrinity <- paste("<b>Holy Trinity Monastery</b>")
+greatMeteoron <- paste("<b>Monastery of Great Meteoron</b>")
+rousanou <- paste("<b>Monastery of Rousanou</b>")
+varlaam <- paste("<b>Varlaam</b>")
+nicholasAnapausas <- paste("<b>Monastery of St. Nicholas Anapausas</b>")
+stefanos <- paste("<b>Monastery of Saint Stefanos</b>")
+kalabaka <- paste("<b>Kalabaka</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(21.635569, 39.713060, zoom = 14) %>%
+  addMarkers(21.632025, 39.721556, icon = greenDotIcon, popup = rousanou) %>%
+  addMarkers(21.626185, 39.726419, icon = greenDotIcon, popup = greatMeteoron) %>%
+    addMarkers(21.630097, 39.725154, icon = greenDotIcon, popup = varlaam) %>%
+    addMarkers(21.635554, 39.713273, icon = greenDotIcon, popup = holyTrinity) %>%
+    addMarkers(21.638629, 39.709118, icon = greenDotIcon, popup = stefanos) %>%
+    addMarkers(21.624679, 39.723843, icon = greenDotIcon, popup = nicholasAnapausas) %>%
+    addMarkers(21.628175, 39.706815, icon = greenDotIcon, popup = kalabaka)
+```
+
+![](./images/Meteora/meteora32.png)
+
+Meteora is a mountainous region in central Greece, famous for its medieval monasteries perched on top of towering rock pillars. The six monasteries still operating today are built on immense natural pillars and hill-like rounded boulders that dominate the local area. It is located near the town of Kalabaka. The Meteora is included on the UNESCO World Heritage List.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("One day", "5 hour train from Athens", "Great Meteoron, Varlaam, Holy Trinity", "", "")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
+
+![](./images/Meteora/meteora25.png)
+
+![](./images/Meteora/meteora24.png)
+
+Varlaam and Great Meteoron are the two largest monasteries in Meteora. The Great Meteoron is the largest of the monasteries located at Meteora. It was erected in the mid-14th century.
+
+![](./images/Meteora/meteora33.png)
+
+Rousanou is a monastery built in the 16th century and is dedicated to St. Barbara. It is smaller than the other monasteries and is now a nunnery.
+
+![](./images/Meteora/meteora8.png)
+
+![](./images/Meteora/meteora10.png)
+
+![](./images/Meteora/meteora11.png)
+
+The monasteries tend to be quite sparse inside, with the exception of the chapels, which are may be decorated with frescoes. 
+
+![](./images/Meteora/meteora16.png)
+
+![](./images/Meteora/meteora18.png)
+
+Nevertheless, walking or driving between the monasteries is a great way to take in the views of the surrounding landscape.
+
+![](./images/Meteora/meteora45.png)
+
+![](./images/Meteora/meteora48.png)
+
+![](./images/Meteora/meteora47.png)

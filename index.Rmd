@@ -45,6 +45,8 @@ saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, Fra
 saintMaloCont <- paste("<b><a href='./saint-malo.html'>Saint-Malo, France</a></b>")
 toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
 #Greece
+athensCont <- paste("<b><a href='./athens.html'>Athens, Greece</a></b>")
+meteoraCont <- paste("<b><a href='./meteora.html'>Meteora, Greece</a></b>")
 mykonosCont <- paste("<b><a href='./mykonos.html'>Mykonos, Greece</a></b>")
 santoriniCont <- paste("<b><a href='./santorini.html'>Santorini, Greece</a></b>")
 #Netherlands
@@ -116,10 +118,10 @@ leaflet() %>% addTiles() %>%
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon, popup = saintMaloCont) %>% # Saint-Malo, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
   # Greece
+  addMarkers(23.7275, 37.9838, icon = greenDotIcon, popup = athensCont) %>% # Athens, Greece
+  addMarkers(21.635569, 39.713060, icon = greenDotIcon, popup = meteoraCont) %>% # Meteora, Greece
   addMarkers(25.295520, 37.444066, icon = greenDotIcon, popup = mykonosCont) %>% # Mykonos, Greece
   addMarkers(25.412546, 36.404867, icon = greenDotIcon, popup = santoriniCont) %>% # Santorini, Greece
-  addMarkers(23.7275, 37.9838, icon = greenDotIcon) %>% # Athens, Greece
-  addMarkers(21.6306, 39.7217, icon = greenDotIcon) %>% # Meteora, Greece
   # Netherlands
   addMarkers(4.9041, 52.3676, icon = greenDotIcon, popup = amsterdamCont) %>% # Amsterdam, Netherlands
   # Spain
@@ -224,6 +226,7 @@ thumbnail("Vienna, Austria", "images/Vienna/vienna11.png", "./vienna.html")
 <br />
 <br />
 <br />
+<hr class="dotted">
 <h3>Belgium</h3>
 ```{r out.width='100%', echo=FALSE}
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
@@ -389,6 +392,7 @@ thumbnail("Toulouse, France", "images/Toulouse/toulouse19.png", "./toulouse.html
 <hr class="dotted">
 <h3>Greece</h3>
 ```{r out.width='100%', echo=FALSE}
+thumbnail("Meteora, Greece", "images/Meteora/meteora24.png", "./meteora.html")
 thumbnail("Mykonos, Greece", "images/Mykonos/mykonos20.png", "./mykonos.html")
 thumbnail("Santorini, Greece", "images/Santorini/santorini71.png", "./santorini.html")
 ```
