@@ -1,0 +1,34 @@
+---
+title: "Nîmes, France"
+---
+
+Hanging with gladiators.
+
+```{r out.width='100%', echo=FALSE}
+Parthenon <- paste("<b>Parthenon</b>")
+numismaticMuseum <- paste("<b>Numismatic Museum</b>")
+archaeologicalMuseum <- paste("<b>National Archaeological Museum</b>")
+agora <- paste("<b>Agora</b>")
+
+columnOfConstantine <- paste("<b>Column of Constantine</b>")
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(28.990744, 41.019153, zoom = 12) %>%
+  addMarkers(28.980021, 41.008484, icon = greenDotIcon, popup = hagiaSophia) %>%
+  addMarkers(28.983190, 41.011348, icon = greenDotIcon, popup = topkapiPalace) %>%
+    addMarkers(28.981714, 41.011651, icon = greenDotIcon, popup = istanbulArchaeologicalMuseum) %>%
+    addMarkers(28.963975, 41.016290, icon = greenDotIcon, popup = suleymaniye) %>%
+    addMarkers(29.070514, 41.034109, icon = greenDotIcon, popup = camlica) %>%
+    addMarkers(28.971287, 41.008554, icon = greenDotIcon, popup = columnOfConstantine) %>%
+    addMarkers(28.974203, 41.025628, icon = greenDotIcon)
+```
+
+Santorini is a volcanic island in the Cyclades group of the Greek islands. It is located between Ios and Anafi islands. It is famous for dramatic views, stunning sunsets from Oia town, and its beaches.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Four days", "2 hour ferry from Naxos", "Oia, Thira, Akrotiri", "Gyro", "Volkan Pizza")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
