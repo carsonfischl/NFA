@@ -33,14 +33,18 @@ plitviceCont <- paste("<b><a href='./plitvice.html'>Plitvice Lakes, Croatia</a><
 splitCont <- paste("<b><a href='./split.html'>Split, Croatia</a></b>")
 trogirCont <- paste("<b><a href='./trogir.html'>Trogir, Croatia</a></b>")
 #France
+avignonCont <- paste("<b><a href='./avignon.html'>Avignon, France</a></b>")
 bayonneCont <- paste("<b><a href='./bayonne.html'>Bayonne, France</a></b>")
 biarritzCont <- paste("<b><a href='./biarritz.html'>Biarritz, France</a></b>")
 bordeauxCont <- paste("<b><a href='./bordeaux.html'>Bordeaux, France</a></b>")
+carcassonneCont <- paste("<b><a href='./carcassonne.html'>Carcassonne, France</a></b>")
 langonCont <- paste("<b><a href='./langon.html'>Langon, France</a></b>")
 laRochelleCont <- paste("<b><a href='./la-rochelle.html'>La Rochelle, France</a></b>")
 leHavreCont <- paste("<b><a href='./le-havre.html'>Le Havre, France</a></b>")
 lilleCont <- paste("<b><a href='./lille.html'>Lille, France</a></b>")
+montpellierCont <- paste("<b><a href='./montpellier.html'>Montpellier, France</a></b>")
 msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, France</a></b>")
+nimesCont <- paste("<b><a href='./nimes.html'>Nîmes, France</a></b>")
 saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
 saintMaloCont <- paste("<b><a href='./saint-malo.html'>Saint-Malo, France</a></b>")
 toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
@@ -105,15 +109,19 @@ leaflet() %>% addTiles() %>%
   addMarkers(18.0944, 42.6507, icon = greenDotIcon, popup = dubrovnikCont) %>% # Dubrovnik, Croatia
   addMarkers(16.2502, 43.5164, icon = greenDotIcon, popup = trogirCont) %>% # Trogir, Croatia
   # France
+  addMarkers(4.833389, 43.941724, icon = greenDotIcon, popup = avignonCont) %>% # Avignon, France
   addMarkers(-1.4748, 43.4929, icon= greenDotIcon, popup = bayonneCont) %>% # Bayonne, France
   addMarkers(-1.5586, 43.4832, icon= greenDotIcon, popup = biarritzCont) %>% # Biarritz, France
   addMarkers(-0.5792, 44.8378, icon = greenDotIcon, popup = bordeauxCont) %>% # Bordeaux, France
+  addMarkers(2.363749, 43.213072, icon = greenDotIcon, popup = carcassonneCont) %>% # Carcassonne, France
   addMarkers(-1.1511, 46.1603, icon= greenDotIcon, popup = laRochelleCont) %>% # La Rochelle, France
   addMarkers(0.1079, 49.4944, icon = greenDotIcon, popup = leHavreCont) %>% # Le Havre, France
   addMarkers(3.0573, 50.6292, icon= greenDotIcon, popup = lilleCont) %>% # Lille, France
   addMarkers(-0.2451, 44.5554, icon= greenDotIcon, popup = langonCont) %>% # Langon, France
   addMarkers(-1.5115, 48.6361, icon = greenDotIcon, popup = msmCont) %>% # Mont-Saint-Michel, France
-  addMarkers(2.3522, 48.8566, icon= greenDotIcon) %>% # Paris, France
+  addMarkers(3.874190, 43.610049, icon = greenDotIcon, popup = montpellierCont) %>% # Montpellier, France
+  addMarkers(4.352978, 43.839594, icon = greenDotIcon, popup = nimesCont) %>% # Nîmes, France
+  addMarkers(2.3522, 48.8566, icon = greenDotIcon) %>% # Paris, France
   addMarkers(-0.1557, 44.8944, icon= greenDotIcon, popup = saintEmilionCont) %>% # Saint-Émilion, France
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon, popup = saintMaloCont) %>% # Saint-Malo, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France

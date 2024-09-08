@@ -1,6 +1,6 @@
 name: "NFA"
 navbar:
-  title: "No Fixed Address"
+  title: "NFA"
   left:
     - text: "About"
       href: about.html
@@ -71,12 +71,16 @@ navbar:
             href: trogir.html
         - text: "France"
           menu:
+          - text: "Avignon"
+            href: avignon.html
           - text: "Bayonne"
             href: bayonne.html
           - text: "Biarritz"
             href: biarritz.html
           - text: "Bordeaux"
             href: bordeaux.html
+          - text: "Carcassonne"
+            href: carcassonne.html
           - text: "Langon"
             href: langon.html
           - text: "La Rochelle"
@@ -87,6 +91,10 @@ navbar:
             href: lille.html
           - text: "Mont-Saint-Michel"
             href: mont-saint-michel.html
+          - text: "Montpellier"
+            href: montpellier.html
+          - text: "Nîmes"
+            href: nimes.html
           - text: "Paris"
             href: paris.html
           - text: "Saint-Émilion"
