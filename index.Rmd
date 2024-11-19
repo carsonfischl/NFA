@@ -60,6 +60,7 @@ bilbaoCont <- paste("<b><a href='./bilbao.html'>Bilbao, Spain</a></b>")
 llanesCont <- paste("<b><a href='./llanes.html'>Llanes, Spain</a></b>")
 lugoCont <- paste("<b><a href='./lugo.html'>Lugo, Spain</a></b>")
 madridCont <- paste("<b><a href='./madrid.html'>Madrid, Spain</a></b>")
+mallorcaCont <- paste("<b><a href='./mallorca.html'>Mallorca, Spain</a></b>")
 oviedoCont <- paste("<b><a href='./oviedo.html'>Oviedo, Spain</a></b>")
 sanSebastianCont <- paste("<b><a href='./san-sebastian.html'>San Sebastian, Spain</a></b>")
 santanderCont <- paste("<b><a href='./santander.html'>Santander, Spain</a></b>")
@@ -138,9 +139,10 @@ leaflet() %>% addTiles() %>%
   addMarkers(-7.553189, 43.020080, icon = greenDotIcon, popup = lugoCont) %>% # Lugo, Spain
   addMarkers(-3.7038, 40.4168, icon = greenDotIcon, popup = madridCont) %>% # Madrid, Spain
   addMarkers(-5.846400, 43.370833, icon = greenDotIcon, popup = oviedoCont) %>% # Oviedo, Spain
+  addMarkers(2.648381, 39.569705, icon = greenDotIcon, popup = mallorcaCont) %>% # Mallorca, Spain
   addMarkers(-3.826139, 43.464668, icon = greenDotIcon, popup = santanderCont) %>% # Santander, Spain
   addMarkers(-8.5448, 42.8782, icon = greenDotIcon, popup = santiagoDeCompostelaCont) %>% # Santiago de Compostela, Spain
-  addMarkers(-1.980055, 43.317613, icon = greenDotIcon, popup = sanSebastianCont) %>%
+  addMarkers(-1.980055, 43.317613, icon = greenDotIcon, popup = sanSebastianCont) %>% # San Sebastian, Spain
   # Asia
   # Turkiye
   addMarkers(27.1799, 39.1214, icon = greenDotIcon) %>% # Bergama, Turkiye
