@@ -1,0 +1,32 @@
+---
+title: "Mallorca, Spain"
+---
+
+We're doing it all in one page.
+
+```{r out.width='100%', echo=FALSE}
+laTrapa <- paste("<b>La Trapa</b>")
+cathedral <- paste("<b>Cathedral of Santa Maria of Palma</b>")
+palace <- paste("<b>Royal Palace of La Almudaina</b>")
+soller <- paste("<b>Soller</b>")
+castell <- paste("<b>Castell de Bellver</b>")
+
+library(leaflet)
+leaflet() %>% addTiles() %>%
+  setView(28.990744, 41.019153, zoom = 12) %>%
+  addMarkers(2.350559, 39.565670, icon = greenDotIcon, popup = laTrapa) %>%
+  addMarkers(2.648174, 39.567464, icon = greenDotIcon, popup = cathedral) %>%
+    addMarkers(2.647139, 39.568009, icon = greenDotIcon, popup = palace) %>%
+    addMarkers(2.696353, 39.796799, icon = greenDotIcon, popup = soller) %>%
+    addMarkers(2.619303, 39.563822, icon = greenDotIcon, popup = castell)
+```
+
+Mallorca is the largest island in the Balearic Islands, which are part of Spain and located in the Mediterranean. While Spanish is widespread, the Islands have two official languages: Catalan and Spanish. The capital of the island, Palma, is a gorgeous city with rail and bus connections all over the island.
+
+```{r echo = FALSE, results = 'asis'}
+titles <- c("Length of Stay", "Transportation", "Major Sights","Unique Foods", "Restaurant Recommendations")
+values <- c("Four days", "1.5 hour flight from Bordeaux", "Cueva del Drach, Palma Cathedral", "Crema cremada", "Rivareno")
+df <- data.frame(titles, values)
+library(knitr)
+kable(df, col.names = NULL)
+```
