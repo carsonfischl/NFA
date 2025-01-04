@@ -47,6 +47,7 @@ msmCont <- paste("<b><a href='./mont-saint-michel.html'>Mont-Saint-Michel, Franc
 nimesCont <- paste("<b><a href='./nimes.html'>Nîmes, France</a></b>")
 saintEmilionCont <- paste("<b><a href='./saint-emilion.html'>Saint-Émilion, France</a></b>")
 saintMaloCont <- paste("<b><a href='./saint-malo.html'>Saint-Malo, France</a></b>")
+strasbourgCont <- paste("<b><a href='./strasbourg.html'>Strasbourg, France</a></b>")
 toulouseCont <- paste("<b><a href='./toulouse.html'>Toulouse, France</a></b>")
 #Greece
 athensCont <- paste("<b><a href='./athens.html'>Athens, Greece</a></b>")
@@ -125,6 +126,7 @@ leaflet() %>% addTiles() %>%
   addMarkers(2.3522, 48.8566, icon = greenDotIcon) %>% # Paris, France
   addMarkers(-0.1557, 44.8944, icon= greenDotIcon, popup = saintEmilionCont) %>% # Saint-Émilion, France
   addMarkers(-2.0257, 48.6493, icon= greenDotIcon, popup = saintMaloCont) %>% # Saint-Malo, France
+  addMarkers(7.752149, 48.581851, icon = greenDotIcon, popup = strasbourgCont) %>% # Strasbourg, France
   addMarkers(1.4442, 43.6047, icon= greenDotIcon, popup = toulouseCont) %>% # Toulouse, France
   # Greece
   addMarkers(23.7275, 37.9838, icon = greenDotIcon, popup = athensCont) %>% # Athens, Greece
