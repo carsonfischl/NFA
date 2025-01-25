@@ -9,14 +9,6 @@ Welcome! This is a repository for all sorts of pointers, tips, and useful inform
 
 Carpe diem
 
- ```{r, lazy=TRUE}
- library(rbokeh)
- figure(width = 800) %>%
-   ly_points(date, Freq, data = flightfreq,
-     hover = list(date, Freq, dow), size = 5) %>%
-   ly_abline(v = as.Date("2001-09-11"))
- ```
-
 ```{r out.width='100%', echo=FALSE}
 library(leaflet)
 #Africa
@@ -190,7 +182,7 @@ leaflet() %>% addTiles() %>%
 <h2>Africa</h2>
 <hr class="rounded">
 <h3>Morocco</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 library(htmltools)
 thumbnail <- function(title, img, href, caption = TRUE) {
   div(class = "col-sm-4",
@@ -234,7 +226,7 @@ thumbnail("Ouarzazate, Morocco", "images/Ouarzazate/ouarzazate28.png", "./ouarza
 <h2>Europe</h2>
 <hr class="rounded">
 <h3>Austria</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Vienna, Austria", "images/Vienna/vienna11.png", "./vienna.html")
 ``` 
 <br />
@@ -251,7 +243,7 @@ thumbnail("Vienna, Austria", "images/Vienna/vienna11.png", "./vienna.html")
 <br />
 <hr class="dotted">
 <h3>Belgium</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Antwerp, Belgium", "images/Antwerp/antwerp12.png", "./antwerp.html")
 thumbnail("Bruges, Belgium", "images/Bruges/bruges25.png", "./bruges.html")
 thumbnail("Brussels, Belgium", "images/Brussels/brussels9.png", "./brussels.html")
@@ -299,7 +291,7 @@ thumbnail("Tournai, Belgium", "images/Tournai/tournai.png", "./tournai.html")
 <br />
 <hr class="rounded">
 <h3>Bosnia & Herzegovina</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar.html")
 ```
 <br />
@@ -316,7 +308,7 @@ thumbnail("Mostar, Bosnia & Herzegovina", "images/Mostar/mostar2.png", "./mostar
 <br />
 <hr class="dotted">
 <h3>Croatia</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Dubrovnik, Croatia", "images/Dubrovnik/dubrovnik13.png", "./dubrovnik.html")
 thumbnail("Plitvice Lakes, Croatia", "images/Plitvice/plitvice24.png", "./plitvice.html")
 thumbnail("Split, Croatia", "images/split/split4.png", "./split.html")
@@ -349,7 +341,7 @@ thumbnail("Trogir, Croatia", "images/Trogir/trogir5.png", "./trogir.html")
 <br />
 <hr class="dotted">
 <h3>France</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Bayonne, France", "images/Bayonne/bayonne1.png", "./bayonne.html")
 thumbnail("Biarritz, France", "images/Biarritz/biarritz7.png", "./biarritz.html")
 thumbnail("Bordeaux, France", "images/Bordeaux/bordeaux2.png", "./bordeaux.html")
@@ -414,7 +406,7 @@ thumbnail("Toulouse, France", "images/Toulouse/toulouse19.png", "./toulouse.html
 <br />
 <hr class="dotted">
 <h3>Greece</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Meteora, Greece", "images/Meteora/meteora24.png", "./meteora.html")
 thumbnail("Mykonos, Greece", "images/Mykonos/mykonos20.png", "./mykonos.html")
 thumbnail("Santorini, Greece", "images/Santorini/santorini71.png", "./santorini.html")
@@ -434,7 +426,7 @@ thumbnail("Santorini, Greece", "images/Santorini/santorini71.png", "./santorini.
 <br />
 <hr class="dotted">
 <h3>Netherlands</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Amsterdam, Netherlands", "images/Amsterdam/amsterdam3.png", "./amsterdam.html")
 ```
 <br />
@@ -453,7 +445,7 @@ thumbnail("Amsterdam, Netherlands", "images/Amsterdam/amsterdam3.png", "./amster
 <h2>South America</h2>
 <hr class="rounded">
 <h3>Peru</h3>
-```{r out.width='100%', echo=FALSE}
+```{r out.width='100%', echo=FALSE, lazy=TRUE}
 thumbnail("Arequipa, Peru", "images/Arequipa/arequipa15.png", "./arequipa.html")
 thumbnail("Colca Canyon, Peru", "images/ColcaCanyon/colca6.png", "./colca-canyon.html")
 thumbnail("Huacachina, Peru", "images/Huacachina/huacachina44.png", "./huacachina.html")
